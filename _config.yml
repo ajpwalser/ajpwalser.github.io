@@ -1,0 +1,13 @@
+title: Adam Walser
+description: 
+author:
+  name: Adam Walser
+permalink: /:title/
+paginate: 5
+paginate_path: /page:num/
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate

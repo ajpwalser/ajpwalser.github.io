@@ -1,0 +1,26 @@
+---
+layout: default
+title: Read
+description: Book's I've read
+---
+
+<h2>Read</h2>
+<p class="first">A log of books I've read since 2018 (not including school reads). Each book is linked to <a href="https://openlibrary.org/">Open Library</a>.</p>
+<div class="container">
+   {% for entry in site.data.reading.list %}
+   <div class="year-container">
+      <div class="year">
+         <h4>{{ entry.year }}</h4>
+         <div class="meta">{{ entry.books | size }} book(s)</div>
+      </div>
+      <div id="bookshelf">
+         <ul class="read {{ entry.year }}">
+            {% for book in entry.books %}
+            <a href="{{ book.link }}" alt="_blank" rel="nofollow noopener"><img src="{{ book.image }}"></a>
+            {% endfor %}
+         </ul>
+      </div>
+   </div>
+   {% endfor %}
+</div>
+<div class="spacer"></div>
