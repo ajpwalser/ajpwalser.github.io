@@ -2,6 +2,12 @@ lastupdate: January 8, 2020
 list:   
   - year: "2020"
     books:
+      - title: "Harry Potter and the Philosopher's stone"
+        author: J.K. Rowling
+        published: 1997
+        link: https://openlibrary.org/works/OL82563W/Harry_Potter_and_the_Philosopher's_Stone
+        image: https://covers.openlibrary.org/b/id/9327224-M.jpg
+    
       - title: "The Cuckoo's Egg: Tracking a Spy Through the Maze of Computer Espionage"
         author: Cliff Stoll
         published: 1989
