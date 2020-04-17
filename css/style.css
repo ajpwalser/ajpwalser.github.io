@@ -172,7 +172,7 @@ blockquote {
 
 code {
 	
-	font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+	font-family: "Inconsolata", SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace; 
 }
 
 pre {
