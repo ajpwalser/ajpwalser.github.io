@@ -174,18 +174,18 @@ code {
      	font-size: 0.9em;
      	border-radius: 3px;
      	background: #282828;
-	color: #FFFFFF;
+	color: #282828;
 }
  .highlight {
      	margin: 10px;
      	margin-bottom: 15px;
      	padding: 10px;
-	     line-height: 1.5;
+	line-height: 1.5;
      	border-radius: 3px;
      	background: #282828;
      	code {
-         color: #FFFFFF;
-         background: none;
+        color: #282828;
+        background: none;
 }
     
 
