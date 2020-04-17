@@ -172,7 +172,7 @@ blockquote {
 pre {
 	max-width: 100%;
 	font-size: 0.718em;
-	font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+	font-family: 'VT323', monospace;
 	white-space: pre-wrap;
 	word-break: break-all;
 	background: #282828;
