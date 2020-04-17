@@ -171,6 +171,8 @@ blockquote {
 
 pre {
 	width: 100%;
+	white-space: pre-wrap;
+	word-break: break-all;
 	background: #282828;
 	color: #00FF66;
 	overflow: auto;
