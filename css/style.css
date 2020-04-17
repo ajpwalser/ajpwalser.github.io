@@ -164,6 +164,7 @@ p.time {
 blockquote {
 	margin: 1em auto;
 	padding-left: 1em;
+	font-weight: 500;
 	border-left: 2px solid rgba(0, 0, 0, 0.1);
 }
 
