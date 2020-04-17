@@ -170,13 +170,14 @@ blockquote {
 /* Code formatting */
 
 pre {
-	max-width: 80%;
+	max-width: 100%;
 	white-space: pre-wrap;
 	word-break: break-all;
 	background: #282828;
 	color: #00FF66;
 	overflow: auto;
-	padding: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 /* Horizontal rule */
