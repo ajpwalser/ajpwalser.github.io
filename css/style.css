@@ -178,7 +178,7 @@ code {
 
 code {
  	font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
-	color: #00FF66;
+	color: rgba(0, 0, 0, 0.76);
   	padding: 1px 1px;
 }
 
