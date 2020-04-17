@@ -170,10 +170,11 @@ blockquote {
 /* Code formatting */
 
 pre {
+	width: 100%;
 	background: #282828;
 	color: #00FF66;
 	overflow: auto;
-	padding: 1rem;
+	padding: 1em;
 }
 
 /* Horizontal rule */
