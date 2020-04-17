@@ -169,10 +169,13 @@ blockquote {
 
 /* Code formatting */
 
+code {
+	font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+}
+
 pre {
 	max-width: 100%;
 	font-size: 0.718em;
-	font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
 	white-space: pre-wrap;
 	word-break: break-all;
 	background: #282828;
