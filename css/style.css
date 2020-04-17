@@ -169,30 +169,24 @@ blockquote {
 
 /* Code formatting */
 
-pre,
-code {	
-	border: 2px rgba(0, 0, 0, 0.76);
-	border-radius: 5px;
-  	background-color: rgba(0, 0, 0, 0.76);
-}
-
 code {
- 	font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
-	color: #FFFFFF;
-  	padding: 1px 1px;
+     padding: 3px;
+     font-size: 0.9em;
+     border-radius: 3px;
+     background: #282828;
 }
-
-pre {
-  	padding: 2px 2px;
-  	overflow-x: auto;
-
-> code {
-    	border: 0;
-    	padding-right: 0;
-    	padding-left: 0;
-  }
+ .highlight {
+     margin: 10px;
+     margin-bottom: 15px;
+     padding: 10px;
+     line-height: 1.5;
+     border-radius: 3px;
+     background: #282828;
+     code {
+         color: #00FF66;
+         background: none;
+    }
 }
-
 
 /* Horizontal rule */
 
