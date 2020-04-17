@@ -170,23 +170,12 @@ blockquote {
 /* Code formatting */
 
 code {
-     padding: 3px;
-     font-size: 0.9em;
-     border-radius: 3px;
-     background: #282828;
-     color: #00FF66;
-}
- .highlight {
-     margin: 10px;
-     margin-bottom: 15px;
-     padding: 10px;
-     line-height: 1.5;
-     border-radius: 3px;
-     background: #282828;
-     code {
-         color: #00FF66;
-         background: none;
-    }
+	font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace; 
+     	padding: 3px;
+     	font-size: 0.718em;
+     	border-radius: 5px;
+     	background: #282828;
+     	color: #00FF66;
 }
 
 /* Horizontal rule */
