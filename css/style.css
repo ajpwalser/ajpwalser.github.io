@@ -167,6 +167,32 @@ blockquote {
 	border-left: 2px solid rgba(0, 0, 0, 0.1);
 }
 
+/* Code formatting*/
+
+pre,
+code {	
+  	border: 2px solid rgba(0, 0, 0, 0.1);
+  	border-radius: 5px;
+  	background-color: #282828;
+}
+
+code {
+ 	font-family: monospace;
+	color: #00FF66;
+  	padding: 1px 1px;
+}
+
+pre {
+  	padding: 2px 2px;
+  	overflow-x: auto;
+
+> code {
+    	border: 0;
+    	padding-right: 0;
+    	padding-left: 0;
+  }
+}
+
 
 /* Horizontal rule */
 
