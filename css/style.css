@@ -169,8 +169,7 @@ blockquote {
 
 /* Code formatting */
 
-code {
-	font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace; 
+code { 
      	padding: 3px;
      	font-size: 0.9em;
      	border-radius: 3px;
