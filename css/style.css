@@ -170,7 +170,7 @@ blockquote {
 /* Code formatting */
 
 pre {
-	width: 100%;
+	max-width: 80%;
 	white-space: pre-wrap;
 	word-break: break-all;
 	background: #282828;
