@@ -172,7 +172,7 @@ blockquote {
 pre {
 	background: #282828;
 	color: #00FF66;
-	overflow: scroll;
+	overflow: auto;
 	padding: 1rem;
 }
 
