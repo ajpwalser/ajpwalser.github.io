@@ -176,6 +176,7 @@ pre {
 	background: #282828;
 	color: #00FF66;
 	overflow: auto;
+	padding: 1em;
 	padding-left: 1em;
 	padding-right: 1em;
 }
