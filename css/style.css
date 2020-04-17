@@ -169,6 +169,12 @@ blockquote {
 
 /* Code formatting */
 
+pre {
+	background: #282828;
+	color: #00FF66;
+	overflow: scroll;
+	padding: 1rem;
+}
 
 /* Horizontal rule */
 
