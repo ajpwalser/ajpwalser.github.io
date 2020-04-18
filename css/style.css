@@ -180,7 +180,8 @@ pre {
 	font-size: 0.718em;
 	white-space: pre-wrap;
 	word-break: break-all;
-	background: #282828;
+	background-image: url("https://ajpwalser.github.io/assets/img/code.png");
+	background-color: #282828;
 	color: #00FF66;
 	overflow: auto;
 	padding: 1em;
