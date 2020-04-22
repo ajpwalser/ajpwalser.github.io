@@ -1,22 +1,24 @@
 ---
 layout: default
 title: Blog
-description: Adam's blog.
+description: Adam's blog
 ---
 
 <h2>Blog</h2>
 
-<p>There is {{ site.posts.size }} post.</p>
+<p class="first">There is {{ site.posts.size }} post.</p>
 
 <ul>
    <li>
       {% for post in site.posts %}
-      <article class="summary" itemscope itemtype="http://schema.org/BlogPosting">
-         <p itemprop="name headline">
-            <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-            <br><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time>
-         </p>
-      </article>
+         <article class="summary" itemscope itemtype="https://schema.org/BlogPosting">
+            <p>
+               <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
+               <span><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %-d, %Y" }}</time></span>
+            </p>
+         </article>
       {% endfor %}
    </li>
 </ul>
+
+<div class="spacer"></div>
