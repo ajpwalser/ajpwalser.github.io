@@ -238,6 +238,7 @@ img {
 
 figcaption {
 	font-size: 0.718em;
+	margin-top: -1em;
 	text-align: center;
 	color: rgb(169, 169, 169);
 }
