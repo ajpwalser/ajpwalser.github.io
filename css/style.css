@@ -213,11 +213,6 @@ ul.headline {
 	padding: 0;
 	list-style-type: none;
 	line-height: 1.25em;
-	font-weight: 500;
-}
-
-ul.headline span {
-	font-weight: 400;
 }
 
 ul.headline a {
