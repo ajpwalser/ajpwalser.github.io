@@ -140,9 +140,11 @@ h4 {
 /* Meta */
 
 time,
-.meta {
+.meta,
+span {
 	font-size: 0.718em;
 	color: rgb(169, 169, 169);
+	font-weight: 400 !important;
 }
 
 p.time {
