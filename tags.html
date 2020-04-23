@@ -21,7 +21,7 @@ description: Directory of tags used to describe content
    <h3 class="tags" id="{{ this_word | cgi_escape }}">Posts tagged “{{ this_word }}”</h3>
    <ul class="headline">
       {% for post in site.tags[this_word] %}{% if post.title != null %}
-      <li style="align-items:center;display:flex;flex-wrap:wrap;justify-content:space-between;margin-bottom:10px;">
+      <li>
          <article class="summary" itemscope itemtype="https://schema.org/BlogPosting">
             <p>
                <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
