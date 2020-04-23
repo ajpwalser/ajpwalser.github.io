@@ -5,8 +5,8 @@ description: Adam's blog
 ---
 
 <h2>Blog</h2>
-<p class="first">There is {{ site.posts.size }} post.</p>
-<ul>
+<p class="first">There is {{ site.posts.size }} post:</p>
+<ul class="headline">
    <li>
       {% for post in site.posts %}
       <article class="summary" itemscope itemtype="https://schema.org/BlogPosting">
