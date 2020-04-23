@@ -5,12 +5,12 @@ description: All of Adam's posts
 ---
 
 <h2>Archive</h2>
-<p class="first">There is {{ site.posts.size }} post:</p>
+<p class="first">There is {{ site.posts.size }} post(s):</p>
 <ul class="headline">
 {% for post in site.posts %}
   <li style="align-items:center;display:flex;flex-wrap:wrap;justify-content:space-between;margin-bottom:10px;">
     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    <time>{{ post.date | date: "%B %-d, %Y" }}</time>
+    <span class="time">{{ post.date | date: "%B %-d, %Y" }}</span>
   </li>
 {% endfor %}
 </ul>
