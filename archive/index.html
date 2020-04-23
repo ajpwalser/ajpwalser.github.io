@@ -6,9 +6,9 @@ description: All of Adam's posts
 
 <h2>Archive</h2>
 <p class="first">There is {{ site.posts.size }} post:</p>
-<ul class="headline">
+<ul class="archive">
 {% for post in site.posts %}
-  <li>
+  <li style="align-items:center;display:flex;flex-wrap:wrap;justify-content:space-between;margin-bottom:10px;">
     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     <time>{{ post.date | date: "%B %-d, %Y" }}</time>
   </li>
