@@ -10,7 +10,7 @@ description: All of Adam's posts
 {% for post in site.posts %}
   <li style="align-items:center;display:flex;flex-wrap:wrap;justify-content:space-between;margin-bottom:10px;">
     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    <span class="archive"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %-d, %Y" }}</time></span>
+    <span><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %-d, %Y" }}</time></span>
   </li>
 {% endfor %}
 </ul>
