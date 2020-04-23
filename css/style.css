@@ -143,7 +143,6 @@ time,
 .meta, {
 	font-size: 0.718em;
 	color: rgb(169, 169, 169);
-	font-weight: 400 !important;
 }
 
 p.time {
@@ -215,6 +214,10 @@ ul.headline {
 	list-style-type: none;
 	line-height: 1.25em;
 	font-weight: 500;
+}
+
+ul.headline span {
+	font-weight: 400;
 }
 
 ul.headline a {
