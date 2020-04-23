@@ -140,7 +140,8 @@ h4 {
 /* Meta */
 
 time,
-.meta, {
+.meta,
+span.archive {
 	font-size: 0.718em;
 	color: rgb(169, 169, 169);
 }
