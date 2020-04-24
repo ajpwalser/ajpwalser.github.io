@@ -5,7 +5,7 @@ description: Tag directory
 ---
 
 <h2>Tags</h2>
-<p class="first">All tags in alphabetical order.</p>
+<p class="first">All tags in alphabetical order. For a listing of all posts, see the <a href="https://ajpwalser.github.io/archive/">archive</a>.</p>
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 <!-- site_tags: {{ site_tags }} -->
 {% assign tag_words = site_tags | split:',' | sort %}
