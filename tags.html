@@ -25,7 +25,6 @@ description: Directory of tags used to describe content
          <article class="summary" itemscope itemtype="https://schema.org/BlogPosting">
             <p>
                <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
-               <span><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %-d, %Y" }}</time></span>
             </p>
          </article>
          {% endif %}{% endfor %}
