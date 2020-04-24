@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Tags
-description: Directory of tags used to describe content
+description: Tag directory
 ---
 
 <h2>Tags</h2>
-<p class="first">Browse posts by tag:</p>
+<p class="first">All tags in alphabetical order.</p>
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 <!-- site_tags: {{ site_tags }} -->
 {% assign tag_words = site_tags | split:',' | sort %}
