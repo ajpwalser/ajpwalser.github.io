@@ -216,12 +216,12 @@ ul.headline {
 }
 
 ul.headline a {
-	color: rgba(0, 0, 0, 0.76);
-	text-decoration: none;
+	color: #0074D9;
+	text-decoration: none; 
 }
 
 ul.headline a:hover {
-	color: #0074D9;
+	color: rgba(0, 0, 0, 0.76);
 	text-decoration: none;
 }
 
