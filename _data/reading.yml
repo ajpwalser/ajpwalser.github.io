@@ -7,7 +7,6 @@ list:
         published: 1997
         link: https://openlibrary.org/works/OL82563W/Harry_Potter_and_the_Philosopher's_Stone
         image: https://covers.openlibrary.org/b/id/9327224-M.jpg
-        star: yes
     
       - title: "The Cuckoo's Egg: Tracking a Spy Through the Maze of Computer Espionage"
         author: Cliff Stoll
