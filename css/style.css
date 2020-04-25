@@ -410,6 +410,12 @@ span.small {
 	margin-right: -0.25em;
 	padding: 0 10px;
 	text-decoration: none;
+	text-align: center;
+}
+
+#bookshelf a:after {
+  	position: relative;
+  	display: inline-block;
 }
 
 
