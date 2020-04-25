@@ -6,14 +6,14 @@ description: Book's I've read
 
 <div class="bookshelf">
   {% for year in site.data.books %}
-  <h1 class="year">{{ year.year }}</h1>
+  <h4 class="year">{{ year.year }}</h4>
   <div class="books">
     {% for book in year.books %}
     <div class="book">
       <a href="{{ book.url }}" aria-label="Buy {{ book.title }}">
                 <img src="{{ book.img }}" alt="">
             </a>
-      <h2>{{ book.title }}</h2> {% if book.title %}
+      <p>{{ book.title }}</p> {% if book.title %}
       <p>{{ book.subtitle }}</p>{% endif %}
       <p>{{ book.author }}</p>
       {% if book.notes %}
