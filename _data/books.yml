@@ -12,12 +12,12 @@
     author: Shigeru Mizuki
     img: https://images-na.ssl-images-amazon.com/images/P/1770462015.01._SCLZZZZZZZ_.jpg
     url: https://www.amazon.com/Showa-1953-1989-History-Japan/dp/1770462015/
-    rating: (In Progress)
-    notes:
+    rating: 1 Star
+    notes: This is a note
   - title: Going Offline
     subtitle:
     author: Jeremy Keith
     img: https://cdn.shopify.com/s/files/1/0051/7692/products/aba-cover-26_100x@3x.png?v=1501539475
     url: https://abookapart.com/products/going-offline
-    rating: Parti Pris
+    rating: ★★★1/2
     notes: While I know about PWAs and have built PWAs and have given talks on PWAs, I wanted to get Jeremy's perspective of building an offline Service Worker. He's such a good explainer of things and he filled the gaps on Offline Experiences and Service Worker capabilities that I had never put together.
