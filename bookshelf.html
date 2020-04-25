@@ -9,13 +9,16 @@ description: Book's I've read
 
 <div class="bookshelf">
   {% for year in site.data.books %}
-  <h4 class="year">{{ year.year }}</h4>
+  <h1 class="year">{{ year.year }}</h1>
   <div class="books">
     {% for book in year.books %}
     <div class="book">
       <a href="{{ book.url }}" aria-label="Buy {{ book.title }}">
                 <img src="{{ book.img }}" alt="">
             </a>
+      <h2>{{ book.title }}</h2> {% if book.title %}
+      <p>{{ book.subtitle }}</p>{% endif %}
+      <p>{{ book.author }}</p>
       {% if book.notes %}
       <details>
         <summary>{{ book.rating }}</summary>
@@ -29,8 +32,6 @@ description: Book's I've read
   {% endfor %}
 </div>
 
-<div class="spacer"></div>
-
 <style>
   .year {
     margin-bottom: 1.5em;
@@ -41,23 +42,22 @@ description: Book's I've read
   }
 
   .bookshelf {
-    margin: 2px;
+    margin: 0 var(--pad);
     position: relative;
   }
 
   .books {
     display: grid;
-    grid-gap: 2px;
-    grid-template-columns: 1fr 4fr;
+    grid-gap: calc(1em + 2vw);
+    grid-template-columns: 1fr 1fr;
 
-    font-size: 0.718em;
+    font-size: 0.875em;
     margin-bottom: calc(1em + 2vw);
     line-height: 1.2;
   }
 
   .book img {
-    width: 100px;
-    height: 150px;
+    height: 200px;
     object-fit: contain;
   }
 
@@ -67,8 +67,7 @@ description: Book's I've read
 
     }
     .book img {
-      width: 100px;
-      height: 150px;
+      height: 270px;
     }
   }
 
