@@ -16,9 +16,6 @@ description: Book's I've read
       <a href="{{ book.url }}" aria-label="Buy {{ book.title }}">
                 <img src="{{ book.img }}" alt="">
             </a>
-      <p>{{ book.title }}</p> {% if book.title %}
-      <p>{{ book.subtitle }}</p>{% endif %}
-      <p>{{ book.author }}</p>
       {% if book.notes %}
       <details>
         <summary>{{ book.rating }}</summary>
