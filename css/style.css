@@ -69,14 +69,14 @@ footer a:hover {
 /* Links */
 
 a:link {
-	text-decoration: none;
-    border: 4px solid #00ff00;
-    padding: 20px;
-    -webkit-transition: padding 100ms;
-    -moz-transition: padding 100ms;
-    -ms-transition: padding 100ms;
-    -o-transition: padding 100ms;
-    transition: padding 100ms;
+text-decoration: none;
+  color: #292a2a;
+  transition: box-shadow .15s;
+  box-shadow: inset 0 -2px 0 0 #6cefd3;
+}
+
+a:hover {
+	box-shadow: inset 0 -2rem 0 0 #6cefd3;
 }
 
 /* Headings */
