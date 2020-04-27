@@ -33,13 +33,13 @@ figcaption {
 /* Text highlight */
 
 ::selection {
-	background: #0074D9;
+	background: rgba(0, 0, 0, 0.76);
 	/* WebKit/Blink Browsers */
 	color: #FFFFFF;
 }
 
 ::-moz-selection {
-	background: #0074D9;
+	background: rgba(0, 0, 0, 0.76);
 	/* Gecko Browsers */
 	color: #FFFFFF;
 }
@@ -62,25 +62,25 @@ footer a {
 
 nav a:hover,
 footer a:hover {
-	color: #0074D9 !important;
+	color: rgba(0, 0, 0, 0.76) !important;
 }
 
 
 /* Links */
 
 a:link {
-	color: #0074D9;
+	color: rgba(0, 0, 0, 0.76);
 	text-decoration: underline;
 }
 
 a:visited {
-	color: #0074D9;
+	color: rgba(0, 0, 0, 0.76);
 	text-decoration: underline;
 }
 
 a:hover {
 	color: rgba(0, 0, 0, 0.76);
-	text-decoration: #5A4E36;
+	text-decoration: none;
 }
 
 a:active {
@@ -107,7 +107,7 @@ h1 {
 }
 
 .header a:hover {
-	color: #0074D9;
+	color: rgba(0, 0, 0, 0.76);
 }
 
 h2 {
@@ -121,7 +121,7 @@ h2 a {
 }
 
 h2 a:hover {
-	color: #0074D9 !important;
+	color: rgba(0, 0, 0, 0.76) !important;
 	text-decoration: none;
 }
 
@@ -150,7 +150,7 @@ p.time {
 }
 
 .meta a {
-	color: #0074D9 !important;
+	color: rgba(0, 0, 0, 0.76) !important;
 	text-decoration: underline !important;
 }
 
@@ -216,7 +216,7 @@ ul.headline {
 }
 
 ul.headline a {
-	color: #0074D9;
+	color: rgba(0, 0, 0, 0.76);
 	text-decoration: none; 
 }
 
@@ -471,7 +471,7 @@ span.small {
 .read-more-trigger {
 	cursor: pointer;
 	padding: 7px 18px;
-	color: #0074D9;
+	color: rgba(0, 0, 0, 0.76);
 	font-size: 0.718em;
 	line-height: 2;
 	border: 2px solid rgba(0, 0, 0, 0.1);
