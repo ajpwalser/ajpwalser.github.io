@@ -62,7 +62,7 @@ footer a {
 
 nav a:hover,
 footer a:hover {
-	color: rgba(0, 0, 0, 0.76); opacity:0.8 !important;
+	color: rgba(0, 0, 0, 0.76) !important;
 }
 
 
