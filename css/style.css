@@ -69,25 +69,15 @@ footer a:hover {
 /* Links */
 
 a:link {
-	color: rgba(0, 0, 0, 0.76);
-	text-decoration: underline;
-}
-
-a:visited {
-	color: rgba(0, 0, 0, 0.76);
-	text-decoration: underline;
-}
-
-a:hover {
-	color: rgba(0, 0, 0, 0.76);
 	text-decoration: none;
+    border: 4px solid #00ff00;
+    padding: 20px;
+    -webkit-transition: padding 100ms;
+    -moz-transition: padding 100ms;
+    -ms-transition: padding 100ms;
+    -o-transition: padding 100ms;
+    transition: padding 100ms;
 }
-
-a:active {
-	color: rgba(0, 0, 0, 0.76);
-	text-decoration: none;
-}
-
 
 /* Headings */
 
