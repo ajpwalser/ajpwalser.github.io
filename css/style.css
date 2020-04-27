@@ -216,7 +216,7 @@ ul.headline {
 
 ul.headline a {
 	color: rgba(0, 0, 0, 0.76);
-	text-decoration: none; 
+	text-decoration: underline; 
 }
 
 ul.headline a:hover {
