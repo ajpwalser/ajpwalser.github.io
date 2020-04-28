@@ -140,7 +140,7 @@ h4 {
 
 time,
 .meta {
-	font-family: 'Victor Mono', SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+	font-family: 'IBM Plex Mono', SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 	font-feature-settings: "zero";
 	font-size: 0.718em;
 	color: rgb(169, 169, 169);
