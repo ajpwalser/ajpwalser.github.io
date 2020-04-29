@@ -6,6 +6,10 @@ html { font-family: 'Inter', sans-serif; }
 
 /* Body ⌁ */
 
+articleBody {
+	font-family: serif;
+}
+
 body {
 	background: #FFFFFF;
 	margin: 1em auto;
