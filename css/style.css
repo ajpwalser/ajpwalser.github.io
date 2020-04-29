@@ -145,8 +145,7 @@ time,
 	color: rgb(169, 169, 169);
 }
 
-p.time,
-footer {
+p.time {
 	margin-top: -1.5em;
 }
 
