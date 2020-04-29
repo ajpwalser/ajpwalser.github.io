@@ -27,8 +27,7 @@ body {
 
 .first,
 nav,
-figcaption,
-footer {
+figcaption {
 	margin-top: -1em;
 }
 
@@ -146,7 +145,8 @@ time,
 	color: rgb(169, 169, 169);
 }
 
-p.time {
+p.time,
+footer {
 	margin-top: -1.5em;
 }
 
