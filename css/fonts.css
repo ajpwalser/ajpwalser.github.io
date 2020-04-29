@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Colfax';
+  /*a name to be used later*/
+  src: url('../fonts/colfax/Colfax-Light.otf');
+  /*URL to font*/
+}
+@font-face {
+  font-family: 'Colfax';
+  /*a name to be used later*/
+  src: url('../fonts/colfax/Colfax-Regular.otf');
+  /*URL to font*/
+}
+@font-face {
+  font-family: 'Colfax';
+  /*a name to be used later*/
+  src: url('../fonts/colfax/Colfax-Medium.otf');
+  /*URL to font*/
+}
+@font-face {
+  font-family: 'Colfax';
+  /*a name to be used later*/
+  src: url('../fonts/colfax/Colfax-Bold.otf');
+  /*URL to font*/
+}
