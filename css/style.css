@@ -26,7 +26,8 @@ body {
 
 .first,
 nav,
-figcaption {
+figcaption,
+footer {
 	margin-top: -1em;
 }
 
