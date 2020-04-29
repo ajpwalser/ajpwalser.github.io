@@ -4,9 +4,6 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 }
 
-@import url('https://cdn.jsdelivr.net/npm/typeface-spacegrotesk@0.0.66/index.min.css');
-html { font-family: "Space Text", sans-serif; }
-
 /* Body ⌁ */
 
 body {
