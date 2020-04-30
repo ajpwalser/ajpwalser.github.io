@@ -173,7 +173,8 @@ blockquote {
 /* Code formatting */
 
 code {
-	font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+	font-family: 'Victor Mono', SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+	font-feature-settings: "zero";
 }
 
 pre {
