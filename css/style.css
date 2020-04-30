@@ -141,6 +141,7 @@ h4 {
 
 time,
 .meta {
+	font-family: 'Victor Mono', SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 	font-size: 0.718em;
 	color: rgb(169, 169, 169);
 }
