@@ -92,13 +92,11 @@ a:active {
 /* Headings */
 
 h1 {
-	font-family: 'YoungSerif', Georgia, serif;
 	font-size: 3.2em;
 	line-height: 1.15em;
 }
 
 .header {
-	font-family: 'YoungSerif', Georgia, serif;
 	font-weight: 400;
 	font-size: 1.4em;
 	line-height: 1.25em;
@@ -114,7 +112,6 @@ h1 {
 }
 
 h2 {
-	font-family: 'YoungSerif', Georgia, serif;
 	font-size: 2.7em;
 	line-height: 1.15em;
 }
@@ -131,7 +128,6 @@ h2 a:hover {
 
 h3,
 .tags {
-	font-family: 'YoungSerif', Georgia, serif;
 	font-size: 1.4em;
 	line-height: 1.25em;
 }
@@ -146,7 +142,7 @@ h4 {
 
 time,
 .meta {
-	font-family: 'TypoPRO Roboto Mono', SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+	font-family: 'Roboto Mono', SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 	font-size: 0.718em;
 	color: rgb(169, 169, 169);
 }
@@ -179,7 +175,7 @@ blockquote {
 /* Code formatting */
 
 code {
-	font-family: 'TypoPRO Roboto Mono', SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+	font-family: 'Roboto Mono', SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 	font-feature-settings: "zero";
 }
 
@@ -292,6 +288,7 @@ span.small {
 }
 
 .tag-box {
+	font-family: 'Roboto Mono', SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 	list-style: none;
 	margin: 0;
 	padding: 4px 0;
