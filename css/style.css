@@ -467,7 +467,7 @@ span.small {
 }
 
 .read-more-state:checked~.read-more-trigger:before {
-	content: 'View Less &#x2191';
+	content: 'View Less ↑';
 }
 
 .read-more-trigger {
