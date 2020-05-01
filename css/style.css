@@ -463,11 +463,11 @@ span.small {
 }
 
 .read-more-state~.read-more-trigger:before {
-	content: 'View More  &#8595;';
+	content: 'View More ↓';
 }
 
 .read-more-state:checked~.read-more-trigger:before {
-	content: 'View Less >&#8593';
+	content: 'View Less U+02191';
 }
 
 .read-more-trigger {
