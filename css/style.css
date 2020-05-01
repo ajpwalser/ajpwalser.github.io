@@ -463,11 +463,11 @@ span.small {
 }
 
 .read-more-state~.read-more-trigger:before {
-	content: 'View More &darr;';
+	content: 'View More  &#8595;';
 }
 
 .read-more-state:checked~.read-more-trigger:before {
-	content: 'View Less &uarr;';
+	content: 'View Less >&#8593';
 }
 
 .read-more-trigger {
