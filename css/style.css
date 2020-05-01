@@ -4,7 +4,6 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 }
 
-
 /* Body ⌁ */
 
 body {
@@ -140,7 +139,8 @@ h4 {
 /* Meta */
 
 time,
-.meta {
+.meta,
+figcaption {
 	font-family: 'Roboto Mono', SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 	font-size: 0.718em;
 	color: rgb(169, 169, 169);
