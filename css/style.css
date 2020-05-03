@@ -130,6 +130,8 @@ h2 a:hover {
 
 h3,
 .tags {
+	font-family: 'YoungSerif', serif;
+	font-weight: 400;
 	font-size: 1.4em;
 	line-height: 1.25em;
 }
