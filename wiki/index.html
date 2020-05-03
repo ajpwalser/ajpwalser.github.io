@@ -6,7 +6,6 @@ description: My personal wiki
 
 <h2>Wiki</h2>
 <p class="first">My personal wiki and non-linear notebook.</p>
-
 <!-- Credit Tom Critchlow. -->
 {% assign folders = site.pages | where_exp:"item", "item.path contains 'wiki'" %}
 {% assign wikifolders = "" | split:"" %}
@@ -16,12 +15,15 @@ description: My personal wiki
 {% endfor %}
 {% assign wikifolders = wikifolders | uniq | sort %}
 
+
 <h3>All Pages</h3>
 
 {% assign folder1 = site.pages | where_exp: "item" , "item.path contains 'wiki'" | sort:"path" %}
 {% for item in folder1 %}
+
 <a href="{{ item.url }}">{{item.path}}</a>
 <br>
 {% endfor %}
 
-<div class="spacer"></div>
+
+	<div class="spacer"></div>
