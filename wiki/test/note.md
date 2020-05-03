@@ -6,7 +6,7 @@ updated: May 03, 2020
 ---
 
 <h2>{{ page.title }}</h2>
-<div id="grey pt1 pb1">
+<p class="first">
         {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
         <a href="/">home</a> / 
         {% for crumb in crumbs offset: 1 %}
@@ -16,7 +16,6 @@ updated: May 03, 2020
             <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' }}</a> /
           {% endif %}
         {% endfor %}
-        </div>
-<p class="time"><time>Updated: {{ page.updated }}</time></p>
+<p>
 <p>This is a test</p>
 <div class="spacer"></div>
