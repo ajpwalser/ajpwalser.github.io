@@ -20,10 +20,8 @@ description: My personal wiki
 
 {% assign folder1 = site.pages | where_exp: "item" , "item.path contains 'wiki'" | sort:"path" %}
 {% for item in folder1 %}
-{% unless item is 'html' %}
 <a href="{{ item.url }}">{{item.path}}</a>
 <br>
-{% endunless %}
 {% endfor %}
 
 <div class="spacer"></div>
