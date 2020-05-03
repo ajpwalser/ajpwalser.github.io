@@ -6,6 +6,6 @@ updated: May 03, 2020
 ---
 
 <h2>{{ page.title }}</h2>
-<p class="time">Updated: {{ page.updated }}</p>
+<p class="time"><time>Updated: {{ page.updated }}<time></p>
 <p>This is a test</p>
 <div class="spacer"></div>
