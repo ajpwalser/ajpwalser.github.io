@@ -6,28 +6,42 @@ layout: default
 
 {% assign path = page.path | split:"/" %}
 
-<p>{{content}}</p>
+<h2>{{ page.title }}</h2>
+
+<p class="first">
+{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+        
+<a href="/">home</a> / 
+{% for crumb in crumbs offset: 1 %}
+{% if forloop.last %}
+{{ crumb | replace:'-',' ' | remove:'.html' }}
+{% else %}
+            
+<a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' }}</a> /
+{% endif %}
+{% endfor %}
+</p>
 
 {% assign notes = site.pages | where_exp: "item" , "item.path contains folderfilter" | reverse %}
 
-<h3>Pages:</h3>
+<h3>Entries</h3>
 
 {% if page.expand %}
 {% for item in notes %}
-    {% unless item.path contains "index.html" %}
-    <div class="pb4 pr2-l">
-        <hr>
-    <a class="link gray f5" href="{{item.url}}"># {{item.path | replace: folderfilter , ""}}</a></li>
-    {{item.content | markdownify}}    
-    </div>
-    {% endunless %}
+{% unless item.path contains "index.html" %}
+<div>
+<hr>
+<a href="{{item.url}}"># {{item.path | replace: folderfilter , ""}}</a></li>
+{{item.content | markdownify}}    
+</div>
+{% endunless %}
 {% endfor %}
 {% else %}
 <ul>
 {% for item in notes %}
-    {% unless item.path contains "index.html" %}
-        <li class="pv1"><a href="{{item.url}}">{{item.path | replace: folderfilter , ""}}</a></li>
-    {% endunless %}
+{% unless item.path contains "index.html" %}
+<li><a href="{{item.url}}">{{item.path | replace: folderfilter , ""}}</a></li>
+{% endunless %}
 {% endfor %}
 </ul>
 {% endif %}
