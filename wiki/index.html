@@ -15,8 +15,21 @@ description: My personal wiki
 {% endfor %}
 {% assign wikifolders = wikifolders | uniq | sort %}
 
+<div class="w-100 cf">
+{% for folder in wikifolders %}
+  {% unless folder contains 'md' or folder contains 'html' %}
+    
+	<div class="fl w-third-l w-100 mb1 mt1 pr4-l">
+		<a class="link black" href="/wiki/{{folder}}/">
+			<div class="bg-near-white pa3">{{folder | capitalize}}</div>
+		</a>
+	</div>
+  {% endunless %}
+{% endfor %}
 
-<h3>All Pages</h3>
+</div>
+
+<h3>All Entries</h3>
 
 {% assign folder1 = site.pages | where_exp: "item" , "item.path contains 'wiki'" | sort:"path" %}
 {% for item in folder1 %}
