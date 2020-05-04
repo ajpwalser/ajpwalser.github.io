@@ -15,18 +15,14 @@ description: My personal wiki
 {% endfor %}
 {% assign wikifolders = wikifolders | uniq | sort %}
 
+<h3>All Entries</h3>
+
 <ul>
 {% for folder in wikifolders %}
-  {% unless folder contains 'md' or folder contains 'html' %}
-
-	
-	<a class="link black" href="/wiki/{{folder}}/">{{folder | capitalize}}
-</a>
-
-  {% endunless %}
+{% unless folder contains 'md' or folder contains 'html' %}
+<a class="link black" href="/wiki/{{folder}}/">{{folder | capitalize}}</a>
+{% endunless %}
 {% endfor %}
-
-
 </ul>
 
 <h3>All Entries</h3>
@@ -38,5 +34,4 @@ description: My personal wiki
 <br>
 {% endfor %}
 
-
-	<div class="spacer"></div>
+<div class="spacer"></div>
