@@ -141,7 +141,7 @@ h4 {
 time,
 .meta,
 figcaption {
-	font-family: 'Roboto Mono', SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+	font-family: 'Inconsolata', SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 	font-size: 0.718em;
 	color: rgb(169, 169, 169);
 }
@@ -174,7 +174,7 @@ blockquote {
 /* Code formatting */
 
 code {
-	font-family: 'Roboto Mono', SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+	font-family: 'Inconsolata', SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 	font-feature-settings: "zero";
 }
 
