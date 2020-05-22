@@ -462,7 +462,7 @@ span.small {
 }
 
 .read-more-state~.read-more-trigger:before {
-	content: 'View More \2193';
+	content: 'View More \2193;
 }
 
 .read-more-state:checked~.read-more-trigger:before {
