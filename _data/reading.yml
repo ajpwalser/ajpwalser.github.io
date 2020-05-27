@@ -2,7 +2,13 @@ lastupdate: January 8, 2020
 list:   
   - year: "2020"
     books:
-      - title: "Harry Potter and the Philosopher's stone"
+      - title: "Harry Potter and the Chamber of Secrets"
+        author: J.K. Rowling
+        published: 1998
+        link: https://openlibrary.org/works/OL82537W/Harry_Potter_and_the_Chamber_of_Secrets
+        image: https://covers.openlibrary.org/w/id/8392798-L.jpg
+        
+      - title: "Harry Potter and the Philosopher's Stone"
         author: J.K. Rowling
         published: 1997
         link: https://openlibrary.org/works/OL82563W/Harry_Potter_and_the_Philosopher's_Stone
