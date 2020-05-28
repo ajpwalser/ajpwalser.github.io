@@ -491,6 +491,6 @@ span.small {
 }
 
 .crumbs {
-	font-size: 0.718em;
 	margin-top: -1em;
+	color: blue;
 }
