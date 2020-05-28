@@ -174,8 +174,7 @@ blockquote {
 
 /* Code formatting */
 
-code,
-.wiki {
+code {
 	font-family: 'Roboto Mono', SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 }
 
