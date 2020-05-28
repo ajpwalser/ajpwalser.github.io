@@ -8,7 +8,7 @@ layout: default
 
 <h2>{{ page.title }}</h2>
 
-<p class="first">
+<p class="crumbs">
 {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
 {% for crumb in crumbs offset: 1 %}
 {% if forloop.last %}
