@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: Test
+title: Note
 date: 2020-05-03
 updated: May 03, 2020
 ---
