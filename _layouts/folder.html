@@ -38,7 +38,7 @@ layout: default
 <ul>
 {% for item in notes %}
 {% unless item.path contains "index.html" %}
-<li><a href="{{item.url}}">{{item.path | replace: folderfilter , ""}}</a></li>
+<li style="margin-bottom:10px;"><a href="{{item.url}}">{{item.path | replace: folderfilter , ""}}</a></li>
 {% endunless %}
 {% endfor %}
 </ul>
