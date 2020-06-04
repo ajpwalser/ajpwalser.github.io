@@ -20,8 +20,9 @@ description: My personal wiki
 <ul>
 {% for folder in wikifolders %}
 {% unless folder contains 'md' or folder contains 'html' %}
+<li style="margin-bottom:10px;">
 <a class="link black" href="/wiki/{{folder}}/">{{folder | capitalize}}</a>
-<br>
+</li>
 {% endunless %}
 {% endfor %}
 </ul>
