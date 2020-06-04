@@ -142,7 +142,8 @@ h4 {
 time,
 .meta,
 figcaption {
-	font-family: 'JetBrains Mono', SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+	font-family: 'Inter', SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+	font-feature-settings: "zero";
 	font-size: 0.718em;
 	color: rgb(169, 169, 169);
 }
@@ -175,7 +176,7 @@ blockquote {
 /* Code formatting */
 
 code {
-	font-family: 'JetBrains Mono', SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+	font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 }
 
 pre {
