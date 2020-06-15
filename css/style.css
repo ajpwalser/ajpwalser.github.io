@@ -45,6 +45,11 @@ footer a:hover {
 	color: rgb(78, 77, 75) !important;
 }
 
+footer ul {
+	list-style-type: none;
+	line-height: 1em;
+}
+
 footer li {
     	display: inline;
     	padding-right: 0.718em;
