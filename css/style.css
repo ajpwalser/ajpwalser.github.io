@@ -305,8 +305,9 @@ span.small {
 .tag-box a {
 	padding: 7px 18px;
 	margin: 2px;
-	background-color: #FFFFFF;
+	background-color: rgb(241, 118, 30);
 	border: 1px solid rgb(241, 118, 30);
+	color: rbg(255, 255, 255);
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
@@ -314,8 +315,8 @@ span.small {
 }
 
 .tag-box a:hover {
-	background-color: rgb(255, 255, 255);
-	color: rgb(78, 77, 75);
+	background-color: rgb(241, 118, 30);
+	color: rgb(255, 255, 255);
 }
 
 .tag-box a span {
@@ -340,8 +341,9 @@ span.small {
 .post-nav a {
 	padding: 7px 18px;
 	margin: 2px;
-	background-color: rgb(255, 255, 255);
-	border: 1px solid rgb(249, 246, 240);
+	background-color: rgb(241, 118, 30);
+	border: 1px solid rgb(241, 118, 30);
+	color: rgb(255, 255, 255);
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
@@ -349,8 +351,8 @@ span.small {
 }
 
 .post-nav a:hover {
-	background-color: rgb(255, 255, 255);
-	color: rgb(78, 77, 75);
+	background-color: rgb(241, 118, 30);
+	color: rgb(255, 255, 255);
 }
 
 .post-nav p:first-child {
@@ -464,7 +466,7 @@ span.small {
 .read-more-trigger {
 	cursor: pointer;
 	padding: 7px 18px;
-	color: rgb(78, 77, 75);
+	color: rgb(255, 255, 255);
 	font-size: 0.718em;
 	line-height: 2;
 	border: 2px solid rgb(241, 118, 30);
