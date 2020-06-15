@@ -29,27 +29,25 @@ figcaption,
 	margin-top: -1em;
 }
 
-/* Navigation, Footer */
+/* Footer */
 
-nav,
 footer {
 	font-size: 0.718em;
 }
 
-nav a,
+
 footer a {
 	color: rgb(78, 77, 75) !important;
 	text-decoration: none !important;
 }
 
-nav a:hover,
 footer a:hover {
 	color: rgb(78, 77, 75) !important;
 }
 
-nav li {
+footer li {
     	display: inline;
-    	padding-right: 12px;
+    	padding-right: 0.718em;
   }
 
 /* Links */
