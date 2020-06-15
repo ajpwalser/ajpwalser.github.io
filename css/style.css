@@ -4,6 +4,17 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 }
 
+header, .fullwidth {
+  width: 100%;
+  background: #ccc;
+}
+.wrap {
+  width: 80%;
+  max-width: 24em;
+  margin: 0 auto;
+  padding: 0.25em 0.625em;
+}
+
 /* Body ⌁ */
 
 body {
