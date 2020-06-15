@@ -474,7 +474,7 @@ span.small {
 	text-align: center;
 }
 
-.read-more-trigger :hover {
+.read-more-trigger:hover {
 	background-color: rgb(251, 157, 80);
 	color: rgb(255, 255, 255);
 }
