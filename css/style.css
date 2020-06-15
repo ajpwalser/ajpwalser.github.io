@@ -50,6 +50,10 @@ footer a:hover {
 	color: rgb(78, 77, 75) !important;
 }
 
+nav li {
+    	display: inline;
+    	padding: 12px;
+  }
 
 /* Links */
 
