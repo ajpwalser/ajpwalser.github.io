@@ -351,7 +351,7 @@ span.small {
 }
 
 .post-nav a:hover {
-	background-color: rgb(241, 118, 30);
+	background-color: rgb(251, 157, 80);
 	color: rgb(255, 255, 255);
 }
 
@@ -466,15 +466,20 @@ span.small {
 .read-more-trigger {
 	cursor: pointer;
 	padding: 7px 18px;
+	background-color: rgb(241, 118, 30);
+	border: 2px solid rgb(241, 118, 30);
 	color: rgb(255, 255, 255);
 	font-size: 0.718em;
 	line-height: 2;
-	border: 2px solid rgb(241, 118, 30);
 	border-radius: 5px;
 	display: grid;
 	text-align: center;
 }
 
+.read-more-trigger a:hover {
+	background-color: rgb(251, 157, 80);
+	color: rgb(255, 255, 255);
+}
 
 /* Responsive */
 
