@@ -21,11 +21,9 @@
 </head>
 <body>
    <header>
-      <div class="wrap">
       <h1 class="header"><a href="{{ site.baseurl | prepend: site.url }}/">{{ site.title }}</a></h1>
       <nav><a href="{{ '/info/' | prepend: site.baseurl | prepend: site.url }}">Info</a> &times; <a href="{{ '/wiki/' | prepend: site.baseurl | prepend: site.url }}">Wiki</a> &times; <a href="{{ '/read/' | prepend: site.baseurl | prepend: site.url }}">Read</a> &times; <a href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">Feed</a></nav>
       <hr>
-      </div>
    </header>
    <main aria-label="Content" role="main">
       {{ content }}
