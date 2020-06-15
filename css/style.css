@@ -33,6 +33,7 @@ figcaption,
 
 footer {
 	font-size: 0.718em;
+	margin-top: -1em;
 }
 
 
@@ -47,7 +48,6 @@ footer a:hover {
 
 footer ul {
 	list-style-type: none;
-	line-height: 1em;
 }
 
 footer li {
