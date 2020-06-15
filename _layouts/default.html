@@ -15,21 +15,12 @@
    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" />
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-youngserif@0.0.75/index.min.css">
    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Inter&family=Poppins:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
    {% seo %}
 </head>
 <body>
    <header>
       <h1 class="header"><a href="{{ site.baseurl | prepend: site.url }}/">{{ site.title }}</a></h1>
-       <nav>
-        <ul>
-         <li><a href="{{ '/info/' | prepend: site.baseurl | prepend: site.url }}">Info</a></li>
-         <li><a href="{{ '/wiki/' | prepend: site.baseurl | prepend: site.url }}">Wiki</a></li>
-         <li><a href="{{ '/read/' | prepend: site.baseurl | prepend: site.url }}">Read</a></li>
-         <li><a href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">Feed</a></li>
-        </ul>
-       </nav>
       <hr>
    </header>
    <main aria-label="Content" role="main">
@@ -37,7 +28,15 @@
    </main>
    <footer>
       <hr>
-      <a href="{{ site.baseurl | prepend: site.url }}/">Nunquam luna lupinotuum</a>
+       <nav>
+        <ul>
+         <li><a href="{{ site.baseurl | prepend: site.url }}/">Home</a></li>
+         <li><a href="{{ '/info/' | prepend: site.baseurl | prepend: site.url }}">Info</a></li>
+         <li><a href="{{ '/wiki/' | prepend: site.baseurl | prepend: site.url }}">Wiki</a></li>
+         <li><a href="{{ '/read/' | prepend: site.baseurl | prepend: site.url }}">Read</a></li>
+         <li><a href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">Feed</a></li>
+        </ul>
+       </nav>
    </footer>
 {% include new-window-fix.html %}
 </body>
