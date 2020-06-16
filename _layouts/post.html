@@ -9,6 +9,7 @@ layout: default
       {{ content }}
    </div>
    <p class="meta">{% for tag in page.tags %}Tag(s): <a href="{{ site.url }}/tags/#{{ tag | cgi_escape }}" title="Posts tagged “{{ tag }}”" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}</p>  
+<div class="spacer"></div>
    <div class="post-nav">
       <p>
          {% if page.previous.url %}
