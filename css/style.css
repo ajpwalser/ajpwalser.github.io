@@ -410,20 +410,14 @@ span.small {
 .pagination a,
 .pagination span {
 	padding: 7px 18px;
-	background-color: rgb(249, 246, 240);
 	color: rgb(78, 77, 75);
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
 	margin: 2px;
 	display: inline-block;
 }
 
 .pagination a {
 	&: hover {
-		background-color: rgb(255, 255, 255);
 		color: rgb(78, 77, 75);
-		decoration: none;
 	}
 }
 
@@ -431,12 +425,6 @@ span.small {
 	text-align: center;
 	font-size: 0.718em;
 }
-
-.counter {
-	color: rgb(78, 77, 75);
-	background-color: rgb(255, 255, 255) !important;
-}
-
 
 /* Read more */
 
