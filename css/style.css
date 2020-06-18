@@ -239,6 +239,11 @@ ol {
 img {
 	max-width: 100%;
 	height: auto;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 10px solid rgb(250, 247, 242);
 }
 
 figcaption {
