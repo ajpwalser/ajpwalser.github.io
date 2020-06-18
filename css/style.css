@@ -163,10 +163,11 @@ p.time {
 /* Blockquotes */
 
 blockquote {
+	color: rgb(0, 128, 53);
 	margin: 1em auto;
 	padding-left: 1em;
 	font-weight: 500;
-	border-left: 10px solid rgb(251, 231, 101);
+	border-left: 10px solid rgb(209, 255, 232);
 }
 
 
