@@ -410,12 +410,12 @@ span.small {
 .pagination a,
 .pagination span {
 	padding: 7px 18px;
-	border: 1px solid rgb(241, 118, 30);
+	background-color: rgb(209, 255, 232);
+	color: rgb(0, 128, 53);
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	margin: 2px;
-	background-color: rgb(255, 255, 255);
 	display: inline-block;
 }
 
@@ -423,6 +423,7 @@ span.small {
 	&: hover {
 		background-color: rgb(255, 255, 255);
 		color: rgb(78, 77, 75);
+		decoration: none;
 	}
 }
 
