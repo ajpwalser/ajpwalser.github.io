@@ -31,6 +31,7 @@ description: Personal blog of Adam Walser.
 </p>
 <div class="spacer"></div>
 {% endfor %}
+      
 <!-- pagination -->
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
@@ -54,5 +55,20 @@ description: Personal blog of Adam Walser.
    <span>Next Page →</span>
    {% endif %}
 </div>
+      
+      {% if paginator.previous_page %}
+    <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="pagination  pagination--previous">&larr; Previous</a>
+  {% else %}
+    <span class="pagination  pagination--previous">&larr; Previous</span>
+  {% endif %}
+
+  <span class="pagination  pagination--counter">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+  {% if paginator.next_page %}
+    <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="pagination  pagination--next">Next &rarr;</a>
+  {% else %}
+    <span class="pagination  pagination--next">Next &rarr;</span>
+  {% endif %}
+      
 <div class="spacer"></div>
 {% endif %}
