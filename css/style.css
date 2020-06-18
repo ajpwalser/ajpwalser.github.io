@@ -256,6 +256,7 @@ figcaption {
 	position: relative;
 	right: 50%;
 	width: 100vw;
+	border: none;
 }
 
 
