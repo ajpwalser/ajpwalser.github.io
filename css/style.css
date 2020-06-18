@@ -323,11 +323,6 @@ span.small {
 	text-decoration: none;
 }
 
-.tag-box a:hover {
-	background-color: rgb(251, 157, 80);
-	color: rgb(255, 255, 255);
-}
-
 .tag-box a span {
 	vertical-align: super;
 }
@@ -359,11 +354,6 @@ span.small {
 	text-decoration: none;
 }
 
-.post-nav a:hover {
-	background-color: rgb(251, 157, 80);
-	color: rgb(255, 255, 255);
-}
-
 .post-nav p:first-child {
 	padding-right: 0.5em;
 }
@@ -372,7 +362,6 @@ span.small {
 	padding-left: 0.5em;
 	text-align: right;
 }
-
 
 /* Read */
 
@@ -483,11 +472,6 @@ span.small {
 	border-radius: 5px;
 	display: grid;
 	text-align: center;
-}
-
-.read-more-trigger:hover {
-	background-color: rgb(251, 157, 80);
-	color: rgb(255, 255, 255);
 }
 
 /* Responsive */
