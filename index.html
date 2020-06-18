@@ -40,35 +40,12 @@ description: Personal blog of Adam Walser.
    {% else %}
    <span>← Prev Page</span>
    {% endif %}
-   {% for page in (1..paginator.total_pages) %}
-   {% if page == paginator.page %}
-   <span class="ajpwalser">{{ page }}</span>
-   {% elsif page == 1 %}
-   <a href="/">{{ page }}</a>
-   {% else %}
-   <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-   {% endif %}
-   {% endfor %}
+   <span>Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
    {% if paginator.next_page %}
    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next Page →</a>
    {% else %}
    <span>Next Page →</span>
    {% endif %}
 </div>
-      
-      {% if paginator.previous_page %}
-    <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="pagination  pagination--previous">&larr; Previous</a>
-  {% else %}
-    <span class="pagination  pagination--previous">&larr; Previous</span>
-  {% endif %}
-
-  <span class="pagination  pagination--counter">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-
-  {% if paginator.next_page %}
-    <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="pagination  pagination--next">Next &rarr;</a>
-  {% else %}
-    <span class="pagination  pagination--next">Next &rarr;</span>
-  {% endif %}
-      
 <div class="spacer"></div>
 {% endif %}
