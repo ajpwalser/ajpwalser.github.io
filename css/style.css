@@ -432,7 +432,7 @@ span.small {
 }
 
 .counter {
-	border: none;
+	border: none !important;
 }
 
 
