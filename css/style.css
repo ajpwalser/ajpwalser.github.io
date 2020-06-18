@@ -239,7 +239,6 @@ ol {
 img {
 	max-width: 100%;
 	height: auto;
-	border: 10px solid rgb(250, 247, 242);
 }
 
 figcaption {
@@ -256,7 +255,6 @@ figcaption {
 	position: relative;
 	right: 50%;
 	width: 100vw;
-	border: none;
 }
 
 
@@ -406,7 +404,6 @@ span.small {
 	-webkit-box-shadow: 0px 0px 5px 0px #000000;
 	-o-box-shadow: 0px 0px 5px 0px #000000;
 	box-shadow: 0px 0px 5px 0px #000000;
-	border: none;
 	filter: progid: DXImageTransform.Microsoft.Shadow(color=#000000, Direction=NaN, Strength=5);
 }
 
