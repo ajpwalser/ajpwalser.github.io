@@ -7,7 +7,7 @@ html { font-family: 'Inter', sans-serif; }
 /* Body ⌁ */
 
 body {
-	background: rgb(249, 246, 240);
+	background: rgb(255, 255, 255);
 	margin: 1em auto;
 	max-width: 800px;
 	line-height: 1.66;
@@ -475,8 +475,8 @@ span.small {
 .read-more-trigger {
 	cursor: pointer;
 	padding: 7px 18px;
-	background-color: rgb(241, 118, 30);
-	color: rgb(255, 255, 255);
+	background-color: rgb(209, 255, 232);
+	color: rgb(0, 128, 53);
 	font-size: 0.718em;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
