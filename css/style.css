@@ -431,6 +431,10 @@ span.small {
 	font-size: 0.718em;
 }
 
+.pagination span {
+	border: none;
+}
+
 
 /* Read more */
 
