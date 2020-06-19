@@ -17,6 +17,10 @@ body {
 	padding: 1em;
 }
 
+.end {
+	color: rgb(241, 118, 30);
+}
+
 /* Margins & Spacing */
 
 .first,
