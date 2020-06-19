@@ -317,6 +317,7 @@ span.small {
 	margin: 2px;
 	background-color: rgb(209, 255, 232);
 	color: rgb(0, 128, 53);
+	border: 2px solid rgb(209, 255, 232);
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
@@ -348,6 +349,7 @@ span.small {
 	margin: 2px;
 	background-color: rgb(209, 255, 232);
 	color: rgb(0, 128, 53);
+	border: 2px solid rgb(209, 255, 232);
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
@@ -424,6 +426,7 @@ span.small {
 	margin: 2px;
 	background-color: rgb(209, 255, 232);
 	color: rgb(0, 128, 53);
+	border: 2px solid rgb(209, 255, 232);
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
@@ -485,6 +488,7 @@ span.small {
 	background-color: rgb(209, 255, 232);
 	color: rgb(0, 128, 53);
 	font-size: 0.718em;
+	border: 2px solid rgb(209, 255, 232);
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
