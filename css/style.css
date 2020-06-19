@@ -139,7 +139,8 @@ h4 {
 
 time,
 .meta,
-figcaption {
+figcaption,
+.counter {
 	font-family: 'Roboto Mono', SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 	font-size: 0.718em;
 	color: rgb(139, 136, 132);
