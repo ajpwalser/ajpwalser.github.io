@@ -6,7 +6,7 @@ layout: default
    <h2 class="name headline" itemprop="name headline">{{ page.title | escape }}</h2>
    <p class="time"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time></p>
    <div itemprop="articleBody">
-      {{ content }}
+      {{ content }}<span class="end">⌁</span>
    </div>
    <p class="meta">{% for tag in page.tags %}Tag(s): <a href="{{ site.url }}/tags/#{{ tag | cgi_escape }}" title="Posts tagged “{{ tag }}”" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}</p>  
    <div class="post-nav">
