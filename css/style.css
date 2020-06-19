@@ -419,8 +419,7 @@ span.small {
 	width: 45%;
 }
 
-.pagination a,
-. pagination span {
+.pagination a {
 	padding: 7px 18px;
 	margin: 2px;
 	background-color: rgb(209, 255, 232);
@@ -429,6 +428,14 @@ span.small {
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	text-decoration: none;
+}
+
+.pagination span {
+	background-color: rgb(209, 255, 232);
+	color: rgb(0, 128, 53);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
 
 .pagination p:first-child {
