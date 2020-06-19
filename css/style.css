@@ -434,7 +434,7 @@ span.small {
 
 .counter {
 	background-color: rgb(255, 255, 255) !important;
-	color: rgb(78, 77, 75) !important;
+	font-size: 0.718em;
 }
 
 /* Read more */
