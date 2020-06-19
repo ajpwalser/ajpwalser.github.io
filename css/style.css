@@ -420,7 +420,8 @@ span.small {
 	width: 45%;
 }
 
-.pagination a {
+.pagination a,
+. pagination span {
 	padding: 7px 18px;
 	margin: 2px;
 	background-color: rgb(209, 255, 232);
