@@ -52,7 +52,6 @@ footer ul {
 
 footer li {
     	display: inline;
-
     	padding-right: 0.718em;
   }
 
@@ -82,7 +81,8 @@ a:active {
 
 h1, 
 h2, 
-h3, 
+h3,
+h4,
 .header {
 	color: rgb(22, 54, 36);
 }
@@ -129,7 +129,6 @@ h3,
 }
 
 h4 {
-	color: rgb(22, 54, 36);
 	font-size: 1em;
 	line-height: 1.25em;
 }
