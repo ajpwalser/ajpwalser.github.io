@@ -407,35 +407,37 @@ span.small {
 
 /* Pagination */
 
-.pagination a,
-.pagination span {
+.pagination {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	font-size: 0.718em;
+	padding-top: 2.43em;
+}
+
+.pagination p {
+	flex: 1 1 0;
+	width: 45%;
+}
+
+.pagination a {
 	padding: 7px 18px;
+	margin: 2px;
 	background-color: rgb(209, 255, 232);
 	color: rgb(0, 128, 53);
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	margin: 2px;
-	display: inline-block;
+	text-decoration: none;
 }
 
-.pagination a {
-	&: hover {
-	background-color: rgb(209, 255, 232);
-	color: rgb(0, 128, 53);
-	}
+.pagination p:first-child {
+	padding-right: 0.5em;
 }
 
-.pagination {
-	text-align: center;
-	font-size: 0.718em;
-}
-
-.counter {
-	background-color: rgb(255, 255, 255) !important;
-	font-family: 'Roboto Mono', SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace !important;
-	font-size: 0.718em !important;
-	color: rgb(139, 136, 132) !important;
+.pagination p:last-child {
+	padding-left: 0.5em;
+	text-align: right;
 }
 
 /* Read more */
