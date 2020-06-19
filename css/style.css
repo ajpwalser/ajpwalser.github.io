@@ -134,7 +134,6 @@ h4 {
 	line-height: 1.25em;
 }
 
-
 /* Meta */
 
 time,
@@ -159,7 +158,6 @@ p.time {
 	text-decoration: none !important;
 }
 
-
 /* Blockquotes */
 
 blockquote {
@@ -169,7 +167,6 @@ blockquote {
 	font-weight: 500;
 	border-left: 10px solid rgb(251, 231, 101);
 }
-
 
 /* Code formatting */
 
@@ -194,7 +191,6 @@ pre {
 	padding-right: 1em;
 }
 
-
 /* Horizontal rule */
 
 hr {
@@ -202,7 +198,6 @@ hr {
 	height: 0;
 	border-top: 10px solid rgb(251, 231, 101);
 }
-
 
 /* Lists */
 
@@ -233,7 +228,6 @@ ol {
 	list-style-type: none;
 }
 
-
 /* Responsive images */
 
 img {
@@ -257,7 +251,6 @@ figcaption {
 	width: 100vw;
 }
 
-
 /* Responsive videos */
 
 .videoWrapper {
@@ -274,6 +267,40 @@ figcaption {
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+/* Link Buttons */
+
+.read-more-trigger,
+.pagination a,
+.post-nav a,
+.tag-box a {
+
+	padding: 7px 18px;
+	margin: 2px;
+	font-size: 0.718em;
+	color: rgb(0, 128, 53);
+	background-color: rgb(209, 255, 232);
+	border: 2px solid rgb(209, 255, 232);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+/* Span Button */
+
+.pagination span,
+.post-nav span {
+
+	padding: 7px 18px;
+	margin: 2px;
+	color: rgb(0, 128, 53);
+	background-color: rgb(255, 255, 255);
+	border: 2px solid rgb(209, 255, 232);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
 
 
@@ -312,22 +339,9 @@ span.small {
 	line-height: 2.5;
 }
 
-.tag-box a {
-	padding: 7px 18px;
-	margin: 2px;
-	background-color: rgb(209, 255, 232);
-	color: rgb(0, 128, 53);
-	border: 2px solid rgb(209, 255, 232);
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	text-decoration: none;
-}
-
 .tag-box a span {
 	vertical-align: super;
 }
-
 
 /* Older and newer post */
 
@@ -344,18 +358,6 @@ span.small {
 	width: 45%;
 }
 
-.post-nav a {
-	padding: 7px 18px;
-	margin: 2px;
-	background-color: rgb(209, 255, 232);
-	color: rgb(0, 128, 53);
-	border: 2px solid rgb(209, 255, 232);
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	text-decoration: none;
-}
-
 .post-nav p:first-child {
 	padding-right: 0.5em;
 }
@@ -363,17 +365,6 @@ span.small {
 .post-nav p:last-child {
 	padding-left: 0.5em;
 	text-align: right;
-}
-
-.post-nav span {
-	padding: 7px 18px;
-	margin: 2px;
-	background-color: rgb(255, 255, 255);
-	border: 2px solid rgb(209, 255, 232);
-	color: rgb(0, 128, 53);
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
 }
 
 /* Read */
@@ -432,29 +423,6 @@ span.small {
 	width: 45%;
 }
 
-.pagination a {
-	padding: 7px 18px;
-	margin: 2px;
-	background-color: rgb(209, 255, 232);
-	color: rgb(0, 128, 53);
-	border: 2px solid rgb(209, 255, 232);
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	text-decoration: none;
-}
-
-.pagination span {
-	padding: 7px 18px;
-	margin: 2px;
-	background-color: rgb(255, 255, 255);
-	border: 2px solid rgb(209, 255, 232);
-	color: rgb(0, 128, 53);
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-}
-
 .pagination p:first-child {
 	padding-right: 0.5em;
 }
@@ -495,14 +463,6 @@ span.small {
 
 .read-more-trigger {
 	cursor: pointer;
-	padding: 7px 18px;
-	background-color: rgb(209, 255, 232);
-	color: rgb(0, 128, 53);
-	font-size: 0.718em;
-	border: 2px solid rgb(209, 255, 232);
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
 	display: grid;
 	text-align: center;
 }
