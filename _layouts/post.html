@@ -13,12 +13,15 @@ layout: default
       <p>
          {% if page.previous.url %}
          <a href="{{page.previous.url}}" title="Prev Post">&larr; Prev Post </a>
-         <br>
+         {% else %}
+         <span>&larr; Prev Post</span>
          {% endif %}
       </p>
       <p>
          {% if page.next.url %}
          <a href="{{page.next.url}}" title="Next Post">Next Post &rarr;</a>
+         {% else %}
+         <span>Next Post &rarr;</span>
          {% endif %} 
       </p>
    </div>
