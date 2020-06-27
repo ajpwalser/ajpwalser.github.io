@@ -128,8 +128,7 @@
 
   <div class="wrapper">
     <h1>Monstrous Nonfiction for Adults <span v-show="activeTag.length">| {{activeTag}}</span></h1>
-    <aside>Monster lover? Cross the so-called 'Dewey divide' with us and explore the wonderful world of monstrous nonfiction. We think these reads prove that nonfiction is anything but boring! Use the reader-generated tags below to filter your selections. Only
-      one tag can be used at a time.</aside>
+    <aside>Frankenstein's monster, werewolves, mummies, vampires, zombies, the creature from the black lagoon... Reader's are fascinated with the dark side of the human imagination. If you love monster fiction or are simply curious about things that go bump in the night, cross the so-called 'Dewey divide' with us and explore the wonderful world of  monstrous nonfiction. We think these reads prove that adult nonfiction is anything but boring! Use the reader-generated tags below to filter your selections. Note, only one tag can be used at a time.</aside>
     <div class="filters">
       <ul class="list-inline">
         <li v-for="tag in tags"><a @click="tagClick(tag)" v-bind:class="{'active': isActive(tag)}" class="btn-pill" href="#">{{tag}}</a></li>
