@@ -165,6 +165,7 @@ p.time {
 /* Blockquotes */
 
 blockquote {
+	font-family: 'Roboto Slab', serif;
 	color: rgb(22, 54, 36);
 	margin: 1em auto;
 	padding-left: 1em;
