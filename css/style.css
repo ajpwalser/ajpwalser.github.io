@@ -165,11 +165,11 @@ p.time {
 /* Blockquotes */
 
 blockquote {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Lacquer', sans-serif;
+	text-transform:
 	color: rgb(22, 54, 36);
 	margin: 1em auto;
 	padding-left: 1em;
-	font-weight: 500;
 	border-left: 10px solid rgb(251, 231, 101);
 }
 
