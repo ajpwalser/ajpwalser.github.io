@@ -167,6 +167,7 @@ p.time {
 blockquote {
 	font-family: 'Lacquer', sans-serif;
 	font-size: 1.4em;
+	text-transform: lowercase;
 	color: rgb(22, 54, 36);
 	margin: 1em auto;
 	padding-left: 1em;
