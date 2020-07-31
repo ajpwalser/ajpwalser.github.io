@@ -2,6 +2,12 @@ lastupdate: May 26, 2020
 list:   
   - year: "2020"
     books:
+      - title: "Harry Potter and the Prisoner of Azkaban"
+        author: J.K. Rowling
+        published: 1999
+        link: https://openlibrary.org/works/OL82537W/Harry_Potter_and_the_Prisoner_of_Azkaban
+        image: https://upload.wikimedia.org/wikipedia/en/5/5c/Harry_Potter_and_the_Chamber_of_Secrets.jpg
+    
       - title: "Harry Potter and the Chamber of Secrets"
         author: J.K. Rowling
         published: 1998
