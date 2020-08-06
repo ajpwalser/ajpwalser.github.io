@@ -4,7 +4,7 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 }
 
-/* Body ⌁ */
+/* Body */
 
 body {
 	background: rgb(255, 255, 255);
@@ -165,7 +165,6 @@ p.time {
 /* Blockquotes */
 
 blockquote {
-	font-size: 1.4em;
 	font-weight: 500;
 	color: rgb(22, 54, 36);
 	margin: 1em auto;
