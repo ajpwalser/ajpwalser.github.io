@@ -144,7 +144,6 @@ time,
 .meta,
 figcaption {
 	/* font-family: 'Roboto Mono', SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace; */
-	font-feature-settings: "zero";
 	font-size: 0.718em;
 	color: rgb(139, 136, 132);
 }
@@ -176,7 +175,7 @@ blockquote {
 /* Code formatting */
 
 code {
-	font-family: 'Roboto Mono', SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+	font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 }
 
 pre {
