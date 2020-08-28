@@ -2,6 +2,12 @@ lastupdate: May 26, 2020
 list:   
   - year: "2020"
     books:
+      - title: "Little Brother & Homeland"
+        author: Cory Doctorow
+        published: 2020
+        link: https://openlibrary.org/works/OL21741584W/Little_Brother_Homeland
+        image: https://covers.openlibrary.org/b/id/10401468-L.jpg
+    
       - title: "Harry Potter and the Prisoner of Azkaban"
         author: J.K. Rowling
         published: 1999
