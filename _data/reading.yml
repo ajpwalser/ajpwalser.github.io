@@ -2,6 +2,12 @@ lastupdate: May 26, 2020
 list:   
   - year: "2020"
     books:
+      - title: "The Babysitters Coven"
+        author: Kate Williams
+        published: 2019
+        link: https://openlibrary.org/works/OL20134784W/The_Babysitters_Coven
+        image: https://covers.openlibrary.org/b/id/8785639-L.jpg
+        
       - title: "Little Brother & Homeland"
         author: Cory Doctorow
         published: 2020
