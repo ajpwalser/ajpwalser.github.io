@@ -2,6 +2,12 @@ lastupdate: May 26, 2020
 list:   
   - year: "2020"
     books:
+      - title: "Gravity Falls: Lost Legends"
+        author: Alex Hirsch
+        published: 2018
+        link: https://openlibrary.org/works/OL17928064W/Gravity_Falls
+        image: https://covers.openlibrary.org/b/id/8256307-L.jpg
+        
       - title: "The Babysitters Coven"
         author: Kate Williams
         published: 2019
