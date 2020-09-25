@@ -2,6 +2,12 @@ lastupdate: May 26, 2020
 list:   
   - year: "2020"
     books:
+      - title: "The Awesome"
+        author: Eva Darrows
+        published: 2015
+        link: https://openlibrary.org/works/OL20000487W/The_awesome
+        image: https://rebellionpublishing.com/wp-content/uploads/2020/06/3e-12.jpg
+        
       - title: "The Halloween Tree"
         author: Ray Bradbury
         published: 1972
