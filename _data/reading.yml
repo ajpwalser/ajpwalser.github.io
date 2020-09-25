@@ -2,6 +2,12 @@ lastupdate: May 26, 2020
 list:   
   - year: "2020"
     books:
+      - title: "The Halloween Tree"
+        author: Ray Bradbury
+        published: 1972
+        link: https://openlibrary.org/works/OL103190W/The_Halloween_Tree
+        image: https://ia800309.us.archive.org/view_archive.php?archive=/33/items/olcovers23/olcovers23-L.zip&file=231363-L.jpg&ext=
+        
       - title: "Gravity Falls: Lost Legends"
         author: Alex Hirsch
         published: 2018
