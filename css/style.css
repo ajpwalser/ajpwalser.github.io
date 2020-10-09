@@ -89,7 +89,8 @@ h2,
 h3,
 h4,
 .header {
-	font-family: 'YoungSerif', serif;
+	font-family: YoungSerif, serif;
+	font-weight: 400;
 	color: rgb(22, 54, 36);
 }
 
