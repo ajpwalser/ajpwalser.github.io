@@ -145,7 +145,7 @@ h4 {
 time,
 .meta,
 figcaption {
-	/* font-family: 'Roboto Mono', SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace; */
+	font-family: 'Victor Mono', SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 	font-size: 0.718em;
 	color: rgb(139, 136, 132);
 }
