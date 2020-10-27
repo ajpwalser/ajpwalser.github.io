@@ -2,6 +2,12 @@ lastupdate: May 26, 2020
 list:   
   - year: "2020"
     books:
+      - title: "Dead Voices"
+        author: Katherine Arden
+        published: 2019
+        link: https://openlibrary.org/works/OL20263666W/Dead_Voices
+        image: https://covers.openlibrary.org/b/id/10492729-L.jpg
+        
       - title: "Dark Harvest"
         author: Norman Partridge
         published: 2006
