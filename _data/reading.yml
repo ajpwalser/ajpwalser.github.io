@@ -2,6 +2,12 @@ lastupdate: May 26, 2020
 list:   
   - year: "2020"
     books:
+      - title: "Dark Harvest"
+        author: Norman Partridge
+        published: 2006
+        link: https://openlibrary.org/works/OL6220705W/Dark_Harvest
+        image: https://ia802709.us.archive.org/view_archive.php?archive=/31/items/olcovers659/olcovers659-L.zip&file=6597206-L.jpg&ext=
+        
       - title: "The Awesome"
         author: Eva Darrows
         published: 2015
