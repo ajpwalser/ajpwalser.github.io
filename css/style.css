@@ -19,7 +19,7 @@ body {
 }
 
 p {
-	font-family: 'Bitter', serif;
+	font-family: 'Bitter', Georgia, serif;
 }
 
 .end {
@@ -147,7 +147,6 @@ h4 {
 time,
 .meta,
 figcaption {
-	font-family: 'Roboto Mono', SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 	font-size: 0.718em;
 	color: rgb(139, 136, 132);
 }
@@ -181,7 +180,7 @@ blockquote {
 /* Code formatting */
 
 code {
-	font-family: 'Roboto Mono', SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+	font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 }
 
 pre {
