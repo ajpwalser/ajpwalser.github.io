@@ -10,20 +10,20 @@ layout: default
    </div>
    <p class="meta">{% for tag in page.tags %}Tag(s): <a href="{{ site.url }}/tags/#{{ tag | cgi_escape }}" title="Posts tagged “{{ tag }}”" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}</p>  
    <div class="post-nav">
-      <p>
+     
          {% if page.previous.url %}
          <a href="{{page.previous.url}}" title="Prev Post">&larr; Prev Post </a>
          {% else %}
          <span>&larr; Prev Post</span>
          {% endif %}
-      </p>
-      <p>
+      
+     
          {% if page.next.url %}
          <a href="{{page.next.url}}" title="Next Post">Next Post &rarr;</a>
          {% else %}
          <span>Next Post &rarr;</span>
          {% endif %} 
-      </p>
+    
    </div>
 </article>
 <div class="spacer"></div>
