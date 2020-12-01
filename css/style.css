@@ -18,6 +18,10 @@ body {
 	padding: 1em;
 }
 
+p {
+	font-family: 'Bitter', serif;
+}
+
 .end {
 	color: rgb(241, 118, 30);
 }
