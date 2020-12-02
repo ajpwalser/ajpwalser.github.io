@@ -19,7 +19,7 @@ body {
 }
 
 p {
-	font-family: 'Bitter', Georgia, serif;
+	font-family: 'Bitter', Inter, serif;
 }
 
 .end {
@@ -147,6 +147,7 @@ h4 {
 time,
 .meta,
 figcaption {
+	font-family: 'Inter', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 	font-size: 0.718em;
 	color: rgb(139, 136, 132);
 }
@@ -168,7 +169,7 @@ p.time {
 /* Blockquotes */
 
 blockquote {
-	font-family: 'Bitter', serif;
+	font-family: 'Bitter', Inter, serif;
 	font-style: italic;
 	font-weight: 500;
 	color: rgb(22, 54, 36);
