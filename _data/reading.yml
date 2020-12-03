@@ -2,6 +2,12 @@ lastupdate: May 26, 2020
 list:   
   - year: "2020"
     books:
+      - title: "Attack Surface: A Little Brother Novel"
+        author: Cory Doctorow
+        published: 2020
+        link: https://openlibrary.org/works/OL20825335W/Attack_Surface
+        image: https://images.macmillan.com/folio-assets/macmillan_us_frontbookcovers_350W/9781250757531.jpg
+    
       - title: "Dead Voices"
         author: Katherine Arden
         published: 2019
