@@ -19,7 +19,7 @@ body {
 }
 
 p {
-	font-family: 'Bitter', Inter, serif;
+	font-family: 'Space Grotesk', Inter, serif;
 }
 
 .end {
@@ -169,7 +169,7 @@ p.time {
 /* Blockquotes */
 
 blockquote {
-	font-family: 'Bitter', Inter, serif;
+	font-family: 'Space Grotesk', Inter, serif;
 	font-style: italic;
 	font-weight: 500;
 	color: rgb(22, 54, 36);
