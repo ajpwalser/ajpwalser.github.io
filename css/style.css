@@ -4,10 +4,6 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 }
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@144,900,100,1&display=swap');
-</style>
-
 /* Body */
 
 body {
@@ -43,7 +39,6 @@ figcaption,
 footer {
 	font-size: 0.718em;
 }
-
 
 footer a {
 	color: rgb(78, 77, 75) !important;
