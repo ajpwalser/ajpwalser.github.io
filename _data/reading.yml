@@ -8,6 +8,12 @@ list:
         link: https://openlibrary.org/works/OL20907281W/Ready_Player_Two
         image: https://covers.openlibrary.org/b/id/10524784-M.jpg
         
+      - title: "The Westing Game"
+        author: Ellen Raskin
+        published: 1978
+        link: https://openlibrary.org/works/OL4103857W/The_Westing_Game?edition=westinggame00elle
+        image: https://covers.openlibrary.org/b/id/360798-M.jpg
+        
   - year: "2020"
     books:
       - title: "Attack Surface: A Little Brother Novel"
