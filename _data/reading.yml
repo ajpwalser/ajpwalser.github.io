@@ -1,19 +1,25 @@
-lastupdate: May 26, 2020
+lastupdate: January 15, 2021
 list:   
   - year: "2021"
     books:
-      - title: "Ready Player Two"
-        author: Ernest Cline
+      - title: "The Devil and the Dark Water"
+        author: Stuart Turton
         published: 2020
-        link: https://openlibrary.org/works/OL20907281W/Ready_Player_Two
-        image: https://covers.openlibrary.org/b/id/10524784-M.jpg
-        
+        link: https://openlibrary.org/works/OL22140272W/Devil_and_the_Dark_Water
+        image: https://covers.openlibrary.org/b/id/10491703-M.jpg
+    
       - title: "The Westing Game"
         author: Ellen Raskin
         published: 1978
         link: https://openlibrary.org/works/OL4103857W/The_Westing_Game?edition=westinggame00elle
         image: https://covers.openlibrary.org/b/id/360798-M.jpg
         
+      - title: "Ready Player Two"
+        author: Ernest Cline
+        published: 2020
+        link: https://openlibrary.org/works/OL20907281W/Ready_Player_Two
+        image: https://covers.openlibrary.org/b/id/10524784-M.jpg
+            
   - year: "2020"
     books:
       - title: "Attack Surface: A Little Brother Novel"
