@@ -1,7 +1,13 @@
-lastupdate: January 15, 2021
+lastupdate: February 26, 2021
 list:   
   - year: "2021"
     books:
+      - title: "The 7 Deaths of Evelyn Hardcastle"
+        author: Stuart Turton
+        published: 2018
+        link: https://openlibrary.org/books/OL26711971M/The_Seven_Deaths_of_Evelyn_Hardcastle
+        image: https://covers.openlibrary.org/b/id/10662146-L.jpg
+        
       - title: "The Devil and the Dark Water"
         author: Stuart Turton
         published: 2020
