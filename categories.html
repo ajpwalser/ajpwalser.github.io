@@ -16,10 +16,11 @@ description: Posts organized by category
    <h3 class="tags" id="{{ this_word | cgi_escape }}">{{ this_word }}</h3>
    <ul class="headline">
       {% for post in site.categories[this_word] %}{% if post.title != null %}
-      <li style="align-items:center;display:flex;flex-wrap:wrap;justify-content:space-between;margin-bottom:10px;font-family: 'Inter', sans-serif;">
+      <li>
          <article class="summary" itemscope itemtype="https://schema.org/BlogPosting">
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-            <span><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %-d, %Y" }}</time></span>
+            <p>
+               <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
+            </p>
          </article>
          {% endif %}{% endfor %}
       </li>
