@@ -1,0 +1,17 @@
+---
+layout: default
+title: Category
+description: Adam's posts about...
+---
+
+<h2>Category</h2>
+<p class="first">All BMX posts in reverse chronological order.</p>
+<ul class="headline">
+{% for post in site.categories.test %}
+  <li style="align-items:center;display:flex;flex-wrap:wrap;justify-content:space-between;margin-bottom:10px;font-family: 'Inter', sans-serif;">
+    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    <span><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %-d, %Y" }}</time></span>
+  </li>
+{% endfor %}
+</ul>
+<div class="spacer"></div>
