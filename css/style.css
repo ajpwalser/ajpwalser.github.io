@@ -338,7 +338,7 @@ span.small {
 }
 
 .tag-box:after,
-.cat-box:before {
+.cat-box:after {
 	clear: both;
 }
 
