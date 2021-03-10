@@ -10,15 +10,15 @@ description: Posts organized by category
 <!-- site_categories: {{ site_categories }} -->
 {% assign category_words = site_categories | split:',' | sort %}
 <!-- category_words: {{ category_words }} -->
-<div id="tags">
-   <ul class="tag-box inline">
+<div id="cats">
+   <ul class="cat-box inline">
       {% for category in category_words %}
       <li><a href="#{{ category | cgi_escape }}">{{ category }}<span class="small">{{ site.categories[category] | size }}</span></a></li>
       {% endfor %}
    </ul>
    {% for item in (0..site.categories.size) %}{% unless forloop.last %}
    {% capture this_word %}{{ category_words[item] | strip_newlines }}{% endcapture %}
-   <h3 class="tags" id="{{ this_word | cgi_escape }}">{{ this_word }}</h3>
+   <h3 class="cats" id="{{ this_word | cgi_escape }}">{{ this_word }}</h3>
    <ul class="headline">
       {% for post in site.categories[this_word] %}{% if post.title != null %}
       <li>
