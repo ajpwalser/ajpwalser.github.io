@@ -8,7 +8,6 @@ layout: default
    <div itemprop="articleBody">
       {{ content }}
    </div>
-   <p class="meta">{% for category in page.categories %}Category: <a href="{{ site.url }}/categories/{{ category | cgi_escape }}" title="Posts about “{{ category }}”" rel="category">{{ category }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}</p>  
    <p class="meta">{% for tag in page.tags %}Tag(s): <a href="{{ site.url }}/tags/#{{ tag | cgi_escape }}" title="Posts tagged “{{ tag }}”" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}</p>  
    <div class="post-nav">    
          {% if page.previous.url %}
