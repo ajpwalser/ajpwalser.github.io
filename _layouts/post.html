@@ -4,7 +4,7 @@ layout: default
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
    <h2 class="name headline" itemprop="name headline">{{ page.title | escape }}</h2>
-   <p class="time"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time><span class="meta">{% for category in page.categories %} &#47; <a href="{{ site.url }}/categories/#{{ category | cgi_escape }}" title="Posts about “{{ category }}”" rel="category">{{ category }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}</p>
+   <p class="time"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time><span class="meta">{% for category in page.categories %} &#47; <a href="{{ site.url }}/categories/#{{ category | cgi_escape }}" title="Posts categorized “{{ category }}”" rel="category">{{ category }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}</p>
    <div itemprop="articleBody">
       {{ content }}
    </div>
