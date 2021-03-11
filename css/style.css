@@ -104,12 +104,12 @@ h1 {
 }
 
 .header a {
-	color: rgb(78, 77, 75);
+	color: rgb(78, 77, 75) !important;
 	text-decoration: none !important;
 }
 
 .header a:hover {
-	color: rgb(78, 77, 75);
+	color: rgb(78, 77, 75) !important;
 }
 
 h2 {
