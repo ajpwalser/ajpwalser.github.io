@@ -18,7 +18,7 @@ description: Tag directory
    </ul>
    {% for item in (0..site.tags.size) %}{% unless forloop.last %}
    {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
-   <h3 class="tags" id="{{ this_word | cgi_escape }}">Posts tagged “{{ this_word }}”</h3>
+   <h3 class="tags" id="{{ this_word | cgi_escape }}">{{ this_word }}</h3>
    <ul class="headline">
       {% for post in site.tags[this_word] %}{% if post.title != null %}
       <li>
