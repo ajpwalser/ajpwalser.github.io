@@ -2,6 +2,12 @@ lastupdate: February 26, 2021
 list:   
   - year: "2021"
     books:
+      - title: "Marion Lane and the Midnight Murder"
+        author: T. A. Willberg
+        published: 2020
+        link: https://openlibrary.org/works/OL21890184W/Marion_Lane_and_the_Midnight_Murder
+        image: https://covers.openlibrary.org/b/id/10552396-M.jpg
+    
       - title: "The 7 Deaths of Evelyn Hardcastle"
         author: Stuart Turton
         published: 2018
