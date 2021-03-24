@@ -203,9 +203,6 @@ hr {
 	border: 0;
 	height: 0;
 	border-top: 10px solid rgb(251, 231, 101);
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
 }
 
 /* Lists */
