@@ -2,6 +2,12 @@ lastupdate: March 23, 2021
 list:   
   - year: "2021"
     books:
+      - title: "The Wonderful Wizard of Oz"
+        author: L. Frank Baum; Illustrated by Michael Sieben
+        published: 2013
+        link: https://openlibrary.org/books/OL30657346M/The_Wonderful_Wizard_of_Oz
+        image: https://covers.openlibrary.org/b/id/10724098-L.jpg
+    
       - title: "Marion Lane and the Midnight Murder"
         author: T. A. Willberg
         published: 2020
