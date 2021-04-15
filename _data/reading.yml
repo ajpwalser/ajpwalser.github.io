@@ -2,6 +2,12 @@ lastupdate: April 14, 2021
 list:   
   - year: "2021"
     books:
+      - title: "No Place for Monsters"
+        author: Kory Merritt
+        published: 2020
+        link: https://openlibrary.org/works/OL21887166W/No_Place_for_Monsters
+        image: https://covers.openlibrary.org/b/id/10517232-L.jpg
+        
       - title: "Nightbooks"
         author: J.A. White
         published: 2018
