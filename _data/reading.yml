@@ -2,6 +2,12 @@ lastupdate: March 23, 2021
 list:   
   - year: "2021"
     books:
+      - title: "Midnight at the Bright Ideas Bookstore"
+        author: Matthew Sullivan
+        published: 2017
+        link: https://openlibrary.org/books/OL29750276M/Midnight_at_the_Bright_Ideas_Bookstore
+        image: https://covers.openlibrary.org/b/id/10859487-L.jpg
+        
       - title: "The Wonderful Wizard of Oz"
         author: L. Frank Baum; Illustrated by Michael Sieben
         published: 2013
