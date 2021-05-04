@@ -2,6 +2,18 @@ lastupdate: April 14, 2021
 list:   
   - year: "2021"
     books:
+      - title: "The Last Kids on Earth and the Zombie Parade"
+        author: Max Brallier and Douglas Holgate
+        published: 2016
+        link: https://openlibrary.org/works/OL19529189W/The_Last_Kids_on_Earth_and_the_Zombie_Parade
+        image: https://covers.openlibrary.org/b/id/8504472-L.jpg
+        
+      - title: "The Philosopher's War"
+        author: Tom Miller
+        published: 2019
+        link: https://openlibrary.org/works/OL21200295W/The_Philosopher's_War
+        image: https://covers.openlibrary.org/b/id/10935252-L.jpg
+        
       - title: "The Last Kids On Earth"
         author: Max Brallier and Douglas Holgate
         published: 2015
