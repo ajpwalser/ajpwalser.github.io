@@ -2,6 +2,12 @@ lastupdate: April 14, 2021
 list:   
   - year: "2021"
     books:
+      - title: "The Last Kids On Earth"
+        author: Max Brallier and Douglas Holgate
+        published: 2015
+        link: https://openlibrary.org/works/OL19661411W/The_Last_Kids_on_Earth
+        image: https://covers.openlibrary.org/b/id/8573233-L.jpg
+        
       - title: "No Place for Monsters"
         author: Kory Merritt
         published: 2020
