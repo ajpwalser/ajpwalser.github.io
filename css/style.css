@@ -494,6 +494,6 @@ span.small {
 		font-size: 16px !important;
 	}
 	.year-container {
-		display: none;
+		display: none !imporant;
   	}
 }
