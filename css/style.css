@@ -493,4 +493,7 @@ span.small {
 	body {
 		font-size: 16px !important;
 	}
+	.year-container {
+		display: none;
+  	}
 }
