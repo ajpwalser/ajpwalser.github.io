@@ -394,7 +394,7 @@ span.small {
 	grid-template-columns: 1fr 4fr;
 	grid-gap: 2.43em;
 	align-items: flex-start;
-	@media (max-width: 850px) {
+	@media (max-width: 600px) {
 		display: block;
 	}
 }
