@@ -493,4 +493,8 @@ span.small {
 	body {
 		font-size: 16px !important;
 	}
+	#bookshelf img {
+		width: 50px;
+		height: 75px;
+	}
 }
