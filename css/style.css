@@ -277,6 +277,8 @@ figcaption {
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	text-decoration: none;
+	letter-spacing: 1px;
+	text-transform: uppercase;
 }
 
 /* Span Button */
