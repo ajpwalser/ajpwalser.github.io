@@ -322,6 +322,12 @@ span.small {
 	text-decoration: none;
 }
 
+.tag-box a:hover,
+.cat-box a:hover {
+	background-color: rgb(0, 0, 128);
+	border: 2px solid rgb(0, 0, 128);
+}
+
 .tag-box,
 .cat-box {
 	list-style: none;
