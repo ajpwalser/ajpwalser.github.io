@@ -92,15 +92,6 @@ h1 {
 	font-size: 0.718em;
 	font-weight: 400;
 	line-height: 1.25em;
-	padding: 7px 18px;
-	margin: 2px;
-	color: rgb(255, 255, 255);
-	background-color: rgb(0, 0, 255);
-	border: 2px solid rgb(0, 0, 255);
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	text-decoration: none;
 }
 
 .header a {
