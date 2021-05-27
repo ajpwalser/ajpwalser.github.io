@@ -165,7 +165,7 @@ blockquote {
 /* Code formatting */
 
 code {
-	font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+	font-family: 'Roboto Mono', SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 }
 
 pre {
@@ -177,8 +177,8 @@ pre {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	background-color: rgba(0, 0, 0, 0.76);
-	color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(0, 0, 0, 1);
+	color: rgb(0, 255, 0);
 	overflow: auto;
 	padding: 1em;
 	padding-left: 1em;
