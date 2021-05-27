@@ -3,7 +3,7 @@ description: Adam Walser's blog
 author:
   name: Adam Walser
 permalink: /:title/
-paginate: 1
+paginate: 5
 paginate_path: /page:num/
 markdown: kramdown
 plugins:
