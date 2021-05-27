@@ -290,8 +290,8 @@ figcaption {
 
 	padding: 7px 18px;
 	margin: 2px;
-	color: rgb(255, 255, 255);
-	background-color: rgb(0, 0, 255);
+	color: rgb(0, 0, 255);
+	background-color: rgb(255, 255, 255);
 	border: 2px solid rgb(0, 0, 255);
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
