@@ -42,7 +42,7 @@ footer a {
 }
 
 footer a:hover {
-	color: rgba(0, 0, 0, 0.76) !important;
+	color: rgb(0, 0, 255) !important;
 }
 
 footer ul {
