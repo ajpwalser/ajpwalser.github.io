@@ -278,6 +278,11 @@ figcaption {
 	text-decoration: none;
 }
 
+.read-more-trigger:hover {
+	background-color: rgb(0, 0, 128);
+	border: 2px solid rgb(0, 0, 128):
+}
+
 /* Span Button */
 
 .pagination span,
