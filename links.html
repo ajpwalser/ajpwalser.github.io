@@ -1,0 +1,29 @@
+---
+layout: default
+title: Links
+description: Booksmarks
+---
+
+<h2>Links</h2>
+<p class="first">Blurb...</p>
+<div class="container">
+   {% for entry in site.data.links.list %}
+   <div class="year-container">
+      <div class="year">
+         <h4>{{ entry.year }}</h4>
+         <div class="meta">{{ entry.links | size }} link(s)</div>
+      </div>
+      <div id="links">
+        <ul class="link {{ entry.year }}">
+        {% for link in entry.links %}  
+        <li style="align-items:center;display:flex;flex-wrap:wrap;justify-content:space-between;margin-bottom:10px;font-family: 'Inter', sans-serif;">
+        <a href="{{ book.link }}" alt="_blank" rel="nofollow noopener">{{ link.title }}</a>
+        <span><time datetime="{{ link.date }}"></time></span>
+        </li>
+        {% endfor %}
+        </ul>
+     </div>
+  </div>
+  {% endfor %}
+</div>
+<div class="spacer"></div>
