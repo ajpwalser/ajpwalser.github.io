@@ -16,7 +16,7 @@ description: Book's I've read
       <div id="bookshelf">
          <ul class="read {{ entry.year }}">
             {% for book in entry.books %}
-            <a href="{{ book.link }}" alt="_blank" rel="nofollow noopener"><img src="/img/blank.png" alt="" data-echo="{{ book.image }}"></a>
+            <a href="{{ book.link }}" alt="_blank" rel="nofollow noopener"><img src="{{ book.image }}"></a>
             {% endfor %}
          </ul>
       </div>
