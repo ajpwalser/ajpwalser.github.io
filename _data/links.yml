@@ -1,8 +1,8 @@
 lastupdate: June 2, 2021
 list:   
   - year: "2021"
-    links:
-      - title: "The Last Kids on Earth and the Zombie Parade"
-        added: 20XX
+    link:
+      - title: "Link Title"
+        added: 06/02
         link: https://
-        description: 
+   
