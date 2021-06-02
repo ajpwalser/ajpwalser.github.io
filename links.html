@@ -17,8 +17,8 @@ description: Booksmarks
         <ul class="link {{ entry.year }}">
         {% for link in entry.links %}  
         <li style="align-items:center;display:flex;flex-wrap:wrap;justify-content:space-between;margin-bottom:10px;font-family: 'Inter', sans-serif;">
-        <a href="{{ book.link }}" alt="_blank" rel="nofollow noopener">{{ link.title }}</a>
-        <span><time datetime="{{ link.added }}"></time></span>
+        <a href="{{ link.link }}" alt="_blank" rel="nofollow noopener">{{ link.title }}</a>
+        <span>{{ link.added }}</span>
         </li>
         {% endfor %}
         </ul>
