@@ -18,9 +18,9 @@ description: Book's I've read
             {% for book in entry.books %}
             <a href="{{ book.link }}" alt="_blank" rel="nofollow noopener"><img src="{{ book.image }}"></a>
             {% if book.star %}
-            <br>★
+            <figcaption>★</figcaption>
             {% else  %}
-            <br>☆
+            <figcaption>☆</figcaption>
             {% endif %}
             {% endfor %}
          </ul>
