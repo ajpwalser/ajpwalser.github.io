@@ -22,8 +22,7 @@ body {
 
 .first,
 figcaption,
-.crumbs,
-.heart {
+.crumbs {
 	margin-top: -1em;
 }
 
@@ -416,7 +415,7 @@ span.small {
 	display: inline-block;
 	width: 100px;
 	height: 150px;
-	margin-bottom: 0.25em;
+	margin-bottom: 1em;
 	-moz-box-shadow: 0px 0px 5px 0px #000000;
 	-webkit-box-shadow: 0px 0px 5px 0px #000000;
 	-o-box-shadow: 0px 0px 5px 0px #000000;
