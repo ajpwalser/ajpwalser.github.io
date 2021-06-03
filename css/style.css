@@ -437,7 +437,8 @@ span.small {
 	font-size: 0.718em;
 	color: #ff0000;
 	margin-top: -1em;
-	margin-bottom: -1em; /* line height 1px fix? */
+	margin-bottom: -1em; 
+	line-height: 1em; /* line height 1px fix? */
 }
 
 /* Pagination */
