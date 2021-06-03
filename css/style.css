@@ -389,7 +389,7 @@ span.small {
 	text-align: right;
 }
 
-/* Read */
+/* Bookshelf */
 
 .year-container {
 	margin-top: 2.43em;
@@ -415,6 +415,7 @@ span.small {
 	display: inline-block;
 	width: 100px;
 	height: 150px;
+	margin-bottom: 1em;
 	-moz-box-shadow: 0px 0px 5px 0px #000000;
 	-webkit-box-shadow: 0px 0px 5px 0px #000000;
 	-o-box-shadow: 0px 0px 5px 0px #000000;
@@ -429,6 +430,10 @@ span.small {
 	margin-right: -0.25em;
 	padding: 0 10px;
 	text-decoration: none;
+}
+
+.star {
+	text-align: center;
 }
 
 /* Pagination */
