@@ -432,8 +432,10 @@ span.small {
 	text-decoration: none;
 }
 
-.star {
+.heart {
 	text-align: center;
+	font-size: 0.718em;
+	color: rgb(255, 255, 0);
 }
 
 /* Pagination */
