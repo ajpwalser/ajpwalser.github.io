@@ -436,6 +436,7 @@ span.small {
 	text-align: center;
 	font-size: 0.718em;
 	color: #ff0000;
+	margin-top: -0.25em;
 }
 
 /* Pagination */
