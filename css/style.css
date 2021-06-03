@@ -406,7 +406,7 @@ span.small {
 	position: relative;
 	box-sizing: border-box;
 	vertical-align: bottom;
-	padding-bottom: 1px;
+	padding-bottom: 10px;
 	display: table;
 }
 
@@ -437,6 +437,7 @@ span.small {
 	font-size: 0.718em;
 	color: #ff0000;
 	margin-top: -1em;
+	line-height: 1px;
 }
 
 /* Pagination */
