@@ -25,6 +25,7 @@ list:
         published: 2020
         link: https://openlibrary.org/works/OL21887166W/No_Place_for_Monsters
         image: https://covers.openlibrary.org/b/id/10517232-L.jpg
+        star: yes
         
       - title: "Nightbooks"
         author: J.A. White
