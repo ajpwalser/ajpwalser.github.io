@@ -16,7 +16,7 @@ description: Book's I've read
       <div id="bookshelf">
          <ul class="read {{ entry.year }}">
             {% for book in entry.books %}
-            <a href="{{ book.link }}" alt="_blank" rel="nofollow noopener"><img src="{{ book.image }}">{% if book.star %}<figcaption>★</figcaption>{% else  %}<figcaption>☆</figcaption>{% endif %}{% endfor %}</a>
+            <a href="{{ book.link }}" alt="_blank" rel="nofollow noopener"><img src="{{ book.image }}">{% if book.star %}<p class="heart">♥</p>{% else  %}<p class="heart">♡</p>{% endif %}{% endfor %}</a>
          </ul>
       </div>
    </div>
