@@ -436,7 +436,7 @@ span.small {
 .heart {
 	text-align: center;
 	font-size: 0.718em;
-	color: rgb(255, 0, 0);
+	color: #ff0000;
 }
 
 /* Pagination */
