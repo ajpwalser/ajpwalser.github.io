@@ -22,7 +22,8 @@ body {
 
 .first,
 figcaption,
-.crumbs {
+.crumbs
+.heart {
 	margin-top: -1em;
 }
 
@@ -435,7 +436,7 @@ span.small {
 .heart {
 	text-align: center;
 	font-size: 0.718em;
-	color: rgb(255, 255, 0);
+	color: rgb(255, 0, 0);
 }
 
 /* Pagination */
