@@ -25,7 +25,7 @@ list:
         published: 2020
         link: https://openlibrary.org/works/OL21887166W/No_Place_for_Monsters
         image: https://covers.openlibrary.org/b/id/10517232-L.jpg
-        star: yes
+        love: yes
         
       - title: "Nightbooks"
         author: J.A. White
@@ -44,6 +44,7 @@ list:
         published: 2013
         link: https://openlibrary.org/books/OL30657346M/The_Wonderful_Wizard_of_Oz
         image: https://covers.openlibrary.org/b/id/10724098-L.jpg
+        love: yes
     
       - title: "Marion Lane and the Midnight Murder"
         author: T. A. Willberg
@@ -82,12 +83,14 @@ list:
         published: 2020
         link: https://openlibrary.org/works/OL20825335W/Attack_Surface
         image: https://images.macmillan.com/folio-assets/macmillan_us_frontbookcovers_350W/9781250757531.jpg
+        love: yes
     
       - title: "Dead Voices"
         author: Katherine Arden
         published: 2019
         link: https://openlibrary.org/works/OL20263666W/Dead_Voices
         image: https://covers.openlibrary.org/b/id/10492729-L.jpg
+        love: yes
         
       - title: "Dark Harvest"
         author: Norman Partridge
@@ -124,6 +127,7 @@ list:
         published: 2020
         link: https://openlibrary.org/works/OL21741584W/Little_Brother_Homeland
         image: https://covers.openlibrary.org/b/id/10401468-L.jpg
+        love: yes
     
       - title: "Harry Potter and the Prisoner of Azkaban"
         author: J.K. Rowling
