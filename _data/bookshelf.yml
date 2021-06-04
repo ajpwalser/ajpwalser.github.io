@@ -152,12 +152,14 @@ list:
         published: 1989
         link: https://openlibrary.org/books/OL2189508M/The_cuckoo's_egg
         image: https://ia800609.us.archive.org/view_archive.php?archive=/32/items/olcovers47/olcovers47-L.zip&file=476035-L.jpg&ext=
+        love: yes
         
       - title: "The Sinister Mystery of the Mesmerizing Girl"
         author: Theodora Goss
         published: 2019
         link: https://openlibrary.org/works/OL20659178W/The_Sinister_Mystery_of_the_Mesmerizing_Girl
         image: https://covers.openlibrary.org/w/id/9320944-L.jpg
+        love: yes
         
   - year: "2019"
     books:
@@ -166,6 +168,7 @@ list:
         published: 2019
         link: https://openlibrary.org/works/OL20319854W/Tuesday_Mooney_Talks_To_Ghosts
         image: https://covers.openlibrary.org/w/id/8981346-L.jpg
+        love: yes
     
       - title: "Fire & Ash"
         author: Jonathan Maberry
@@ -190,6 +193,7 @@ list:
         published: 2019
         link: https://openlibrary.org/works/OL20516365W/Wild_and_Crazy_Guys
         image: https://covers.openlibrary.org/b/id/9167185-M.jpg
+        love: yes
        
       - title: "Dust & Decay"
         author: Jonathan Maberry
@@ -214,6 +218,7 @@ list:
         published: 2018
         link: https://openlibrary.org/works/OL19760806W/Small_spaces
         image: https://images1.penguinrandomhouse.com/cover/9780525515043
+        love: yes
     
       - title: "Jackaby"
         author: William Ritter
@@ -270,12 +275,14 @@ list:
         published: 2018
         link: https://openlibrary.org/works/OL19746468W/This_body's_not_big_enough_for_both_of_us
         image: https://images4.penguinrandomhouse.com/cover/9780525563174
+        love: yes
     
       - title: "European Travel for the Monstrous Gentlewoman "
         author: Theodora Goss
         published: 2018
         link: https://openlibrary.org/works/OL19747986W/European_travel_for_the_monstrous_gentlewoman
         image: https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781481466547/european-travel-for-the-monstrous-gentlewoman-9781481466547_lg.jpg
+        love: yes
     
       - title: "The Accidental Time Machine"
         author: Joe Haldeman
@@ -300,6 +307,7 @@ list:
         published: 2017
         link: https://openlibrary.org/works/OL19710831W/The_strange_case_of_the_alchemist's_daughter
         image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490794116l/34728925.jpg
+        love: yes
         
       - title: "The Philosopher's Flight"
         author: Tom Miller
@@ -336,24 +344,28 @@ list:
         published: 2011
         link: https://openlibrary.org/works/OL19198532W/The_Final_Descent_(The_Monstrumologist)
         image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1357871543l/13260751.jpg
+        love: yes
         
       - title: "The Isle of Blood"
         author: Rick Yancey
         published: 2013
         link: https://openlibrary.org/works/OL17497217W/The_Isle_Of_Blood
         image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389393836l/9955669.jpg
+        love: yes
     
       - title: "The Curse of the Wendigo"
         author: Rick Yancey
         published: 2010
         link: https://openlibrary.org/works/OL15586844W/The_curse_of_the_Wendigo
         image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1319724787l/7775755.jpg
+        love: yes
         
       - title: "The Monstrumologist"
         author: Rick Yancey
         published: 2009
         link: https://openlibrary.org/works/OL5822718W/The_monstrumologist
         image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320124102l/7171771.jpg
+        love: yes
     
       - title: "The Weirdness: A Novel"
         author: Jeremy P. Bushnell
