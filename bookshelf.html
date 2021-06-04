@@ -5,7 +5,7 @@ description: My reading log
 ---
 
 <h2>Bookshelf</h2>
-<p class="first">A log of books I've read since 2018 (not including school reads). Each book is linked to <a href="https://openlibrary.org/">Open Library</a>. Click a cover to learn more information about the book including where to borrow or purchase a copy.</p>
+<p class="first">A digital bookshelf representing books I've read since 2018. Each book is linked to a corresponding record in the Wikipedia-like <a href="https://openlibrary.org/">Open Library</a>catalog, where you can find more information including where to borrow or purchase a copy. Books I loved are marked with a heart.</p>
 <div class="container">
    {% for entry in site.data.bookshelf.list %}
    <div class="year-container">
@@ -16,7 +16,7 @@ description: My reading log
       <div id="bookshelf">
          <ul class="read {{ entry.year }}">
             {% for book in entry.books %}
-            <a href="{{ book.link }}" alt="_blank" rel="nofollow noopener"><img src="{{ book.image }}">{% if book.star %}<p class="heart">♥</p>{% else  %}<p class="heart">&nbsp;</p>{% endif %}{% endfor %}</a>
+            <a href="{{ book.link }}" alt="_blank" rel="nofollow noopener"><img src="{{ book.image }}">{% if book.love %}<p class="heart">♥</p>{% else  %}<p class="heart">&nbsp;</p>{% endif %}{% endfor %}</a>
          </ul>
       </div>
    </div>
