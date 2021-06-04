@@ -277,7 +277,7 @@ list:
         image: https://images4.penguinrandomhouse.com/cover/9780525563174
         love: yes
     
-      - title: "European Travel for the Monstrous Gentlewoman "
+      - title: "European Travel for the Monstrous Gentlewoman"
         author: Theodora Goss
         published: 2018
         link: https://openlibrary.org/works/OL19747986W/European_travel_for_the_monstrous_gentlewoman
@@ -320,6 +320,7 @@ list:
         published: 2018
         link: https://openlibrary.org/works/OL19739906W/Undead_girl_gang
         image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1511371881l/35707056.jpg
+        love: yes
         
       - title: "The Creeps"
         author: John Connolly
