@@ -92,6 +92,8 @@ h1 {
 	font-size: 0.718em;
 	font-weight: 400;
 	line-height: 1.25em;
+	width: 100%; /* add */
+	position:absolute; /* add */
 }
 
 .header a {
