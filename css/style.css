@@ -63,11 +63,11 @@ a:link {
 }
 
 a:visited {
-	color: rgba(26, 26, 26, 0.50);
+	color: rgb(26, 26, 26);
 }
 
 a:hover {
-	color: rgb(26, 26, 26);
+	color: rgba(26, 26, 26, 0.50);
 }
 
 a:active {
@@ -100,7 +100,7 @@ h1 {
 }
 
 .header a:hover {
-	color: rgb(0, 0, 255) !important;
+	color: rgba(26, 26, 26, 0.50) !important;
 }
 
 h2 {
