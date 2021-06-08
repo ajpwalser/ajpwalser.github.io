@@ -14,7 +14,7 @@ body {
 	font-family: 'Inter', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 	font-feature-settings: "ss01";
 	font-size: 23px;
-	color: rgb(22, 54, 36);
+	color: rgba(0, 0, 0, 0.76);
 	padding: 1em;
 }
 
@@ -37,7 +37,7 @@ footer {
 }
 
 footer a {
-	color: rgb(22, 54, 36) !important;
+	color: rgba(0, 0, 0, 0.76) !important;
 	text-decoration: none !important;
 }
 
@@ -58,12 +58,20 @@ footer li {
 /* Links */
 
 a:link {
-	color: rgb(22, 54, 36);
+	color: rgb(0, 0, 255);
+	transition: color 0.2s ease-out;
 }
 
+a:visited {
+	color: rgb(0, 0, 255);
+}
 
 a:hover {
-	text-decoration: underline;
+	color: rgb(0, 0, 128);
+}
+
+a:active {
+	color: rgb(0, 0, 255);
 }
 
 /* Headings */
@@ -72,7 +80,7 @@ h1,
 h2,
 h3,
 h4 {
-	color: rgb(22, 54, 36);
+	color: rgba(0, 0, 0, 1);
 }
 
 h1 {
@@ -87,7 +95,12 @@ h1 {
 }
 
 .header a {
+	color: rgba(0, 0, 0, 0.76) !important;
 	text-decoration: none !important;
+}
+
+.header a:hover {
+	color: rgb(0, 0, 255) !important;
 }
 
 h2 {
@@ -96,11 +109,12 @@ h2 {
 }
 
 h2 a {
+	color: rgba(0, 0, 0, 1) !important;
 	text-decoration: none !important;
 }
 
 h2 a:hover {
-	color: rgb(22, 54, 36) !important;
+	color: rgb(0, 0, 255) !important;
 	text-decoration: none;
 }
 
@@ -123,7 +137,7 @@ time,
 figcaption {
 	font-family: 'Roboto Mono', SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 	font-size: 0.718em;
-	color: rgb(22, 54, 36);
+	color: rgb(169, 169, 169);
 }
 
 p.time {
@@ -131,11 +145,11 @@ p.time {
 }
 
 .meta a {
-	color: rgb(22, 54, 36) !important;
+	color: rgb(0, 0, 255) !important;
 }
 
 .meta a:hover {
-	color: rgb(22, 54, 36) !important;
+	color: rgb(0, 0, 128) !important;
 }
 
 /* Blockquotes */
@@ -146,7 +160,7 @@ blockquote {
 	color: rgba(0, 0, 0, 0.76);
 	margin: 1em auto;
 	padding-left: 1em;
-	border-left: 2px solid rgba(0, 0, 0, 0.12);
+	border-left: 1px solid rgba(0, 0, 0, 0.12);
 }
 
 /* Code formatting */
@@ -177,7 +191,7 @@ pre {
 hr {
 	border: 0;
 	height: 0;
-	border-top: 2px solid rgba(0, 0, 0, 0.12);
+	border-top: 1px solid rgba(0, 0, 0, 0.12);
 }
 
 /* Lists */
