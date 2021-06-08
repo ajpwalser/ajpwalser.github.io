@@ -109,12 +109,12 @@ h2 {
 }
 
 h2 a {
-	color: rgba(26, 26, 26, 0.50) !important;
+	color: rgb(26, 26, 26) !important;
 	text-decoration: none !important;
 }
 
 h2 a:hover {
-	color: rgb(0, 0, 255) !important;
+	color: rgba(0, 0, 255, 0.50) !important;
 	text-decoration: none;
 }
 
