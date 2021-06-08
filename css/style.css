@@ -58,20 +58,20 @@ footer li {
 /* Links */
 
 a:link {
-	color: #FF6D3A;
+	color: rgb(26, 26, 26);
 	transition: color 0.2s ease-out;
 }
 
 a:visited {
-	color: rgba(255, 109, 58, 0.50);
+	color: rgba(26, 26, 26, 0.50);
 }
 
 a:hover {
-	color: #e06721;
+	color: rgb(26, 26, 26);
 }
 
 a:active {
-	color: #FF6D3A;
+	color: rgb(26, 26, 26);
 }
 
 /* Headings */
@@ -109,7 +109,7 @@ h2 {
 }
 
 h2 a {
-	color: rgb(26, 26, 26) !important;
+	color: rgba(26, 26, 26, 0.50) !important;
 	text-decoration: none !important;
 }
 
