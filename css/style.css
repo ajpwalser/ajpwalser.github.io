@@ -42,7 +42,7 @@ footer a {
 }
 
 footer a:hover {
-	color: rgb(0, 0, 255) !important;
+	color: rgb(255, 64, 76) !important; /* Sunburnt Cyclops #ff404c */
 }
 
 footer ul {
