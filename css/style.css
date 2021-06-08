@@ -58,20 +58,20 @@ footer li {
 /* Links */
 
 a:link {
-	color: rgb(255, 64, 76);
+	color: #e88e5a;
 	transition: color 0.2s ease-out;
 }
 
 a:visited {
-	color: rgb(255, 64, 76);
+	color: #e88e5a;
 }
 
 a:hover {
-	color: rgb(236, 83, 93);
+	color: #e06721;
 }
 
 a:active {
-	color: rgb(255, 64, 76);
+	color: #e88e5a;
 }
 
 /* Headings */
