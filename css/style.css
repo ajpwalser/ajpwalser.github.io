@@ -76,12 +76,12 @@ a:active {
 
 /* Headings */
 
-/* h1,
+h1,
 h2,
 h3,
 h4 {
-	color: rgb(26, 26, 26);
-} */
+	font-family: 'Fraunces', serif;
+}
 
 h1 {
 	font-size: 3.2em;
