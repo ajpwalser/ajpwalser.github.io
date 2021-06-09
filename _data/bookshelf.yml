@@ -82,7 +82,7 @@ list:
         author: Cory Doctorow
         published: 2020
         link: https://openlibrary.org/works/OL20825335W/Attack_Surface
-        image: https://images.macmillan.com/folio-assets/macmillan_us_frontbookcovers_350W/9781250757531.jpg
+        image: https://covers.openlibrary.org/b/id/10129079-L.jpg
         love: yes
     
       - title: "Dead Voices"
@@ -96,13 +96,13 @@ list:
         author: Norman Partridge
         published: 2006
         link: https://openlibrary.org/works/OL6220705W/Dark_Harvest
-        image: https://ia802709.us.archive.org/view_archive.php?archive=/31/items/olcovers659/olcovers659-L.zip&file=6597206-L.jpg&ext=
+        image: https://covers.openlibrary.org/b/id/11240975-L.jpg
         
       - title: "The Awesome"
         author: Eva Darrows
         published: 2015
         link: https://openlibrary.org/works/OL20000487W/The_awesome
-        image: https://rebellionpublishing.com/wp-content/uploads/2020/06/3e-12.jpg
+        image: https://covers.openlibrary.org/b/id/11240982-L.jpg
         
       - title: "The Halloween Tree"
         author: Ray Bradbury
@@ -186,7 +186,7 @@ list:
         author: Jonathan Maberry
         published: 2012
         link: https://openlibrary.org/works/OL16531534W/Flesh_bone
-        image: https://d28hgpri8am2if.cloudfront.net/book_images/cvr9781442439900_9781442439900_lg.jpg
+        image: https://covers.openlibrary.org/b/id/11241001-L.jpg
         
       - title: "Wild and Crazy Guys: How the Comedy Mavericks of the '80s Changed Hollywood Forever"
         author: Nick de Semlyen 
@@ -199,7 +199,7 @@ list:
         author: Jonathan Maberry
         published: 2011
         link: https://openlibrary.org/works/OL16238028W/Dust_decay
-        image: https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781442402362/dust-decay-9781442402362_lg.jpg
+        image: https://covers.openlibrary.org/b/id/11241008-L.jpg
         
       - title: "Paradox Bound"
         author: Peter Clines
@@ -211,20 +211,20 @@ list:
         author: Jonathan Maberry
         published: 2010
         link: https://openlibrary.org/works/OL14909930W/Rot_Ruin
-        image: https://ia600708.us.archive.org/view_archive.php?archive=/19/items/olcovers660/olcovers660-L.zip&file=6602995-L.jpg&ext=
+        image: https://covers.openlibrary.org/b/id/11241022-L.jpg
     
       - title: "Small Spaces"
         author: Katherine Arden
         published: 2018
         link: https://openlibrary.org/works/OL19760806W/Small_spaces
-        image: https://images1.penguinrandomhouse.com/cover/9780525515043
+        image: https://covers.openlibrary.org/b/id/11241026-L.jpg
         love: yes
     
       - title: "Jackaby"
         author: William Ritter
         published: 2014
         link: https://openlibrary.org/works/OL20007180W/Jackaby
-        image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410170969l/20312462.jpg
+        image: https://covers.openlibrary.org/b/id/11241032-L.jpg
     
       - title: "The War in the Dark"
         author: Nick Setchfield
@@ -238,13 +238,13 @@ list:
         author: Michael Rutger
         published: 2018
         link: https://openlibrary.org/works/OL19747109W/The_anomaly
-        image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1508879817l/36342156.jpg
+        image: https://covers.openlibrary.org/b/id/11241039-L.jpg
     
       - title: "Constable & Toop"
         author:  Gareth P. Jones
         published: 2013
         link: https://openlibrary.org/works/OL19969891W/Constable_Toop
-        image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1365526822l/17464884.jpg
+        image: https://covers.openlibrary.org/b/id/11241044-L.jpg
     
       - title: "The Darkdeep"
         author:  Ally Condie, Brendan Reichs
@@ -256,13 +256,13 @@ list:
         author:  Cynthia Hand, Jodi Meadows, Brodi Ashton
         published: 2018
         link: https://openlibrary.org/works/OL19745035W/My_plain_Jane
-        image: https://i.harperapps.com/covers/9780062652775/x300.jpg
+        image: https://covers.openlibrary.org/b/id/11241057-L.jpg
         
       - title: "Scream All Night"
         author: Derek Milman
         published: 2018
         link: https://openlibrary.org/works/OL19751521W/Scream_all_night
-        image: https://i.harperapps.com/covers/9780062665652/x300.jpg
+        image: https://covers.openlibrary.org/b/id/11241062-L.jpg
         
       - title: "My Best Friend's Exorcism"
         author: Grady Hendrix
@@ -274,14 +274,14 @@ list:
         author: Edgar Cantero
         published: 2018
         link: https://openlibrary.org/works/OL19746468W/This_body's_not_big_enough_for_both_of_us
-        image: https://images4.penguinrandomhouse.com/cover/9780525563174
+        image: https://covers.openlibrary.org/b/id/11241068-L.jpg
         love: yes
     
       - title: "European Travel for the Monstrous Gentlewoman"
         author: Theodora Goss
         published: 2018
         link: https://openlibrary.org/works/OL19747986W/European_travel_for_the_monstrous_gentlewoman
-        image: https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781481466547/european-travel-for-the-monstrous-gentlewoman-9781481466547_lg.jpg
+        image: https://covers.openlibrary.org/b/id/11241076-L.jpg
         love: yes
     
       - title: "The Accidental Time Machine"
@@ -294,7 +294,7 @@ list:
         author: Erin Bowman
         published: 2017
         link: https://openlibrary.org/works/OL19721396W/Retribution_rails
-        image: https://i0.wp.com/www.embowman.com/wp-content/uploads/2013/08/portfolio_RetributionRailsCover.jpg?fit=800%2C1210
+        image: https://covers.openlibrary.org/b/id/11241078-L.jpg
     
       - title: "Vengeance Road"
         author: Erin Bowman
@@ -306,7 +306,7 @@ list:
         author: Theodora Goss
         published: 2017
         link: https://openlibrary.org/works/OL19710831W/The_strange_case_of_the_alchemist's_daughter
-        image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490794116l/34728925.jpg
+        image: https://covers.openlibrary.org/b/id/11241082-L.jpg
         love: yes
         
       - title: "The Philosopher's Flight"
@@ -319,7 +319,7 @@ list:
         author: Lily Anderson
         published: 2018
         link: https://openlibrary.org/works/OL19739906W/Undead_girl_gang
-        image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1511371881l/35707056.jpg
+        image: https://covers.openlibrary.org/b/id/11241088-L.jpg
         love: yes
         
       - title: "The Creeps"
