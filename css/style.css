@@ -45,11 +45,6 @@ footer a {
 	text-decoration: none !important;
 }
 
-.header a:hover,
-footer a:hover {
-	color: rgba(41, 41, 41, 0.50) !important;
-}
-
 footer ul {
 	list-style-type: none;
 	line-height: 1.25em;
