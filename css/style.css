@@ -42,7 +42,7 @@ footer a {
 }
 
 footer a:hover {
-	color: rgb(255, 64, 76) !important; /* Sunburnt Cyclops #ff404c */
+	color: rgba(26, 26, 26, 0.50) !important; 
 }
 
 footer ul {
@@ -114,7 +114,7 @@ h2 a {
 }
 
 h2 a:hover {
-	color: rgba(0, 0, 255, 0.50) !important;
+	color: rgba(26, 26, 26, 0.50) !important;
 	text-decoration: none;
 }
 
@@ -135,7 +135,7 @@ h4 {
 time,
 .meta,
 figcaption {
-	font-family: 'Roboto Mono', SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+	font-weight: 300;
 	font-size: 0.718em;
 	color: rgb(117, 117, 117);
 }
@@ -179,7 +179,7 @@ pre {
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	background-color: rgb(26, 26, 26);
-	color: rgb(132, 222, 2); /* Alien Armpit */
+	color: rgb(132, 222, 2); 
 	overflow: auto;
 	padding: 1em;
 	padding-left: 1em;
