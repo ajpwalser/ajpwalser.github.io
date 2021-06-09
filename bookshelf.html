@@ -9,9 +9,9 @@ description: My reading log
 <div class="container">
    {% for entry in site.data.bookshelf.list %}
    
-      <div class="year">
+      <div class="year" style="align-items:center;display:flex;flex-wrap:wrap;justify-content:space-between;margin-bottom:10px;font-family: 'Inter', sans-serif;">
          <h4>{{ entry.year }}</h4>
-         <div class="meta">{{ entry.books | size }} book(s)</div>
+         <span><div class="meta">{{ entry.books | size }} book(s)</div></span>
       </div>
       <div id="bookshelf">
          <ul class="read {{ entry.year }}">
