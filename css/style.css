@@ -373,7 +373,7 @@ span.small {
 
 /* Bookshelf */
 
-.year-container {
+/* .year-container {
 	margin-top: 2.43em;
 	display: grid;
 	grid-template-columns: 1fr 4fr;
@@ -382,7 +382,7 @@ span.small {
 	@media (max-width: 600px) {
 		display: block;
 	}
-}
+} */
 
 #bookshelf {
 	position: relative;
