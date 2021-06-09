@@ -35,6 +35,7 @@ figcaption,
 .header,
 footer {
 	font-size: 0.718em;
+	font-weight: 400;
 	line-height: 1.25em;
 }
 
@@ -66,17 +67,17 @@ a:link {
 	transition: color 0.2s ease-out;
 }
 
-/* a:visited {
-	color: rgb(26, 26, 26);
-} */
-
-a:hover {
-	color: rgba(41, 41, 41, 0.50);
+a:visited {
+	color: rgb(41, 41, 41);
 }
 
-/* a:active {
-	color: rgb(26, 26, 26);
-} */
+a:hover {
+	color: rgb(41, 41, 41);
+}
+
+a:active {
+	color: rgb(41, 41, 41);
+} 
 
 /* Headings */
 
@@ -98,12 +99,11 @@ h2 {
 }
 
 h2 a {
-	/* color: rgb(26, 26, 26) !important; */
+	color: rgb(41, 41, 41) !important;
 	text-decoration: none !important;
 }
 
 h2 a:hover {
-	/* color: rgba(26, 26, 26, 0.50) !important; */
 	text-decoration: none !important;
 }
 
@@ -125,18 +125,19 @@ time,
 .meta,
 figcaption {
 	font-size: 0.718em;
+	color: rgb(117, 117, 117);
 }
 
 p.time {
 	margin-top: -1.5em;
 }
 
-/* .meta a {
-	color: rgb(0, 0, 255) !important;
-} */
+.meta a {
+	color: rgb(117, 117, 117) !important;
+}
 
 /* .meta a:hover {
-	color: rgb(0, 0, 128) !important;
+	color: rgb(117, 117, 117) !important;
 } */
 
 /* Blockquotes */
@@ -165,7 +166,7 @@ pre {
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	background-color: rgb(41, 41, 41);
-	rgb(0, 255, 0);
+	color: rgb(0, 255, 0);
 	overflow: auto;
 	padding: 1em;
 	padding-left: 1em;
@@ -264,12 +265,12 @@ figcaption {
 	text-decoration: none;
 }
 
-.read-more-trigger:hover,
+/* .read-more-trigger:hover,
 .pagination a:hover,
 .post-nav a:hover {
 	background-color: rgba(242, 242, 242, 0.5);
 	border: 2px solid rgb(242, 242, 242, 0.5);
-}
+} */
 
 /* Span Button */
 
@@ -310,11 +311,11 @@ span.small {
 	text-decoration: none;
 }
 
-.tag-box a:hover,
+/* .tag-box a:hover,
 .cat-box a:hover {
 	background-color: rgba(242, 242, 242, 0.5);
 	border: 2px solid rgba(242, 242, 242, 0.5);
-}
+} */
 
 .tag-box,
 .cat-box {
