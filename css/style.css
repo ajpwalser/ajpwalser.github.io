@@ -385,11 +385,6 @@ span.small {
 	}
 } */
 
-.container {
-	display: flex;
-  	justify-content: center;
-}
-
 #bookshelf {
 	position: relative;
 	box-sizing: border-box;
