@@ -76,6 +76,13 @@ a:active {
 
 /* Headings */
 
+h1,
+h2,
+h3,
+h4 {
+	font-weight: 900;
+}
+
 h1 {
 	font-size: 3.2em;
 	line-height: 1.15em;
