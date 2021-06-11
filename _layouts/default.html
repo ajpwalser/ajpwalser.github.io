@@ -17,6 +17,7 @@
    {% seo %}
 </head>
 <body>
+   <div class="container">
    <header>
       <h1 class="header"><a href="{{ site.baseurl | prepend: site.url }}/">{{ site.title }}</a></h1>
       <hr>
@@ -33,6 +34,7 @@
          <li><a href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">Feed</a></li>
         </ul>
    </footer>
+      </div>
 {% include new-window-fix.html %}
 </body>
 </html>
