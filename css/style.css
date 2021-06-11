@@ -76,7 +76,9 @@ line-height: 1.25em;
 margin-bottom: 0.33em;
 }
 
-h3 {
+h3,
+.tags,
+.cats {
 font-size: 177%;
 line-height: 1.25em;
 }
@@ -108,6 +110,19 @@ a:active {
 h2 a {
 	color: rgb(41, 41, 41) !important;
 	text-decoration: none !important;
+}
+
+/* Meta */
+
+time,
+.meta,
+figcaption {
+	font-size: 0.75em;
+	color: rgb(117, 117, 117);
+}
+
+.meta a {
+	color: rgb(117, 117, 117) !important;
 }
 
 /* Blockquotes */
