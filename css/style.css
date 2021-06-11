@@ -321,6 +321,65 @@ span.small {
 	text-align: right;
 }
 
+/* Pagination */
+
+.pagination {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	font-size: 0.718em;
+}
+
+.pagination p {
+	flex: 1 1 0;
+	width: 45%;
+}
+
+.pagination p:first-child {
+	padding-right: 0.5em;
+}
+
+.pagination p:last-child {
+	padding-left: 0.5em;
+	text-align: right;
+}
+
+/* Read more */
+
+.read-more {
+	opacity: 0;
+	max-height: 0;
+	font-size: 0;
+	transition: .25s ease;
+	display: none;
+}
+
+.read-more-state {
+	display: none;
+}
+
+.read-more-state:checked~.read-more {
+	opacity: 1;
+	font-size: inherit;
+	max-height: 999em;
+	display: inherit;
+}
+
+.read-more-state~.read-more-trigger:before {
+	content: 'Read More \2193';
+}
+
+.read-more-state:checked~.read-more-trigger:before {
+	content: 'Read Less \2191';
+}
+
+.read-more-trigger {
+	cursor: pointer;
+	display: grid;
+	font-size: 0.718em;
+	text-align: center;
+}
+
 @media screen and (min-width: 300px) {
   .container{font-size:112.5%;}	
 }
