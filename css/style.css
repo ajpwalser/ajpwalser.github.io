@@ -232,6 +232,7 @@ hr {
 	border-radius: 5px;
 }
 
+
 /* Tags & Cats */
 
 span.small {
@@ -302,7 +303,8 @@ span.small {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	padding-top: 2em;
+	font-size: 0.718em;
+	padding-top: 2.43em;
 }
 
 .post-nav p {
