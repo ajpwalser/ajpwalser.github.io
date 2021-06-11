@@ -52,7 +52,7 @@ footer ul {
 
 footer li {
   display: inline;
-  /* padding-right: 0.718em; */
+  padding-right: 0.5em;
 }
 
 /* Headings */
@@ -72,6 +72,7 @@ line-height: 1em;
 h2 {
 font-size: 236.9%;
 line-height: 1.25em;
+margin-bottom: -1em;
 }
 
 h3 {
