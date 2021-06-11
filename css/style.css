@@ -4,7 +4,7 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 }
 
-/* New */
+/* Body */
 
 body {
   font-family: "Inter", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
@@ -16,12 +16,18 @@ body {
 
 .container {
   margin: 0 auto 3em;
-  padding: 0 1em;
+  padding: 0 0em; /* 1 */
   max-width: 31.5em;
 }
 
 .spacer {
   padding-top: 2em;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgb(230, 230, 230);
 }
 
 /* Header & Footer */
@@ -58,11 +64,6 @@ h4 {
   font-weight: 900;
 }
 
-h2 a {
-	color: rgb(41, 41, 41) !important;
-	text-decoration: none !important;
-}
-
 /* Links */
 
 a:link {
@@ -80,6 +81,11 @@ a:hover {
 
 a:active {
   color: rgb(41, 41, 41);
+}
+
+h2 a {
+	color: rgb(41, 41, 41) !important;
+	text-decoration: none !important;
 }
 
 /* Blockquotes */
@@ -112,14 +118,6 @@ pre {
   padding: 1em;
   padding-left: 1em;
   padding-right: 1em;
-}
-
-/* Horizontal rule */
-
-hr {
-  border: 0;
-  height: 0;
-  border-top: 1px solid rgb(230, 230, 230);
 }
 
 /* Lists */
@@ -188,14 +186,6 @@ figcaption {
   left: 0;
   width: 100%;
   height: 100%;
-}
-
-/* Horizontal rule */
-
-hr {
-  border: 0;
-  height: 0;
-  border-top: 1px solid rgb(230, 230, 230);
 }
 
 /* Link Buttons */
