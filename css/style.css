@@ -24,6 +24,31 @@ body {
 	padding-top: 2em;
 }
 
+/* Header & Footer */
+
+.header,
+footer {
+	font-weight: 400;
+	line-height: 1.25em;
+}
+
+.header a,
+footer a {
+	color: rgb(41, 41, 41) !important;
+	text-decoration: none !important;
+}
+
+footer ul {
+	list-style-type: none;
+	line-height: 1.25em;
+}
+
+footer li {
+    	display: inline;
+    	padding-right: 0.718em;
+  }
+
+
 /* Headings */
 
 h1,
