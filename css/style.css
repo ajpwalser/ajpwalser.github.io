@@ -265,11 +265,11 @@ figcaption {
 /* Tags & Cats */
 
 span.small {
-  font-size: 0.56em;
+  font-size: 42.2%;
 }
 
 .top {
-  font-size: 0.718em;
+  font-size: 75%;
 }
 
 .tag-box a,
@@ -317,7 +317,7 @@ span.small {
 .tag-box.inline li,
 .cat-box.inline li {
   float: left;
-  font-size: 0.718em;
+  font-size: 75%;
   line-height: 2.5;
 }
 
@@ -332,7 +332,7 @@ span.small {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  font-size: 0.718em;
+  font-size: 75%;
   padding-top: 2.43em;
 }
 
@@ -356,7 +356,7 @@ span.small {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  font-size: 0.718em;
+  font-size: 75%;
 }
 
 .pagination p {
@@ -405,7 +405,7 @@ span.small {
 .read-more-trigger {
   cursor: pointer;
   display: grid;
-  font-size: 0.718em;
+  font-size: 75%;
   text-align: center;
 }
 
