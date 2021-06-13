@@ -137,6 +137,10 @@ figcaption {
 	color: rgb(117, 117, 117) !important;
 }
 
+.meta p {
+	margin-bottom: 2em;
+}
+
 /* Blockquotes */
 
 blockquote {
