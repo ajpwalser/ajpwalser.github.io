@@ -33,9 +33,12 @@ hr {
 
 /* Header & Footer */
 
-header,
-footer {
+header {
 margin-bottom: 2em;
+}
+
+footer {
+padding-top: 2em;
 }
 
 .header,
