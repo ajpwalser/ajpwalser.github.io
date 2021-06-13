@@ -133,12 +133,12 @@ figcaption {
 	color: rgb(117, 117, 117);
 }
 
-.meta a {
-	color: rgb(117, 117, 117) !important;
+.meta {
+	margin-bottom: 2em;
 }
 
-.meta p {
-	margin-bottom: 2em;
+.meta a {
+	color: rgb(117, 117, 117) !important;
 }
 
 /* Blockquotes */
