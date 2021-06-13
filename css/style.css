@@ -374,6 +374,7 @@ span.small {
   justify-content: space-between;
   flex-wrap: wrap;
   font-size: 75%;
+  margin-bottom: 2em; /* test */
 }
 
 .pagination p {
