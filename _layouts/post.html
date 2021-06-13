@@ -8,9 +8,7 @@ layout: default
    <div itemprop="articleBody">
       {{ content }}
    </div>
-   <div class="tags">
    <p class="meta">{% for tag in page.tags %}Tag(s): <a href="{{ site.url }}/tags/#{{ tag | cgi_escape }}" title="Posts tagged “{{ tag }}”" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}</p>  
-   </div>
       <div class="post-nav">    
          {% if page.previous.url %}
          <a href="{{page.previous.url}}" title="Prev Post">&larr; Prev Post </a>
