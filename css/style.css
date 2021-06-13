@@ -277,6 +277,10 @@ figcaption {
 
 /* Tags & Cats */
 
+tags {
+margin-bottom: 2em;
+}
+
 span.small {
   font-size: 42.2%;
 }
