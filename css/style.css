@@ -37,14 +37,6 @@ header {
 margin-bottom: 2em;
 }
 
-header li {
-align-items: center;
-display:flex;
-flex-wrap:wrap;
-justify-content:space-between;
-padding-right: 0.5em;
-}
-
 footer {
 padding-top: 2em;
 }
