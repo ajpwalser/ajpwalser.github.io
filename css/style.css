@@ -354,7 +354,8 @@ span.small {
   justify-content: space-between;
   flex-wrap: wrap;
   font-size: 75%;
-  padding-top: 2.43em;
+  /* padding-top: 2.43em; */
+  margin-bottom: 2em; /* test */
 }
 
 .post-nav p {
