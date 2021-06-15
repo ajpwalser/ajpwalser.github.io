@@ -70,12 +70,6 @@ font-size: 75%;
 font-weight: 400;
 }
 
-/* Description */
-
-section {
-margin-bottom: 4em;
-}
-
 /* Headings */
 
 h1,
@@ -146,7 +140,7 @@ figcaption {
 }
 
 .meta {
-	margin-bottom: 4em;
+	margin-bottom: 5em;
 }
 
 .meta a {
