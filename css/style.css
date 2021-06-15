@@ -35,11 +35,6 @@ hr {
 
 header {
 margin-bottom: 2em;
-font-weight: 500;
-}
-
-span.thin {
-font-weight: 300;
 }
 
 footer {
@@ -48,6 +43,7 @@ padding-top: 2em;
 
 .header,
 footer {
+  font-weight: 400;
   font-size: 75%;
   line-height: 1.25em;
 }
@@ -66,6 +62,10 @@ footer ul {
 footer li {
   display: inline;
   padding-right: 0.5em;
+}
+
+small {
+font-style: normal;
 }
 
 /* Headings */
