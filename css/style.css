@@ -191,13 +191,11 @@ pre {
 ul {
   padding: 0;
   list-style-type: none;
-  line-height: 1.25em;
 }
 
 ul.headline {
   padding: 0;
   list-style-type: none;
-  line-height: 1.25em;
 }
 
 /* ul.headline a {
