@@ -43,6 +43,7 @@ padding-top: 2em;
 
 .header {
 font-weight: 400;
+font-style: bold;
 font-size: 100%;
 line-height: 1.25em;
 }
@@ -70,6 +71,7 @@ footer li {
 }
 
 aside {
+font-size: 75%;
 font-style: normal;
 }
 
