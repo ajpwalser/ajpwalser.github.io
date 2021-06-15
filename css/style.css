@@ -41,7 +41,12 @@ footer {
 padding-top: 2em;
 }
 
-.header,
+.header {
+font-weight: 400;
+font-size: 100%;
+line-height: 1.25em;
+}
+
 footer {
   font-weight: 400;
   font-size: 75%;
@@ -64,7 +69,7 @@ footer li {
   padding-right: 0.5em;
 }
 
-small {
+aside {
 font-style: normal;
 }
 
@@ -133,7 +138,7 @@ h2 a {
 time,
 .meta,
 figcaption {
-	font-size: 0.75em;
+	font-size: 75%;
 	color: rgb(117, 117, 117);
 }
 
