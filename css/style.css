@@ -33,6 +33,10 @@ header {
 margin-bottom: 2em;
 }
 
+svg {
+  width: 40vmin;
+}
+
 footer {
 padding-top: 2em;
 }
