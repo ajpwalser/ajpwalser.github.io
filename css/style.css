@@ -21,10 +21,6 @@ body {
   max-width: 31.5em;
 }
 
-.spacer {
-  padding-top: 2em;
-}
-
 hr {
   border: 0;
   height: 0;
@@ -144,7 +140,7 @@ figcaption {
 }
 
 .meta {
-	margin-bottom: 3em;
+	margin-bottom: 4em;
 }
 
 .meta a {
@@ -295,10 +291,6 @@ span.small {
   font-size: 42.2%;
 }
 
-.top {
-  font-size: 75%;
-}
-
 .tag-box a,
 .cat-box a {
   padding: 7px 18px;
@@ -360,8 +352,7 @@ span.small {
   justify-content: space-between;
   flex-wrap: wrap;
   font-size: 75%;
-  /* padding-top: 2.43em; */
-  margin-bottom: 2em; /* test */
+  margin-bottom: 2em;
 }
 
 .post-nav p {
@@ -385,7 +376,7 @@ span.small {
   justify-content: space-between;
   flex-wrap: wrap;
   font-size: 75%;
-  margin-bottom: 2em; /* test */
+  margin-bottom: 2em;
 }
 
 .pagination p {
