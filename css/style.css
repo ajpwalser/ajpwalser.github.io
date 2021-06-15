@@ -33,10 +33,6 @@ header {
 margin-bottom: 2em;
 }
 
-svg {
-  width: 40vmin;
-}
-
 footer {
 padding-top: 2em;
 }
@@ -72,6 +68,12 @@ footer li {
 aside {
 font-size: 75%;
 font-weight: 400;
+}
+
+/* Description */
+
+section {
+margin-bottom: 4em;
 }
 
 /* Headings */
