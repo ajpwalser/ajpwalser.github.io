@@ -3,13 +3,11 @@ layout: default
 title: Blog
 description: Personal blog of Adam Walser.
 ---
-
 <div class="additional">
-      <h4>Test</h4>
-      <p>This is a test</p>
+   <h4>Test</h4>
+   <p>This is a test</p>
 </div>
-
-      {% for post in paginator.posts %}
+{% for post in paginator.posts %}
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 <h2 class="name headline" itemprop="name headline">
    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | escape }}</a>
@@ -17,23 +15,22 @@ description: Personal blog of Adam Walser.
 <p class="time"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %-d, %Y" }}</time><span class="meta">{% for category in post.categories %} &#8226; <a href="{{ site.url }}/categories/#{{ category | cgi_escape }}" title="Posts categorized “{{ category }}”" rel="category">{{ category }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}</span></p>
 <div itemprop="articleBody">
    {% if post.content contains '<!--more-->' %}
-    <div>
-        {{ post.content | split:'<!--more-->' | first }}
-    </div>
-    <input type="checkbox" class="read-more-state" id="{{ post.url }}"/>
-    <div class="read-more">
-        {{ post.content | split:'<!--more-->' | last }}
-    </div>
-    <label for="{{ post.url }}" class="read-more-trigger"></label>
-{% else %}
-    {{ post.content }}
-{% endif %}
+   <div>
+      {{ post.content | split:'<!--more-->' | first }}
+   </div>
+   <input type="checkbox" class="read-more-state" id="{{ post.url }}"/>
+   <div class="read-more">
+      {{ post.content | split:'<!--more-->' | last }}
+   </div>
+   <label for="{{ post.url }}" class="read-more-trigger"></label>
+   {% else %}
+   {{ post.content }}
+   {% endif %}
 </div>
 <p class="meta">{% for tag in post.tags %}Tag(s): 
    <a href="{{ site.url }}/tags/#{{ tag | cgi_escape }}" title="Posts tagged “{{ tag }}”" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
 </p>
 {% endfor %}
-      
 <!-- pagination -->
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
