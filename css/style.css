@@ -121,8 +121,7 @@ margin-bottom: 0.25em;
 /* Links */
 
 a:link {
-  color: rgb(41, 41, 41);
-  transition: color 0.2s ease-out;
+  color: #39C;
 }
 
 a:visited {
@@ -138,8 +137,12 @@ a:active {
 }
 
 h2 a {
-	color: #5E5E5E !important;
-	text-decoration: none !important;
+color: #5E5E5E !important;
+text-decoration: none !important;
+}
+
+h2 a:hover {
+  color: #39C;
 }
 
 /* Meta */
