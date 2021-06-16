@@ -36,7 +36,6 @@ hr {
   border-radius: 5px;
   box-shadow: 0 0 5px #00000033;
   color: #5e5e5e;
-  margin-top: 2em;
   margin-bottom: 2em;
 }
 
@@ -52,6 +51,7 @@ hr {
   background: #cff0ff;
   color: #5e5e5e;
   box-shadow: 0 0 5px #00000033;
+  margin-top: 2em;
 }
 
 /* Header & Footer */
