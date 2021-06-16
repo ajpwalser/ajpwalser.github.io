@@ -163,15 +163,14 @@ figcaption {
 /* Blockquotes */
 
 blockquote {
-  font-style: italic;
   font-weight: 500;
   margin: 1em auto;
   padding-left: 1em;
-  background:#efefef;
-  border:solid 1px #ccc;
+  background: #EDFAFF;
+  border: solid 1px #B4DCED;
   border-radius:5px;
   box-shadow:0 0 5px #00000033;
-  color:#666;
+  color:#5E5E5E;
 }
 
 /* Code formatting */
