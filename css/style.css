@@ -30,7 +30,7 @@ hr {
 .welcome{
   position: relative;
   font-size: 100%;
-  padding: 2rem;
+  padding: 2em;
   background: #edfaff;
   border: solid 1px #b4dced;
   border-radius: 5px;
@@ -42,10 +42,10 @@ hr {
   content:'Ahoy!';
   position: absolute;
   transform: translate(0,-100%);
-  top: 1.2rem;
-  left: .5rem;
+  top: 1.2em;
+  left: .5em;
   border: solid 1px #b4dced;
-  padding: .5rem;
+  padding: .5em;
   border-radius: 5px;
   background: #cff0ff;
   color: #5e5e5e;
