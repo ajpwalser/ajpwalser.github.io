@@ -62,9 +62,13 @@ footer {
 
 .header a,
 footer a {
-  background-color: #FFF;
   color: #5E5E5E !important;
   text-decoration: none !important;
+}
+
+.header a:hover,
+footer a:hover {
+  color: #39C !important;
 }
 
 footer ul {
@@ -151,7 +155,6 @@ time,
 .meta,
 figcaption {
 	font-size: 75%;
-	color: #5E5E5E;
 }
 
 .meta {
@@ -272,7 +275,7 @@ figcaption {
 .post-nav a {
   padding: 7px 18px;
   margin: 2px;
-  color: #5E5E5E;
+  color: #39C;
   background-color: #EDFAFF;
   border: 1px solid #B4DCED;
   -webkit-border-radius: 5px;
@@ -295,7 +298,7 @@ figcaption {
 .post-nav span {
   padding: 7px 18px;
   margin: 2px;
-  color: #5E5E5E;
+  color: #39C;
   background-color: #FFF;
   border: 1px solid #B4DCED;
   -webkit-border-radius: 5px;
