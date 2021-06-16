@@ -28,29 +28,28 @@ hr {
 }
 
 .welcome{
-  position:relative;
-  width:800px;
-  font-size:1.4rem;
-  padding:2rem;
-  background:#edfaff;
-  border:solid 1px #b4dced;
-  border-radius:5px;
-  box-shadow:0 0 5px #00000033;
-  color:#5e5e5e;
+  position: relative;
+  font-size: 100%;
+  padding: 2rem;
+  background: #edfaff;
+  border: solid 1px #b4dced;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #00000033;
+  color: #5e5e5e;
 }
 
 .welcome:before{
   content:'Ahoy!';
-  position:absolute;
-  transform:translate(0,-100%);
-  top:1.2rem;
-  left:.5rem;
-  border:solid 1px #b4dced;
-  padding:.5rem;
-  border-radius:5px;
-  background:#cff0ff;
-  color:#5e5e5e;
-  box-shadow:0 0 5px #00000033;
+  position: absolute;
+  transform: translate(0,-100%);
+  top: 1.2rem;
+  left: .5rem;
+  border: solid 1px #b4dced;
+  padding: .5rem;
+  border-radius: 5px;
+  background: #cff0ff;
+  color: #5e5e5e;
+  box-shadow: 0 0 5px #00000033;
 }
 
 /* Header & Footer */
