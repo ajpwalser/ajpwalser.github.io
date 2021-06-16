@@ -27,7 +27,7 @@ hr {
   border-top: 1px solid rgb(230, 230, 230);
 }
 
-.welcome{
+.welcome {
   position: relative;
   font-size: 100%;
   padding: 2em;
@@ -37,9 +37,10 @@ hr {
   box-shadow: 0 0 5px #00000033;
   color: #5e5e5e;
   margin-bottom: 2em;
+  margin-top: 2em;
 }
 
-.welcome:before{
+.welcome:before {
   content:'Ahoy!';
   position: absolute;
   transform: translate(0,-100%);
@@ -67,7 +68,6 @@ padding-top: 2em;
 font-weight: 600;
 font-size: 100%;
 line-height: 1.25em;
-margin-bottom: 2em; /* test */
 }
 
 footer {
