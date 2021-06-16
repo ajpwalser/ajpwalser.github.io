@@ -162,9 +162,9 @@ figcaption {
 /* Blockquotes */
 
 blockquote {
+  font-weight: 500;
   margin: 1em auto;
   padding-left: 1em;
-  background: #EDFAFF;
   border-left: solid 1px #B4DCED;
 }
 
