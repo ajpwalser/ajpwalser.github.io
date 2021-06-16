@@ -27,6 +27,23 @@ hr {
   border-top: 1px solid rgb(230, 230, 230);
 }
 
+.additional {
+background-color: #edfaff;
+border: 1px solid #B4DCED;
+margin-bottom: 3em;
+margin-top: 0.5em;
+display: table;
+width: %100;
+}
+
+.additionalh4 {
+background-color: #cff0ff;
+border: 1px solid #B4DCED;
+color: #5e5e5e;
+padding: 0.5em;
+margin-top: 0;
+}
+
 /* Header & Footer */
 
 header {
