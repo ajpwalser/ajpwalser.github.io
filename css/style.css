@@ -27,21 +27,30 @@ hr {
   border-top: 1px solid rgb(230, 230, 230);
 }
 
-.additional {
-background-color: #edfaff;
-border: 1px solid #B4DCED;
-margin-bottom: 3em;
-margin-top: 0.5em;
-display: table;
-width: %100;
+.welcome{
+  position:relative;
+  width:800px;
+  font-size:1.4rem;
+  padding:2rem;
+  background:#edfaff;
+  border:solid 1px #b4dced;
+  border-radius:5px;
+  box-shadow:0 0 5px #00000033;
+  color:#5e5e5e;
 }
 
-.additional h4 {
-background-color: #cff0ff;
-border: 1px solid #B4DCED;
-color: #5e5e5e;
-padding: 0.5em;
-margin-top: 0;
+.welcome:before{
+  content:'Ahoy!';
+  position:absolute;
+  transform:translate(0,-100%);
+  top:1.2rem;
+  left:.5rem;
+  border:solid 1px #b4dced;
+  padding:.5rem;
+  border-radius:5px;
+  background:#cff0ff;
+  color:#5e5e5e;
+  box-shadow:0 0 5px #00000033;
 }
 
 /* Header & Footer */
