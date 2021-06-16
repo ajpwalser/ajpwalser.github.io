@@ -23,10 +23,9 @@ body {
 }
 
 hr {
-  border: 0;
-  height: 0;
-  border-top: 1px solid #B4DCED;
-  box-shadow:0 0 5px #00000033;
+  border: 0; 
+  border-bottom: 2px dashed #CFF0FF; 
+  background: #EDFAFF; 
 }
 
 /* Header & Footer */
