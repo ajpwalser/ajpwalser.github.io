@@ -35,8 +35,7 @@ body {
 
 hr {
   border: 0; 
-  border-bottom: 2px dashed #EDFAFF; 
-  background: #CFF0FF; 
+  border-bottom: 1px solid #B4DCED; 
 }
 
 /* Header & Footer */
@@ -166,10 +165,7 @@ blockquote {
   margin: 1em auto;
   padding-left: 1em;
   background: #EDFAFF;
-  border: solid 1px #B4DCED;
-  border-radius:5px;
-  box-shadow:0 0 5px #00000033;
-  color:#5E5E5E;
+  border-left: solid 1px #B4DCED;
 }
 
 /* Code formatting */
@@ -296,12 +292,13 @@ figcaption {
 .post-nav span {
   padding: 7px 18px;
   margin: 2px;
-  color: rgb(117, 117, 117);
-  background-color: rgb(255, 255, 255);
-  border: 2px solid rgb(242, 242, 242);
+  color: #5E5E5E;
+  background-color: #FFF;
+  border: 1px solid #B4DCED;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
+  box-shadow:0 0 5px #00000033;
 }
 
 /* Tags & Cats */
