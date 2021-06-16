@@ -4,6 +4,17 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 }
 
+/* Colors */
+
+/* 
+Primary Text = #5E5E5E
+Theme Color = #39C
+Dark BG = #CFF0FF
+Light BG = #EDFAFF
+Lines = #B4DCED
+box-shadow:0 0 5px #00000033
+*/
+
 /* Body */
 
 body {
@@ -156,7 +167,8 @@ blockquote {
   font-weight: 500;
   margin: 1em auto;
   padding-left: 1em;
-  border-left: solid 1px #B4DCED;
+  border-left: 2px dashed #EDFAFF;
+  background: #CFF0FF; 
 }
 
 /* Code formatting */
