@@ -79,13 +79,6 @@ aside {
 	font-weight: 400;
 }
 
-svg {
-  &.rss {
-        width: 20px;
-        fill: var(--theme);
-  }
-}
-
 
 /* Headings */
 
