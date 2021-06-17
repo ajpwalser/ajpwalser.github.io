@@ -79,6 +79,13 @@ aside {
 	font-weight: 400;
 }
 
+svg {
+  &.rss {
+        width: 120px;
+        fill: var(--theme);
+  }
+}
+
 
 /* Headings */
 
