@@ -27,6 +27,10 @@ body {
   padding-top: 1em;
 }
 
+p {
+font-family: "Bitter", serif;
+}
+
 .container {
   margin: 0 auto 3em;
   padding: 0 0.500em; /* Default 1em */
