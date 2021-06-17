@@ -4,6 +4,7 @@ title: Blog
 description: Personal blog of Adam Walser.
 ---
 
+{% if page.url == "/" %}
 {% for post in site.tags.pinned %}
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 <h2 class="name headline" itemprop="name headline">
@@ -29,6 +30,7 @@ description: Personal blog of Adam Walser.
 </p>
 </article>
 {% endfor %}
+{% endif %}
 {% for post in paginator.posts %}
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 <h2 class="name headline" itemprop="name headline">
