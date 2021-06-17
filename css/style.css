@@ -8,11 +8,13 @@ html { font-family: 'Inter', sans-serif; }
 
 /* 
 Primary Text = #5E5E5E
+Secondary Text = #919191
 Theme Color = #39C
 Dark BG = #CFF0FF
 Light BG = #EDFAFF
-Lines = #B4DCED
+Button border = #B4DCED
 box-shadow:0 0 5px #00000033
+hr = #DEDEDE
 */
 
 /* Body */
@@ -35,7 +37,7 @@ body {
 
 hr {
   border: 0; 
-  border-bottom: 1px solid #B4DCED; 
+  border-bottom: 1px solid #DEDEDE; 
 }
 
 /* Header & Footer */
@@ -154,6 +156,7 @@ h2 a:hover {
 time,
 .meta,
 figcaption {
+	color: #919191;
 	font-size: 75%;
 }
 
