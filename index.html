@@ -4,9 +4,8 @@ title: Blog
 description: Personal blog of Adam Walser.
 ---
 
-{% if page.url == "/" %}
-    {% for post in site.tags.pinned %}
-    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+{% for post in site.tags.pinned %}
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 <h2 class="name headline" itemprop="name headline">
    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | escape }}</a>
 </h2>
@@ -28,9 +27,7 @@ description: Personal blog of Adam Walser.
 <p class="meta">{% for tag in post.tags %}Tag(s): 
    <a href="{{ site.url }}/tags/#{{ tag | cgi_escape }}" title="Posts tagged “{{ tag }}”" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
 </p>
-{% endfor %}
-    {% endfor %}
-{% endif %}
+</article>
 
 {% for post in paginator.posts %}
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
@@ -55,6 +52,7 @@ description: Personal blog of Adam Walser.
 <p class="meta">{% for tag in post.tags %}Tag(s): 
    <a href="{{ site.url }}/tags/#{{ tag | cgi_escape }}" title="Posts tagged “{{ tag }}”" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
 </p>
+</article>
 {% endfor %}
 <!-- pagination -->
 {% if paginator.total_pages > 1 %}
