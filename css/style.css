@@ -49,13 +49,12 @@ padding-top: 2em;
 }
 
 .header {
-    position: relative;
+    display: inline;
     color: #EDFAFF;
     font-weight: 600;
     font-size: 100%;
     letter-spacing: 5px;
     text-align: center;
-    user-select: none;
     outline: none;
     transform:rotate(-8deg) skewX(25deg);
     text-shadow:    -1px 1px #39C,
