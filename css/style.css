@@ -74,6 +74,16 @@ footer a:hover {
 	color: var(--theme) !important;
 }
 
+footer ul {
+	list-style-type: none;
+	line-height: 1.25em;
+}
+
+footer li {
+	display: inline;
+	padding-right: 0.5em;
+}
+
 aside {
 	font-size: 75%;
 	font-weight: 400;
