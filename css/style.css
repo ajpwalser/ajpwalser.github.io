@@ -49,31 +49,10 @@ padding-top: 2em;
 }
 
 .header {
-    position: absolute;
-    color: #EDFAFF;
-    font-weight: 600;
-    font-size: 100%;
-    letter-spacing: 5px;
-    outline: none;
-    transform:rotate(-8deg) skewX(25deg);
-    text-shadow:    -1px 1px #39C,
-                    -2px 2px #39C,
-                    -3px 3px #39C,
-                    -4px 4px #39C,
-                    -5px 5px #39C,
-                    -6px 6px #39C,
-                    -7px 7px #39C,
-                    -8px 8px #39C,
-                    -9px 9px #39C,
-                    -20px 20px 5px rgba(0,0,0,.8);
-}
-
-/*
-.header {
 font-weight: 600;
 font-size: 100%;
 line-height: 1.25em;
-}*/
+}
 
 footer {
   font-weight: 400;
