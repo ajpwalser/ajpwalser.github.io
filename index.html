@@ -28,7 +28,7 @@ description: Personal blog of Adam Walser.
    <a href="{{ site.url }}/tags/#{{ tag | cgi_escape }}" title="Posts tagged “{{ tag }}”" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
 </p>
 </article>
-
+{% endfor %}
 {% for post in paginator.posts %}
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 <h2 class="name headline" itemprop="name headline">
