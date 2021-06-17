@@ -4,28 +4,27 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 }
 
-/* Colors */
+/* Colours */
 
-/* 
-Primary Text = #5E5E5E
-Secondary Text = #919191
-Theme Color = #39C
-Dark BG = #CFF0FF
-Light BG = #EDFAFF
-Button border = #B4DCED
-box-shadow:0 0 5px #00000033
-hr = #DEDEDE
-*/
+:root {
+	--background: #FFF;
+	--text: #5E5E5E;
+	--meta: #919191;
+	--theme: #39C;
+	--dark: #CFF0FF;
+	--light: #EDFAFF;
+	--border: #B4DCED;
+	--hr: #DEDEDE;
+}
 
 /* Body */
 
 body {
 	font-family: "Inter", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-	/* Default to system font stack */
 	font-feature-settings: "ss01";
 	font-size: 100%;
 	line-height: 1.3;
-	background-color: #FFF;
+	background-color: var(--background);
 	color: #5E5E5E;
 	padding-top: 1em;
 }
@@ -33,13 +32,12 @@ body {
 .container {
 	margin: 0 auto 3em;
 	padding: 0 0.500em;
-	/* Default 1em */
 	max-width: 31.5em;
 }
 
 hr {
 	border: 0;
-	border-bottom: 1px solid #DEDEDE;
+	border-bottom: 1px solid var(--hr);
 }
 
 
