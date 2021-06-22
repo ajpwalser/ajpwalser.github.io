@@ -42,10 +42,10 @@ description: Personal blog of Adam Walser.
    <div>
       {{ post.content | split:'<!--more-->' | first }}
    </div>
-   {% include cc.html %}
    <input type="checkbox" class="read-more-state" id="{{ post.url }}"/>
    <div class="read-more">
       {{ post.content | split:'<!--more-->' | last }}
+      {% include cc.html %}
    </div>
    <label for="{{ post.url }}" class="read-more-trigger"></label>
    {% else %}
