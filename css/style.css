@@ -399,7 +399,6 @@ span.small {
 	opacity: 0;
 	max-height: 0;
 	font-size: 0;
-	transition: 0.25s ease;
 	display: none;
 }
 
@@ -427,6 +426,7 @@ span.small {
 	display: grid;
 	font-size: 75%;
 	text-align: center;
+	margin: 2em; /* test */
 }
 
 
