@@ -6,7 +6,7 @@ tags: privacy
 date: 2021-06-21
 ---
 
-*My privacy policy is simple: I don't track you.*
+**My privacy policy is simple: I don't track you.**
 
 No user data is collected or retained. You won't find any analytics, cookies, advertisements, or paywalls.<!--more-->
 
