@@ -36,7 +36,7 @@ description: Personal blog of Adam Walser.
 <h2 class="name headline" itemprop="name headline">
    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | escape }}</a>
 </h2>
-<p class="time"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %-d, %Y" }}</time><span class="meta">{% for category in post.categories %}  &#8226; <a href="{{ site.url }}/categories/#{{ category | cgi_escape }}" title="Posts categorized “{{ category }}”" rel="category">{{ category }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %} &#8226; <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a></span></p>
+<p class="time"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %-d, %Y" }}</time><span class="meta">{% for category in post.categories %}  &#8226; <a href="{{ site.url }}/categories/#{{ category | cgi_escape }}" title="Posts categorized “{{ category }}”" rel="category">{{ category }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}</span></p>
 <div itemprop="articleBody">
    {% if post.content contains '<!--more-->' %}
    <div>
