@@ -426,7 +426,8 @@ span.small {
 	display: grid;
 	font-size: 75%;
 	text-align: center;
-	margin: 2em; /* test */
+	margin-top: 2em; /* test */
+	margin-bottom: 2em; /* test */
 }
 
 
