@@ -20,9 +20,7 @@
 <body>
    <div class="container">     
    <header>
-      <h1 class="header"><a href="{{ site.baseurl | prepend: site.url }}/">{{ site.title }}</a>
-         <br><aside>{{ site.tagline }}</aside>
-      </h1>
+      <h1 class="header"><a href="{{ site.baseurl | prepend: site.url }}/">{{ site.title }}</a></h1>
       <hr>
    </header>
    <main aria-label="Content" role="main">
@@ -34,8 +32,9 @@
          <li style="align-items:center;display:flex;flex-wrap:wrap;justify-content:space-between;margin-bottom:10px;">No tracking.
          <span><a href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">RSS</a></span></li>
        </ul>
-      <p>Except where otherwise noted, content on this site is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>.</p>
-      </div>
+      <br>Except where otherwise noted, content on this site is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>.
+      </footer> 
+   </div>
 {% include new-window-fix.html %}
 </body>
 </html>
