@@ -69,12 +69,6 @@ footer a:hover {
 	color: var(--theme) !important;
 }
 
-aside {
-	font-size: 75%;
-	font-weight: 400;
-}
-
-
 /* Headings */
 
 h1,
@@ -144,7 +138,8 @@ h2 a:hover {
 
 time,
 .meta,
-figcaption {
+figcaption,
+CC {
 	color: var(--meta);
 	font-size: 75%;
 }
