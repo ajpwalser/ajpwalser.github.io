@@ -139,7 +139,7 @@ h2 a:hover {
 time,
 .meta,
 figcaption,
-CC {
+.cc {
 	color: var(--meta);
 	font-size: 75%;
 }
