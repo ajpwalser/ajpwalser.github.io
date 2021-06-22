@@ -140,6 +140,7 @@ time,
 .meta,
 figcaption,
 .cc {
+	font-family: ui-monospace, SFMono-Regular, SF Mono, Consolas, Liberation Mono,Menlo, monospace;
 	color: var(--meta);
 	font-size: 75%;
 }
