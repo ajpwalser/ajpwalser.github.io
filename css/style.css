@@ -143,6 +143,10 @@ figcaption,
 	font-size: 75%;
 }
 
+time {
+	margin-top; 0;
+}
+
 .meta {
 	margin-bottom: 4em;
 }
