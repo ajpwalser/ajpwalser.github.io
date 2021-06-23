@@ -151,6 +151,10 @@ figcaption,
 	color: var(--theme) !important;
 }
 
+.cc {
+	text-align: center;
+}
+
 
 /* Blockquotes */
 
