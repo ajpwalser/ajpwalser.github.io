@@ -1,6 +1,6 @@
 ## Source
 
-The following directories and their contents are &copy; Adam Walser unless otherwise stated. You may not reuse anything therein without my permission:
+Except where otherwise noted, the following directories and their contents are licensed under a [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
 
 _drafts/
 
@@ -8,4 +8,4 @@ images/
 
 _posts/
 
-Otherwise, [do what the fuck you want to](http://www.wtfpl.net/).
+The Jekyll framework for this site is available under the MIT license.
