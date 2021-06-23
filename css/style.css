@@ -138,7 +138,7 @@ h2 a:hover {
 time,
 .meta,
 figcaption,
-.cc {
+.license {
 	color: var(--meta);
 	font-size: 75%;
 }
@@ -151,7 +151,7 @@ figcaption,
 	color: var(--theme) !important;
 }
 
-.cc {
+.license {
 	text-align: center;
 }
 
