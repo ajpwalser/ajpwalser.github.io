@@ -143,10 +143,6 @@ figcaption,
 	font-size: 75%;
 }
 
-time {
-	margin-top: -1em;
-}
-
 .meta {
 	margin-bottom: 4em;
 }
@@ -199,6 +195,7 @@ pre {
 /* Lists */
 
 ul {
+	display: none;
 	padding: 0;
 	list-style-type: circle;
 	line-height: 0;
