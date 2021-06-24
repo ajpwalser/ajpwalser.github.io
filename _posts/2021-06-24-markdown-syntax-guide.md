@@ -58,5 +58,14 @@ Inline-style link: [link](https://...)
 ### Blockquotes
 
 ```
-> Sicut malus putrid voodoo horror
+> Someone else's words
+```
+### Horizontal Rule
+
+```
+Three hyphens, asterisks, or underscores:
+
+---
+***
+___
 ```
