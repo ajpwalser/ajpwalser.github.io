@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "No Tracking"
-categories: Admin
-tags: website
+categories: Website
+tags: privacy
 date: 2021-06-22
 ---
 
