@@ -10,6 +10,12 @@ Markdown is a plain text formatting syntax for writers. This post provides a bri
 
 For a comprehensive guide to Markdown, see [Daring Fireball](https://daringfireball.net/projects/markdown/).
 
+### Table of contents
+{: .no_toc}
+
+1. TOC
+{:toc}
+
 ### Headings
 
 ```
@@ -58,13 +64,27 @@ Inline-style link: [link](https://...)
 ### Images
 
 ```
-...
+![Image](https://... "Image")
+```
+
+### HTML
+
+```
+<img class="full-width" src="...">
+<figcaption>1200 x 400</figcaption>
 ```
 
 ### Blockquotes
 
 ```
 > Someone else's words
+```
+### Footnote
+
+```
+This is text with a footnote[^1].
+
+[^1]: Here is the note.
 ```
 ### Horizontal Rule
 
