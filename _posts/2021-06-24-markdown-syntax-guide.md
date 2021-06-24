@@ -11,12 +11,12 @@ Markdown is a plain text formatting syntax for writers.<!--more-->
 ### Headings
 
 ```
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
+H1: #
+H2: ##
+H3: ###
+H4: ####
+H5: #####
+H6: ######
 
 Alternative style:
 
@@ -30,13 +30,11 @@ Alt-H2
 ### Emphasis
 
 ```
-Italics with *asterisks* or _underscores_.
+Italics: *asterisks* or _underscores_.
 
-Bold with **asterisks** or __underscores__.
+Bold: **asterisks** or __underscores__.
 
-Can be combined:
+Combine: **asterisks and _underscores_**.
 
-**asterisks and _underscores_**.
-
-Strikethrough with two tildes. ~~Scratch this.~~
+Strikethrough:  ~~tildes.~~
 ```
