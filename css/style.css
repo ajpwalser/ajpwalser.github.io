@@ -166,7 +166,7 @@ blockquote {
 /* Code formatting */
 
 code {
-	font-family: ui-monospace, SFMono-Regular, SF Mono, Consolas, Liberation Mono, Menlo, monospace;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, ui-monospace, SFMono-Regular, SF Mono, Consolas, Liberation Mono, Menlo, monospace;	
 }
 
 pre {
