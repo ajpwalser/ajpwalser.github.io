@@ -5,7 +5,7 @@ description: Tag directory
 ---
 
 <h2>Tags</h2>
-<p>The following tags have been assigned:</p>
+<p>Tag directory:</p>
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 <!-- site_tags: {{ site_tags }} -->
 {% assign tag_words = site_tags | split:',' | sort %}
@@ -16,6 +16,7 @@ description: Tag directory
       <li><a href="#{{ tag | cgi_escape }}">{{ tag }}<span class="small">{{ site.tags[tag] | size }}</span></a></li>
       {% endfor %}
    </ul>
+   <p>Posts organized by tag:</p>
    {% for item in (0..site.tags.size) %}{% unless forloop.last %}
    {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
    <h3 class="tags" id="{{ this_word | cgi_escape }}">{{ this_word }}</h3>
