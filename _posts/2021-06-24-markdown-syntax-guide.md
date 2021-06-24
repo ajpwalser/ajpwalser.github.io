@@ -6,7 +6,7 @@ tags: website
 date: 2021-06-24
 ---
 
-An overview of Markdown syntax used to style text.
+Markdown is a plain text formatting syntax for writers.
 
 ## Headings
 
