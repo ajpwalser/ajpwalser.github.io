@@ -171,8 +171,7 @@ code {
 
 pre {
 	max-width: 100%;
-	white-space: pre-wrap;
-	word-break: break-all;
+	/* word-break: break-all; */
 	border: solid 1px var(--border);
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
