@@ -8,7 +8,7 @@ date: 2021-06-24
 
 Markdown is a plain text formatting syntax for writers.<!--more-->
 
-## Headings
+### Headings
 
 ```
 # H1
@@ -27,14 +27,16 @@ Alt-H2
 ------
 ```
 
-## Emphasis
+### Emphasis
 
 ```
-Emphasis, aka italics, with *asterisks* or _underscores_.
+Italics with *asterisks* or _underscores_.
 
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
+Bold with **asterisks** or __underscores__.
 
-Combined emphasis with **asterisks and _underscores_**.
+Can be combined:
 
-Strikethrough uses two tildes. ~~Scratch this.~~
+**asterisks and _underscores_**.
+
+Strikethrough with two tildes. ~~Scratch this.~~
 ```
