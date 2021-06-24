@@ -55,6 +55,12 @@ Ordered:
 Inline-style link: [link](https://...)
 ```
 
+### Images
+
+```
+...
+```
+
 ### Blockquotes
 
 ```
