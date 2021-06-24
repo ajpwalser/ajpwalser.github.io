@@ -6,7 +6,7 @@ tags: website
 date: 2021-06-24
 ---
 
-Markdown is a plain text formatting syntax for writers.<!--more-->
+Markdown is a plain text formatting syntax for writers. This post provides a quick overview of syntax used here.<!--more-->
 
 ### Headings
 
@@ -17,14 +17,6 @@ H3: ###
 H4: ####
 H5: #####
 H6: ######
-
-Alternative style:
-
-Alt-H1
-======
-
-Alt-H2
-------
 ```
 
 ### Emphasis
@@ -36,5 +28,5 @@ Bold: **asterisks** or __underscores__.
 
 Combine: **asterisks and _underscores_**.
 
-Strikethrough:  ~~tildes.~~
+Strikethrough: ~~tildes.~~
 ```
