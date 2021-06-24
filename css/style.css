@@ -180,7 +180,7 @@ pre {
 	border-radius: 5px;
 	box-shadow: 0 0 5px #00000033;
 	font-size: 75%;
-	background-color: var(--light);
+	background-color: var(--dark);
 	color: var(--code);
 	overflow: auto;
 	padding: 1em;
