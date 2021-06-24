@@ -63,9 +63,7 @@ Inline-style link: [link](https://...)
 ### Horizontal Rule
 
 ```
-Three hyphens, asterisks, or underscores:
+Three hyphens, asterisks, or underscores in a row:
 
----
-***
-___
+---, ***, ___
 ```
