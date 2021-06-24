@@ -171,7 +171,6 @@ code {
 
 pre {
 	max-width: 100%;
-	/* word-break: break-all; */
 	border: solid 1px var(--border);
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -186,6 +185,7 @@ pre {
 	padding-left: 1em;
 	padding-right: 1em;
 	margin-top: 2em;
+	word-break: keep-all;
 	white-space: pre-wrap;       /* css-3 */
  	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
  	white-space: -pre-wrap;      /* Opera 4-6 */
