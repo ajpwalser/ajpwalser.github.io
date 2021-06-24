@@ -73,3 +73,5 @@ Three hyphens, asterisks, or underscores in a row:
 
 ---, ***, ___
 ```
+
+:jack_o_lantern:
