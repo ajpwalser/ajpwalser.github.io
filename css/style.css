@@ -45,12 +45,7 @@ footer {
 	padding-top: 2em;
 }
 
-.header {
-	font-weight: 400;
-	font-size: 100%;
-	line-height: 1.25em;
-}
-
+.header, 
 footer {
 	font-weight: 400;
 	font-size: 75%;
