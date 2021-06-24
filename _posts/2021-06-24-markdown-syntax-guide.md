@@ -8,7 +8,7 @@ date: 2021-06-24
 
 Markdown is a plain text formatting syntax for writers. This post provides a brief overview of syntax used here.<!--more-->
 
-For a comprehensive guide, see [Daring Fireball](https://daringfireball.net/projects/markdown/).
+For a comprehensive guide to Markdown, see [Daring Fireball](https://daringfireball.net/projects/markdown/).
 
 ### Headings
 
