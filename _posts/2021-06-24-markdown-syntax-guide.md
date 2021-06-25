@@ -6,7 +6,7 @@ tags: writing
 date: 2021-06-24
 ---
 
-Markdown is a plain text formatting syntax for writers. This post provides a brief overview of syntax used to format text on this blog.<!--more-->
+Markdown is a plain text formatting syntax for writers. This post provides a brief overview of syntax commonly used to format text on this blog.<!--more-->
 
 For a comprehensive guide to Markdown, see [Daring Fireball](https://daringfireball.net/projects/markdown/).
 
