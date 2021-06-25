@@ -180,7 +180,7 @@ blockquote {
 /* Code formatting */
 
 code {
-	font-family: ui-monospace, SFMono-Regular, SF Mono, Consolas, Liberation Mono, Menlo, monospace;	
+	font-family: 'Inconsolata', ui-monospace, SFMono-Regular, SF Mono, Consolas, Liberation Mono, Menlo, monospace;	
 }
 
 pre {
