@@ -3,13 +3,13 @@
   font-family: 'Inconsolata';
   font-style: normal;
   font-weight: 400;
-  src: url('../ajpwalser.github.io/inconsolata-v21-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('../inconsolata-v21-latin-regular.eot'); /* IE9 Compat Modes */
   src: local(''),
-       url('../ajpwalser.github.io/inconsolata-v21-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../ajpwalser.github.io/inconsolata-v21-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../ajpwalser.github.io/inconsolata-v21-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('../ajpwalser.github.io/inconsolata-v21-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../ajpwalser.github.io/inconsolata-v21-latin-regular.svg#Inconsolata') format('svg'); /* Legacy iOS */
+       url('../inconsolata-v21-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../inconsolata-v21-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../inconsolata-v21-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../inconsolata-v21-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../inconsolata-v21-latin-regular.svg#Inconsolata') format('svg'); /* Legacy iOS */
 }
 
 
