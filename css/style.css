@@ -190,7 +190,6 @@ time,
 .meta,
 figcaption,
 .license {
-	font-family: 'Roboto Mono', ui-monospace, SFMono-Regular, SF Mono, Consolas, Liberation Mono, Menlo, monospace;
 	color: var(--meta);
 	font-size: 75%;
 }
