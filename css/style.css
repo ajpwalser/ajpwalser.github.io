@@ -200,7 +200,8 @@ time,
 .meta,
 figcaption,
 .license {
-	font-family: 'Roboto Mono', ui-monospace, SFMono-Regular, SF Mono, Consolas, Liberation Mono, Menlo, monospace;
+	font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, SF Mono, Consolas, Liberation Mono, Menlo, monospace;
+	font-feature-settings: "zero";
 	color: var(--meta);
 	font-size: 75%;
 }
@@ -232,7 +233,8 @@ blockquote {
 /* Code formatting */
 
 code {
-	font-family: 'Roboto Mono', ui-monospace, SFMono-Regular, SF Mono, Consolas, Liberation Mono, Menlo, monospace;	
+	font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, SF Mono, Consolas, Liberation Mono, Menlo, monospace;
+	font-feature-settings: "zero";	
 }
 
 pre {
