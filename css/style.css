@@ -58,8 +58,8 @@
   font-style: normal;
   font-weight: 400;
   src: local(''),
-       url('../fonts/jetbrains-mono-v6-latin-regular.woff2') format('woff2'), 
-       url('../fonts/jetbrains-mono-v6-latin-regular.woff') format('woff'); 
+       url('../jetbrains-mono-v6-latin-regular.woff2') format('woff2'), 
+       url('../jetbrains-mono-v6-latin-regular.woff') format('woff'); 
 }
 
 
