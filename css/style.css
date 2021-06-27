@@ -189,6 +189,10 @@ figcaption {
 	font-size: 75%;
 }
 
+time {
+	margin-top: -1.5em; /* Test */
+}
+
 .meta {
 	margin-bottom: 4em;
 }
