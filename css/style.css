@@ -128,14 +128,14 @@ h4 {
 h1 {
 	font-size: 315.7%;
 	line-height: 1em;
-	margin-bottom: 0.33em;
+	/* margin-bottom: 0.33em; */
 }
 
 h2 {
 	font-size: 236.9%;
 	line-height: 1.25em;
 	margin-top: 0;
-	margin-bottom: 0.33em;
+	/* margin-bottom: 0.33em; */
 }
 
 h3,
@@ -143,14 +143,13 @@ h3,
 .cats {
 	font-size: 177%;
 	line-height: 1.25em;
-	margin-bottom: 0.25em;
+	/* margin-bottom: 0.25em; */
 }
 
 h4 {
 	font-size: 133%;
 	line-height: 1.25em;
-	margin-bottom: 0.25em;
-}
+	/* margin-bottom: 0.25em; */
 
 
 /* Links */
