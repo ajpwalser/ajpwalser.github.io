@@ -420,13 +420,18 @@ background-color: var(--light);
 border: 1px solid var(--border);
 
   &:first-child {
-    border-right-width: 0;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-decoration: none;
+	box-shadow: 0 0 5px #00000033;
   }
   &:last-child {
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-decoration: none;
+	box-shadow: 0 0 5px #00000033;
   }
 }
 
