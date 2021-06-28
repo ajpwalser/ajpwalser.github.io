@@ -429,12 +429,6 @@ span.small {
   }
 }
 
-a.pagination-item:hover {
-  background-color: var(--border);
-  text-decoration: none;
-}
-
-
 /* Read more */
 
 .read-more {
