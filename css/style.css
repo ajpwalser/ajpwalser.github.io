@@ -91,7 +91,7 @@ header {
 }
 
 footer {
-	margin-top: 3rem; /* Spacing */
+	margin-top: 4rem; /* Spacing */
 }
 
 .header, 
@@ -133,7 +133,7 @@ h2 {
 	font-size: 236.9%;
 	line-height: 1.25em;
 	margin-top: 3rem; /* Spacing */
-	margin-bottom: 0.33em;
+	margin-bottom: -0.33em;
 }
 
 h3,
