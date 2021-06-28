@@ -189,10 +189,6 @@ figcaption {
 	font-size: 75%;
 }
 
-.meta {
-	margin-bottom: 6em;
-}
-
 .meta a {
 	color: var(--theme) !important;
 }
@@ -201,7 +197,6 @@ figcaption {
 /* Blockquotes */
 
 blockquote {
-	font-weight: 500;
 	margin: 1em auto;
 	padding-left: 1em;
 	border-left: solid 1px var(--hr);
@@ -306,8 +301,7 @@ figcaption {
 /* Link Buttons */
 
 .read-more-trigger,
-.pagination a,
-.post-nav a {
+.pagination a {
 	padding: 7px 18px;
 	margin: 2px;
 	color: #39C;
@@ -377,31 +371,6 @@ span.small {
 }
 
 
-/* Older and newer post */
-
-.post-nav {
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	font-size: 75%;
-	margin-bottom: 2em;
-}
-
-.post-nav p {
-	flex: 1 1 0;
-	width: 45%;
-}
-
-.post-nav p:first-child {
-	padding-right: 0.5em;
-}
-
-.post-nav p:last-child {
-	padding-left: 0.5em;
-	text-align: right;
-}
-
-
 /* Pagination */
 
 .pagination {
@@ -409,7 +378,6 @@ span.small {
 	justify-content: space-between;
 	flex-wrap: wrap;
 	font-size: 75%;
-	margin-bottom: 2em;
 }
 
 .pagination p {
