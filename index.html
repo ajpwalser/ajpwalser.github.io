@@ -60,14 +60,14 @@ description: Personal blog of Adam Walser.
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
    {% if paginator.previous_page %}
-   <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older</a>
+   <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&#8592; Older</a>
    {% else %}
-   <span>&#8592; Prev Page</span>
+   <span>&#8592; Older</span>
    {% endif %}
    {% if paginator.next_page %}
-   <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Newer</a>
+   <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Newer &#8594;</a>
    {% else %}
-   <span>Next Page &#8594;</span>
+   <span>Newer &#8594;</span>
    {% endif %}
 </div>
 {% endif %}
