@@ -408,13 +408,13 @@ span.small {
 .pagination {
   display: flex;
   text-align: center;
+font-size: 75%;
 }
 
 .pagination-item {
   float: left;
   width: 50%;
-  padding: 1em;
-	font-size: 75%;
+  padding: 7px 18px;
 	background-color: var(--light);
 	border: 1px solid var(--border);
 
@@ -427,6 +427,10 @@ span.small {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
   }
+}
+
+a.pagination-item:hover {
+  text-decoration: none;
 }
 
 /* Read more */
