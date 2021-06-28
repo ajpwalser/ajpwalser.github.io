@@ -56,18 +56,17 @@ description: Personal blog of Adam Walser.
 </p>
 </article>
 {% endfor %}
-<!-- pagination -->
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-   {% if paginator.previous_page %}
-   <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&#8592; Prev Page</a>
-   {% else %}
-   <span>&#8592; Prev Page</span>
-   {% endif %}
-   {% if paginator.next_page %}
-   <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next Page &#8594;</a>
-   {% else %}
-   <span>Next Page &#8594;</span>
-   {% endif %}
-</div>
+{% if paginator %}
+  <div class="pagination">
+    {% if paginator.next_page %}
+      <a class="pagination-item older" href="{{ paginator.next_page_path | relative_url }}">Older</a>
+    {% else %}
+      <span class="pagination-item older">Older</span>
+    {% endif %}
+    {% if paginator.previous_page %}
+      <a class="pagination-item newer" href="{{ paginator.previous_page_path | relative_url }}">Newer</a>
+    {% else %}
+      <span class="pagination-item newer">Newer</span>
+    {% endif %}
+  </div>
 {% endif %}
