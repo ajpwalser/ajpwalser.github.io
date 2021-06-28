@@ -91,7 +91,7 @@ header {
 }
 
 footer {
-	margin-top: 3em;
+	margin-top: 3rem;
 }
 
 .header, 
@@ -125,7 +125,7 @@ h4 {
 
 h1 {
 	font-size: 315.7%;
-	line-height: 1em;
+	line-height: 3rem;
 	margin-bottom: 0.33em;
 }
 
