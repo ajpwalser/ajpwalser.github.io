@@ -420,28 +420,33 @@ span.small {
 }
 
 
-/* Pagination */
+/* New Pagination */
 
 .pagination {
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	font-size: 75%;
-	margin-bottom: 2em;
+  display: flex;
+  text-align: center;
 }
 
-.pagination p {
-	flex: 1 1 0;
-	width: 45%;
+.pagination-item {
+  float: left;
+  width: 50%;
+  padding: var(--spacer);
+  border: 1px solid black;
+
+  &:first-child {
+    border-right-width: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  &:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
 }
 
-.pagination p:first-child {
-	padding-right: 0.5em;
-}
-
-.pagination p:last-child {
-	padding-left: 0.5em;
-	text-align: right;
+a.pagination-item:hover {
+  background-color: var(--border-color);
+  text-decoration: none;
 }
 
 
