@@ -408,28 +408,27 @@ span.small {
 .pagination {
   display: flex;
   text-align: center;
-  margin-top: var(--spacer-2);
 }
 
 .pagination-item {
   float: left;
   width: 50%;
-  padding: var(--spacer);
-  border: 1px solid var(--border-color);
+  padding: 1em;
+  border: 1px solid var(--border);
 
   &:first-child {
     border-right-width: 0;
-    border-top-left-radius: var(--border-radius);
-    border-bottom-left-radius: var(--border-radius);
+    border-top-left-radius: .5em;
+    border-bottom-left-radius: .5em;
   }
   &:last-child {
-    border-top-right-radius: var(--border-radius);
-    border-bottom-right-radius: var(--border-radius);
+    border-top-right-radius: .5em;
+    border-bottom-right-radius: .5em;
   }
 }
 
 a.pagination-item:hover {
-  background-color: var(--border-color);
+  background-color: var(--border);
   text-decoration: none;
 }
 
