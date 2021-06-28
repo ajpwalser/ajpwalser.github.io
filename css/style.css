@@ -436,9 +436,6 @@ span.small {
 	color: var(--theme);
 	background-color: var(--light);
 	border: 1px solid var(--border);
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
 	text-decoration: none;
 	box-shadow: 0 0 5px #00000033;
 
