@@ -30,13 +30,13 @@ H6: ######
 ### Emphasis
 
 ```
-Italics: *asterisks* or _underscores_.
+Italics: *asterisks* or _underscores_
 
-Bold: **asterisks** or __underscores__.
+Bold: **asterisks** or __underscores__
 
-Combine: **asterisks and _underscores_**.
+Combine: **asterisks and _underscores_**
 
-Strikethrough: ~~tildes.~~
+Strikethrough: ~~tildes~~
 ```
 
 ### Lists
@@ -82,9 +82,9 @@ Inline-style link: [link](https://...)
 ### Footnote
 
 ```
-This is text with a footnote[^1].
+This is text with a footnote[^1]
 
-[^1]: Here is the note.
+[^1]: Here is the note
 ```
 ### Horizontal Rule
 
