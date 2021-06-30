@@ -5,7 +5,7 @@ description: Category directory
 ---
 
 <h2>Categories</h2>
-<p>Category directory and categorized posts.</p>
+<p>Posts organized by category</p>
 {% capture site_categories %}{% for category in site.categories %}{{ category | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 <!-- site_categories: {{ site_categories }} -->
 {% assign category_words = site_categories | split:',' | sort %}
