@@ -188,6 +188,7 @@ h2 a:hover {
 time,
 .meta,
 figcaption {
+	font-family: 'Inconsolata', ui-monospace, SFMono-Regular, SF Mono, Consolas, Liberation Mono, Menlo, monospace;
 	color: var(--meta);
 	font-size: 75%;
 }
