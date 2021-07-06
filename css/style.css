@@ -434,11 +434,11 @@ span.small {
 }
 
 .read-more-state~.read-more-trigger:before {
-	content: "More \2193";
+	content: "\2193";
 }
 
 .read-more-state:checked~.read-more-trigger:before {
-	content: "Less \2191";
+	content: "\2191";
 }
 
 .read-more-trigger {
