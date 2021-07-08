@@ -1,3 +1,1 @@
-A word to the wise: never moon a werewolf. In the same vein, never say “bite me” to a vampire.
-
 Adam Walser is a librarian and not-yet-published author. He apparently can't tie his shoes properly and hasn't a driver's license. And much to the chagrin of nearly every adult male he encounters, can't be bothered to watch the entirety of the Marvel Cinematic Universe (MCU). Walser thinks it unwise to moon a werewolf or say “bite me” to a vampire. This is probably the only advice worth following on a bumper sticker. When not doing other things, he can likely be found poppin' a wheelie (on his bike). You can reach him here.
