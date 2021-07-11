@@ -15,14 +15,9 @@
 </head>
 <body>
    <div class="container">     
-  <header role="banner">
-    <h2>
-    <a href="{{ site.baseurl | prepend: site.url }}/">{{ site.title }}</a>
-    </h2>
-    <hr>
-    <nav>
-        <a href="https://writxt.fun">What is Writxt?</a>
-    </nav>
+   <header>
+      <h1 class="header"><a href="{{ site.baseurl | prepend: site.url }}/">{{ site.title }}</a></h1>
+      <hr>
    </header>
    <main aria-label="Content" role="main">
       {{ content }}
