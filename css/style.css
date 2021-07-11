@@ -84,17 +84,33 @@ hr {
 }
 
 
-/* Header & Footer */
+/* Header */
 
 header {
-	margin: 0;
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0 4rem;
 }
+header h2 {
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1;
+    margin-bottom: 0;
+}
+header h2 a {
+    font-weight: 600;
+}
+header nav a {
+    margin-left: 10px;
+}
+
+/* Footer */
 
 footer {
 	margin-top: 4rem; /* Spacing */
 }
 
-.header, 
 footer {
 	font-family: 'Barlow', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 	font-weight: 400;
@@ -104,13 +120,11 @@ footer {
 	line-height: 1.25em;
 }
 
-.header a,
 footer a {
 	color: var(--text) !important;
 	text-decoration: none !important;
 }
 
-.header a:hover,
 footer a:hover {
 	color: var(--theme) !important;
 }
