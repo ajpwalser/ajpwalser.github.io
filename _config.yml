@@ -1,0 +1,9 @@
+title: Adam Walser
+description:
+tagline: 
+permalink: /:title/
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
