@@ -3,13 +3,9 @@ layout: default
 ---
 
 <article class="post">
-{% for post in site.posts %}
-<article role="article">
-<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-<time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %-d, %Y" }}</time>
-{% endfor %}  
-</article>
-{{ content }}
+  <h2 class="post-title">{{ page.title }}</h2>
+  <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
+  {{ content }}
 </article>
 <hr>
 <p><a href="#" class="index-link">↑&nbsp;Top</a></p>
