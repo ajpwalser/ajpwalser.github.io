@@ -26,7 +26,7 @@ span.created {
     display: block;
 }
 time {
-font-feature-settings: 'zero' 1, 'ss01' 1;
+font-feature-settings: 'ss02' 1;
 }
 hr {
     display: block;
