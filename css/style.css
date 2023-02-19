@@ -74,13 +74,6 @@ a:active {
      transition-duration: .25s;
      trasition-timing-function: cubic-bezier(0,0,.58,1);
 }
-
-.post-date {
-    display: block;
-    margin-top: -0.5rem;
-    margin-bottom: 1rem;
-    color: var(--color-text-accent);
-}
 .footer{
 text-align:left;
 }
