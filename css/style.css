@@ -17,7 +17,7 @@ font-size: 100%;
 color: var(--color-text-body);
 line-height: 1.3;		
 }
- .container {
+.container {
      margin: 0 auto 3em;
      padding: 0 0.5em;
      max-width: 31.5em;
@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
      color: var(--font-body);
      text-decoration: none;
-     box-shadow: inset 0 -.125em 0 0 var(--border);
+     box-shadow: inset 0 -.125em 0 0 var(--color-border);
      transition-property: color;
      transition-duration: .25s;
      trasition-timing-function: cubic-bezier(0,0,.58,1);
