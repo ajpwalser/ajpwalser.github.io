@@ -35,21 +35,31 @@ hr {
 h1, h2, h3, h4, h5, h6 {
     color: var(--color-text-heading);
 }
+h1 {
+     line-height: 1em;
+     margin: 2rem 0 2rem 0;
+     padding: 0 0 0 0;
+}
+h2 {
+     line-height: 1em;
+     margin: 2rem 0 2rem 0;
+     padding: 0 0 0 0;
+}
+h3 {
+     line-height: 1em;
+     margin: 2rem 0 2rem 0;
+     padding: 0 0 0 0;
+}
 a {
      color: var(--font-body);
      text-decoration: none;
-     box-shadow: inset 0 -.1875rem 0 0 blue;
+     box-shadow: inset 0 -.1875rem 0 0 var(--color-link);
      transition-property: color;
      transition-duration: .25s;
      trasition-timing-function: cubic-bezier(0,0,.58,1);
 }
-a:visited {
-     color: var(--font-body);
-     text-decoration: none;
-     box-shadow: inset 0 -.1875rem 0 0 purple;
-     transition-property: color;
-     transition-duration: .25s;
-     trasition-timing-function: cubic-bezier(0,0,.58,1);
+a:hover {
+     color: var(--color-link);
 }
 a:active {
      color: var(--font-body);
