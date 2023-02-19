@@ -26,6 +26,7 @@ span.created {
     display: block;
 }
 time {
+color: var(--color-text-accent);
 font-feature-settings: 'ss02' 1;
 }
 hr {
