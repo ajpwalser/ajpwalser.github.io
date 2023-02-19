@@ -4,8 +4,8 @@
      --color-text-accent: #595959:
      --color-background: #fff;
      --color-border: #cbcbcb;
-     --color-link: #f74853;
-     --font-body: "Inter", system-ui, sans-serif;
+     --color-link: #1e69cd;
+     --font-body: "Inter", sans-serif;
 }
 html{
 -webkit-text-size-adjust:100%;
@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
      color: var(--font-body);
      text-decoration: none;
-     box-shadow: inset 0 -.125em 0 0 var(--color-link);
+     box-shadow: inset 0 -.1875rem 0 0 var(--color-link);
      transition-property: color;
      transition-duration: .25s;
      trasition-timing-function: cubic-bezier(0,0,.58,1);
