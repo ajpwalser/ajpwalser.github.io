@@ -38,18 +38,28 @@ h1, h2, h3, h4, h5, h6 {
 a {
      color: var(--font-body);
      text-decoration: none;
-     box-shadow: inset 0 -.1875rem 0 0 var(--color-link);
+     box-shadow: inset 0 -.1875rem 0 0 blue;
      transition-property: color;
      transition-duration: .25s;
      trasition-timing-function: cubic-bezier(0,0,.58,1);
-    /* display: inline-block;
-     */
-    /* line-height: 0.7em;
-     */
 }
- a:hover {
-     color: var(--color-link);
+a:visited {
+     color: var(--font-body);
+     text-decoration: none;
+     box-shadow: inset 0 -.1875rem 0 0 purple;
+     transition-property: color;
+     transition-duration: .25s;
+     trasition-timing-function: cubic-bezier(0,0,.58,1);
 }
+a:active {
+     color: var(--font-body);
+     text-decoration: none;
+     box-shadow: inset 0 -.1875rem 0 0 red;
+     transition-property: color;
+     transition-duration: .25s;
+     trasition-timing-function: cubic-bezier(0,0,.58,1);
+}
+
 .post-date {
     display: block;
     margin-top: -0.5rem;
