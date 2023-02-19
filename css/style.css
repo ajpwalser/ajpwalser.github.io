@@ -1,11 +1,21 @@
 :root {
-     --color-text-body: #333;
-     --color-text-heading: #222;
-     --color-text-accent: #595959:
-     --color-background: #fff;
-     --color-border: #cbcbcb;
-     --color-link: #1e69cd;
-     --font-body: "Inter", sans-serif;
+    --font-body: "Inter", sans-serif
+    --color-background: #fff;
+    --color-background-secondary: #203851;
+    --color-background-tertiary: #f0f0f0;
+    --color-highlight: #fd0;
+    --color-border: #cbcbcb;
+    --color-transparent: transparent;
+    --color-shadow-primary: rgba(0, 0, 0, 0.1);
+    --color-shadow-secondary: rgba(0, 0, 0, 0.05);
+    --color-text-accent: #595959;
+    --color-text-body: #333;
+    --color-text-heading: #222;
+    --color-link: #1e69cd;
+    --color-link-hover: var(--color-background-secondary);
+    --color-button: var(--color-background);
+    --color-button-text: var(--color-link);
+    --color-button-hover: var(--color-background-secondary);
 }
 html{
 -webkit-text-size-adjust:100%;
@@ -57,7 +67,14 @@ h3 {
      margin: 2rem 0 2rem 0;
      padding: 0 0 0 0;
 }
-
+a {
+    color: var(--color-link);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--color-link-hover);
+    text-decoration: none; 
+}
 .footer{
 text-align:left;
 }
