@@ -48,8 +48,17 @@ hr {
 h1, h2, h3 {
     color: var(--color-text-heading);
     letter-spacing: -0.03em;
-    margin: 2rem 0 2rem 0;
-    padding: 0 0 0 0;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+h1 {
+margin-top: 0;
+}
+h2 {
+margin-top: 2rem;
+}
+h3 {
+margin-top: 1.6rem;
 }
 a {
     color: var(--color-link);
