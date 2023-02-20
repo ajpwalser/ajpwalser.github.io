@@ -72,11 +72,11 @@ a:hover {
     color: var(--color-link-hover);
     text-decoration: none; 
 }
-header a {
+header a, footer a {
     color: var(--color-text-body);
     text-decoration: none;
 }
-header a:hover {
+header a:hover, footer a:hover {
     color: var(--color-link-hover);
     text-decoration: none; 
 }
