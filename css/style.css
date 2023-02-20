@@ -58,7 +58,7 @@ line-height: 1.3;
 span.created {
     display: block;
 }
-hr {
+hr.thick {
     display: block;
     box-sizing: content-box;
     height: 0.1875rem;
@@ -68,24 +68,21 @@ hr {
     border: 0;
     border-top: 0.1875rem solid var(--color-border);
 }
+hr.thin {
+    display: block;
+    box-sizing: content-box;
+    height: 0.0625remrem;
+    margin: 3rem 0;
+    padding: 0;
+    overflow: visible;
+    border: 0;
+    border-top: 0.1875rem solid var(--color-border);
+}
 h1, h2, h3 {
     color: var(--color-text-heading);
     letter-spacing: -0.03em;
-}
-h1 {
-     line-height: 1em;
-     margin: 2rem 0 2rem 0;
-     padding: 0 0 0 0;
-}
-h2 {
-     line-height: 1em;
-     margin: 2rem 0 2rem 0;
-     padding: 0 0 0 0;
-}
-h3 {
-     line-height: 1em;
-     margin: 2rem 0 2rem 0;
-     padding: 0 0 0 0;
+    margin: 2rem 0 2rem 0;
+    padding: 0 0 0 0;
 }
 a {
     color: var(--color-link);
