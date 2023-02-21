@@ -76,7 +76,6 @@ blockquote {
 blockquote span {
     font-style: italic;
   }
-}
 a {
     color: var(--color-link);
 }
