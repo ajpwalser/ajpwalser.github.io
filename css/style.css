@@ -70,7 +70,8 @@ p {
 }
 blockquote {
   border-left: 0.1875rem solid var(--color-border);
-  padding: 20px 50px;
+  padding: 1rem;
+  margin: 0;
   text-align: left;
 }
 blockquote span {
