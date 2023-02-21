@@ -73,7 +73,7 @@ blockquote {
   padding: 20px 50px;
   text-align: left;
 }
-author {
+blockquote span {
     font-style: italic;
   }
 }
