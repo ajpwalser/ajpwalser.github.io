@@ -75,6 +75,7 @@ blockquote {
   text-align: left;
 }
 blockquote span {
+    font-size: 75%;
     font-style: italic;
   }
 a {
