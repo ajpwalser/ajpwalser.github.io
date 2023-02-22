@@ -7,12 +7,6 @@ layout: default
   <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B, %Y' }}</time></p>
   {{ content }}
 </article>
-<p>{% if page.applause_button %}
-  <applause-button class="mb6"
-    color={{ site.accent_color | default:'rgb(79,177,186)' }}
-    url={{ post.url | absolute_url }} >
-  </applause-button>
-  {% endif %}</p>
 <hr>
 <footer>
 <p class="footer">
