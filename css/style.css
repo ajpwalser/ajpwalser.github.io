@@ -47,6 +47,7 @@ applause-button .count-container {
 }
 span.created {
     display: block;
+    font-feature-settings: 'tnum' 1;
 }
 .post-meta {
     margin-top: 0.25rem;
