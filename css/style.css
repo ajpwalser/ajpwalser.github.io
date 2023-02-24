@@ -33,17 +33,12 @@ applause-button {
   margin: 2rem auto;
   font-size: x-small;
 }
-applause-button .count-container {
+.count-container {
     position: absolute;
     top: -40%;
     width: 100%;
     color: var(--color-text-accent);
     user-select: none;
-}
-.style-root {
-    fill: (--color-text-body);
-    stroke: var(--color-link);
-    color: var(--color-link);
 }
 .container {
      margin: 0 auto 3em;
