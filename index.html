@@ -13,7 +13,7 @@ description:
 <div class="post-list">
   {% for post in site.posts %}
     <article role="article">
-      <span class="created"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: '%m/%Y' }}</time> — <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span>
+      <span class="created"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: '%m/%Y' }}</time> — <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span>{% if post.applause_button %}<span class="clap-count" data-url="{{ post.url | absolute_url }}"></span>{% endif %}
     </article>
   {% endfor %}
 </div>
