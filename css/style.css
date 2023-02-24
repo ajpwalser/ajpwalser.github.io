@@ -28,17 +28,10 @@ color: var(--color-text-body);
 line-height: 1.3;		
 }
 applause-button {
-  width: 32px;
-  height: 32px;
+  width: 58px;
+  height: 58px;
   margin: 2rem auto;
   font-size: x-small;
-}
-.count-container {
-    position: absolute;
-    top: -40%;
-    width: 100%;
-    color: var(--color-text-accent);
-    user-select: none;
 }
 .container {
      margin: 0 auto 3em;
