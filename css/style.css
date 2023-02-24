@@ -132,6 +132,25 @@ pre {
     background-color: var(--color-background-tertiary);
     border-radius: 0.25rem;
 }
+.clap-count {
+  @extend h4;
+  color: var(--accent-color);
+  display: none;
+
+  svg {
+    height: 1em;
+    vertical-align: middle;
+    width: 1em;
+  }
+
+  .flat {
+    fill: var(--body-bg);
+  }
+
+  .outline {
+    fill: var(--accent-color);
+  }
+}
 /* Flexible Foundations via Trent Walton https://codepen.io/TrentWalton/pen/xbXdWP */
  @media screen and (min-width: 300px) {
      body {
