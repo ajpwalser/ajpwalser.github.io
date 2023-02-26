@@ -64,7 +64,8 @@ hr {
     padding: 0;
     overflow: visible;
     border: 0;
-    border-top: 0.0625rem solid var(--color-border);
+    border-top: 0.0625rem dotted var(--color-border);
+    style: dashed;
 }
 h1, h2, h3 {
     color: var(--color-text-heading);
