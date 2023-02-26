@@ -56,6 +56,17 @@ hr {
     border: 0;
     border-top: 0.1875rem solid var(--color-border);
 }
+
+thin {
+    display: block;
+    box-sizing: content-box;
+    height: 0.0625rem;
+    margin: 2rem 0;
+    padding: 0;
+    overflow: visible;
+    border: 0;
+    border-top: 0.0625rem solid var(--color-border);
+}
 h1, h2, h3 {
     color: var(--color-text-heading);
     letter-spacing: -0.03em;
