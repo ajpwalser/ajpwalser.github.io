@@ -47,6 +47,9 @@ span.created {
     margin-top: 0.25rem;
     color: var(--color-text-accent);
 }
+.rss {
+text-align: right;
+}
 hr {
     display: block;
     box-sizing: content-box;
