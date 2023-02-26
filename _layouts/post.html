@@ -12,7 +12,7 @@ layout: default
   <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B, %Y' }}</time></p>
   {{ content }}
 </article>
-<hr>
+<hr class="thin">
 {% if page.applause_button %}
   <applause-button class="mb6"
     color={{ site.accent_color | default:'var(--color-link)' }}
