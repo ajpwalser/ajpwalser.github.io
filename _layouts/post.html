@@ -12,6 +12,7 @@ layout: default
   <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B, %Y' }}</time></p>
   {{ content }}
 </article>
+<div class="rss">RSS</div>
 <hr class="thin">
 {% if page.applause_button %}
   <applause-button class="mb6"
@@ -19,7 +20,6 @@ layout: default
     url={{ site.baseurl }}{{ page.url }} >
   </applause-button>
 {% endif %}
-<div class="rss">RSS</div>
 <hr>
 <footer>
 <p class="footer">
