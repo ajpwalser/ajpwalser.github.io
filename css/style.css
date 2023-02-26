@@ -43,6 +43,7 @@ span.created {
     font-feature-settings: 'tnum' 1;
 }
 .post-meta {
+    font-size: 75%;
     margin-top: 0.25rem;
     color: var(--color-text-accent);
 }
