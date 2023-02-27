@@ -98,6 +98,7 @@ blockquote {
 blockquote span {
     font-size: 75%;
     font-style: italic;
+    color: var(--color-text-accent);
   }
 a {
     color: var(--color-text-body);
