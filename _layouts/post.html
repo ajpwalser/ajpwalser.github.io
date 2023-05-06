@@ -1,24 +1,12 @@
 --- 
 layout: default 
 ---
-<head>
-  {% if page.applause_button %}
-   <link rel="stylesheet" href="https://unpkg.com/applause-button/dist/applause-button.css">
-   <script src="https://unpkg.com/applause-button/dist/applause-button.js"></script>
-   {% endif %}
-</head>
+
 <article class="post">
   <h2 class="post-title">{{ page.title }}</h2>
-  <p class="post-meta" style="text-align:left;><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B, %Y' }}</time><span style="float:right;">Feed</span></p>
+  <p class="post-meta" style="text-align:left;><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B, %Y' }}</time></p>
   {{ content }}
 </article>
-<hr class="thin">
-{% if page.applause_button %}
-  <applause-button class="mb6"
-    color={{ site.accent_color | default:'var(--color-link)' }}
-    url={{ site.baseurl }}{{ page.url }} >
-  </applause-button>
-{% endif %}
 <hr>
 <footer>
 <p class="footer">
