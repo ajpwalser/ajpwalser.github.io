@@ -68,11 +68,10 @@ hr {
 }
 h1, h2, h3 {
     color: var(--color-text-heading);
-    letter-spacing: -0.03em;
     line-height: 1.2;
 }
 h1 {
-margin: 2rem 0; 
+margin: 2rem 0 0; 
 }
 h2 {
 margin: 2rem 0 0;
