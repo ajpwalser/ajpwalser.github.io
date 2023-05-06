@@ -66,6 +66,9 @@ hr {
     border-top: 0.0625rem dotted var(--color-border);
     style: dashed;
 }
+header {
+    margin: 2rem 0;
+}
 h1, h2, h3 {
     color: var(--color-text-heading);
     line-height: 1.2;
