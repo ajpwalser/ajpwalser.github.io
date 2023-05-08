@@ -1,5 +1,5 @@
 :root {
-    --font-body: system-ui, 'Noto Emoji', sans-serif;
+    --font-body: 'Inter', sans-serif;
     --color-background: #fff;
     --color-background-secondary: #203851;
     --color-background-tertiary: #f0f0f0;
@@ -70,7 +70,8 @@ header {
 }
 h1, h2, h3 {
     color: var(--color-text-heading);
-    font-weight: 800;
+    letter-spacing: -0.03em;
+    font-weight: 740;
     line-height: 1.2;
 }
 h1 {
