@@ -87,6 +87,11 @@ p {
     margin-top: 0.25rem;
     margin-bottom: 1rem;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 blockquote {
   border-left: 0.1875rem solid var(--color-border);
   padding: 1rem;
