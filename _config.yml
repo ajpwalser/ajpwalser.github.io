@@ -1,16 +1,9 @@
-title: Salami Neck
+title: Adam Walser
 author: Adam Walser
 description:
 tagline:
 permalink: /:title/
 markdown: kramdown
-defaults:
-# You can use the following to enable comments on all posts.
-  - scope:
-      type: posts
-    values:
-      # https://applause-button.com/
-      applause_button: true
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
