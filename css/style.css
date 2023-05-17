@@ -40,7 +40,6 @@ span.created {
 .post-meta {
     margin-top: 0.25rem;
     color: var(--color-text-accent);
-    text-transform: uppercase;
 }
 hr {
     display: block;
