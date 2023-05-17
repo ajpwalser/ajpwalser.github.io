@@ -40,9 +40,7 @@ span.created {
 .post-meta {
     margin-top: 0.25rem;
     color: var(--color-text-accent);
-}
-.rss {
-text-align: right;
+    text-transform: uppercase;
 }
 hr {
     display: block;
