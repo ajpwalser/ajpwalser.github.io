@@ -19,12 +19,12 @@
      font-weight: 100 900;
      font-style: normal;
      font-stretch: normal;
-     src: url('/PublicSans-VariableFont_wght.ttf') format('truetype-variations');
+     src: url('/PublicSans[wght].ttf') format('truetype-variations');
 }
  @font-face{
      font-family: 'Public Sans';
      font-weight: 100 900;
      font-style: italic;
      font-stretch: normal;
-     src: url('/PublicSans-Italic-VariableFont_wght.ttf') format('truetype-variations');
+     src: url('/PublicSans-Italic[wght].ttf') format('truetype-variations');
 }
