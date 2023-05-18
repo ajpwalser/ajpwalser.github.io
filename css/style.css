@@ -1,5 +1,5 @@
 :root {
-    --font-body: 'Inter', sans-serif;
+    --font-body: 'Public Sans', sans-serif;
     --color-background: #fff;
     --color-background-secondary: #203851;
     --color-background-tertiary: #f0f0f0;
@@ -23,7 +23,8 @@ padding-bottom:4em
 }
 body{
 font-family: var(--font-body);
-font-size: 100%; 	
+font-size: 100%;
+font-feature-settings: 'ss01';    
 color: var(--color-text-body);
 line-height: 1.3;		
 }
