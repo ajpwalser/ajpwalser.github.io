@@ -9,8 +9,10 @@ description:
 <div class="post-list">
   {% for post in site.posts %}
     <article role="article">
-      <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: '%m/%Y' }}</time>
+      <ul>
+      <li><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: '%m/%Y' }}</time></li>
       <br><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      </ul>
     </article>
   {% endfor %}
 </div>
