@@ -41,6 +41,9 @@ time {
 .tnum {
 font-feature-settings: "tnum";
 }
+li::marker {
+color: var(--color-border);
+}
 hr {
     display: block;
     box-sizing: content-box;
@@ -85,7 +88,7 @@ p {
     margin-bottom: 1rem;
 }
 ul {
-  list-style-type: none;
+  list-style-type: square;
   margin: 2rem 0;
   padding: 0;
 }
