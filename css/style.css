@@ -38,6 +38,9 @@ line-height: 1.3;
 time {
     color: var(--color-text-accent);
 }
+.tnum {
+font-feature-settings: "tnum";
+}
 hr {
     display: block;
     box-sizing: content-box;
