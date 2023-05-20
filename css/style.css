@@ -35,13 +35,10 @@ line-height: 1.3;
      padding: 0 0.5em;
      max-width: 31.5em;
 }
-span.created {
-    display: block;
-    font-feature-settings: 'tnum' 1;
-}
 .post-meta {
     margin-top: 0.25rem;
     color: var(--color-text-accent);
+    font-feature-settings: 'tnum' 1;
 }
 hr {
     display: block;
@@ -88,7 +85,7 @@ p {
 }
 ul {
   list-style-type: none;
-  margin: 0;
+  margin: 2rem 0;
   padding: 0;
 }
 blockquote {
