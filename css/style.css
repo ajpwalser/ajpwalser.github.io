@@ -72,21 +72,21 @@ h1, h2, h3 {
     line-height: 1.2;
 }
 h1 {
-margin: 2rem 0 0; 
+margin: 2rem 0 1rem; 
 }
 h2 {
-margin: 2rem 0 0;
+margin: 2rem 0;
 }
 h3 {
 margin-top: 1.6rem;
 }
 p {
-    margin-top: 0.25rem;
     margin-bottom: 1rem;
 }
 ul {
   list-style-type: none;
   padding: 0;
+  margin-top: 0;
 }
 blockquote {
   border-left: 0.1875rem solid var(--color-border);
