@@ -36,6 +36,7 @@ line-height: 1.3;
 }
 time {
     color: var(--color-text-accent);
+    font-size: 75%;
 }
 .tnum {
 font-feature-settings: "tnum";
