@@ -10,13 +10,13 @@ Markdown is a plain text formatting syntax for writers. This post provides a bri
 
 For a comprehensive guide to Markdown, see [Daring Fireball](https://daringfireball.net/projects/markdown/).
 
-### Table of contents
+## Table of contents
 {: .no_toc}
 
 1. TOC
 {:toc}
 
-### Headings
+## Headings
 
 ```
 H1: #
@@ -27,7 +27,7 @@ H5: #####
 H6: ######
 ```
 
-### Emphasis
+## Emphasis
 
 ```
 Italics: *asterisks* or _underscores_
@@ -39,7 +39,7 @@ Combine: **asterisks and _underscores_**
 Strikethrough: ~~tildes~~
 ```
 
-### Lists
+## Lists
 
 ```
 Unordered:
@@ -55,19 +55,19 @@ Ordered:
 3. Three
 ```
 
-### Links
+## Links
 
 ```
 Inline-style link: [link](https://...)
 ```
 
-### Images
+## Images
 
 ```
 ![Image](https://... "Image")
 ```
 
-### HTML
+## HTML
 
 ```
 <img class="full-width" src="...">
@@ -96,19 +96,19 @@ Inline-style link: [link](https://...)
 </div>
 ```
 
-### Blockquotes
+## Blockquotes
 
 ```
 > Someone else's words
 ```
-### Footnote
+## Footnote
 
 ```
 This is text with a footnote[^1]
 
 [^1]: Here is the note
 ```
-### Horizontal Rule
+## Horizontal Rule
 
 ```
 Three hyphens, asterisks, or underscores in a row:
