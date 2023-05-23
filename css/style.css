@@ -123,7 +123,7 @@ a:after {
     	top: -0.5em;
 	font-size: 75%;
     	content: "↗";
-    	color: #aaa;
+    	color: var(--color-text-accent);
     	display: inline-block;
     	text-decoration: none;
 }
