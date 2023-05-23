@@ -1,172 +1,197 @@
 :root {
-    --font-body: 'Public Sans', sans-serif;
-    --color-background: #fff;
-    --color-background-secondary: #203851;
-    --color-background-tertiary: #f0f0f0;
-    --color-highlight: #fd0;
-    --color-border: #cbcbcb;
-    --color-transparent: transparent;
-    --color-shadow-primary: rgba(0, 0, 0, 0.1);
-    --color-shadow-secondary: rgba(0, 0, 0, 0.05);
-    --color-text-accent: #595959;
-    --color-text-body: #333;
-    --color-text-heading: #222;
-    --color-link: #1e69cd;
-    --color-link-hover: var(--color-background-secondary);
-    --color-button: var(--color-background);
-    --color-button-text: var(--color-link);
-    --color-button-hover: var(--color-background-secondary);
+	--font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+	--color-background: #fff;
+	--color-background-secondary: #203851;
+	--color-background-tertiary: #f0f0f0;
+	--color-highlight: #fd0;
+	--color-border: #cbcbcb;
+	--color-transparent: transparent;
+	--color-shadow-primary: rgba(0, 0, 0, 0.1);
+	--color-shadow-secondary: rgba(0, 0, 0, 0.05);
+	--color-text-accent: #595959;
+	--color-text-body: #333;
+	--color-text-heading: #222;
+	--color-link: #1e69cd;
+	--color-link-hover: var(--color-background-secondary);
+	--color-button: var(--color-background);
+	--color-button-text: var(--color-link);
+	--color-button-hover: var(--color-background-secondary);
 }
-html{
--webkit-text-size-adjust:100%;
-padding-bottom:4em
+
+html {
+	-webkit-text-size-adjust: 100%;
+	padding-bottom: 4em
 }
-body{
-font-family: var(--font-body);
-font-size: 100%;
-font-weight: 400;
-font-feature-settings: "ss01";   
-color: var(--color-text-body);
-line-height: 1.3;		
+
+body {
+	font-family: var(--font-body);
+	font-size: 100%;
+	font-weight: 400;
+	font-feature-settings: "ss01";
+	color: var(--color-text-body);
+	line-height: 1.3;
 }
+
 .container {
-     margin: 0 auto 3em;
-     padding: 0 0.5em;
-     max-width: 31.5em;
+	margin: 0 auto 3em;
+	padding: 0 0.5em;
+	max-width: 31.5em;
 }
-time {
-    color: var(--color-text-accent);
-    font-size: 75%;
+
+time, .accent {
+	color: var(--color-text-accent);
+	font-size: 75%;
 }
+
 .tnum {
-font-feature-settings: "tnum";
+	font-feature-settings: "tnum";
 }
+
 hr {
-    display: block;
-    box-sizing: content-box;
-    height: 0.1875rem;
-    margin: 2rem 0;
-    padding: 0;
-    overflow: visible;
-    border: 0;
-    border-top: 0.1875rem solid var(--color-border);
+	display: block;
+	box-sizing: content-box;
+	height: 0.1875rem;
+	margin: 2rem 0;
+	padding: 0;
+	overflow: visible;
+	border: 0;
+	border-top: 0.1875rem solid var(--color-border);
 }
+
 .thin {
-    display: block;
-    box-sizing: content-box;
-    height: 0.0625rem;
-    margin: 2rem 0;
-    padding: 0;
-    overflow: visible;
-    border: 0;
-    border-top: 0.0625rem dotted var(--color-border);
-    style: dashed;
+	display: block;
+	box-sizing: content-box;
+	height: 0.0625rem;
+	margin: 2rem 0;
+	padding: 0;
+	overflow: visible;
+	border: 0;
+	border-top: 0.0625rem dotted var(--color-border);
+	style: dashed;
 }
+
 header {
-    margin: 2rem 0;
+	margin: 2rem 0;
 }
-h1, h2, h3 {
-    color: var(--color-text-heading);
-    letter-spacing: -0.03em;
-    font-weight: 740;
-    line-height: 1.2;
+
+h1,
+h2,
+h3 {
+	color: var(--color-text-heading);
+	letter-spacing: -0.03em;
+	font-weight: 740;
+	line-height: 1.2;
+    margin: 2rem 0 1rem;
 }
+
 h1 {
-font-size: 1.5em;
-margin: 2rem 0 1rem;
+	font-size: 1.5em;
 }
+
 h2 {
-font-size: 1.17em;
-margin: 2rem 0 1rem;
+	font-size: 1.17em;
 }
-p {
-    margin-bottom: 1rem;
-}
+
 ul {
-  list-style-type: none;
-  padding: 0;
-  margin-top: 0;
+	list-style-type: none;
+	padding: 0;
+	margin-top: 0;
 }
+
 blockquote {
-  border-left: 0.1875rem solid var(--color-border);
-  padding: 1rem;
-  margin: 2rem 0;
-  text-align: left;
+	border-left: 0.1875rem solid var(--color-border);
+	padding: 1rem;
+	margin: 2rem 0;
+	text-align: left;
 }
+
 blockquote span {
-    font-size: 75%;
-    font-style: italic;
-    color: var(--color-text-accent);
-  }
+	font-size: 75%;
+	font-style: italic;
+	color: var(--color-text-accent);
+}
+
 a {
-    color: var(--color-text-body);
+	color: var(--color-text-body);
 }
+
 a:hover {
-    color: var(--color-link);
+	color: var(--color-link);
 }
-header a, footer a {
-    color: var(--color-text-body);
-    text-decoration: none;
+
+header a,
+footer a {
+	color: var(--color-text-body);
+	text-decoration: none;
 }
-header a:hover, footer a:hover {
-    color: var(--color-link);
-    text-decoration: none; 
+
+header a:hover,
+footer a:hover {
+	color: var(--color-link);
+	text-decoration: none;
 }
-.footer {
-text-align:left;
-}
+
 /* Videos */
- .videoWrapper {
-     position: relative;
-     padding-bottom: 56.25%;
-    /* 16:9 */
-     padding-top: 25px;
-     height: 0;
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%;
+	/* 16:9 */
+	padding-top: 25px;
+	height: 0;
 }
- .videoWrapper iframe {
-     position: absolute;
-     top: 0;
-     left: 0;
-     width: 100%;
-     height: 100%;
+
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
+
 pre {
-    margin-top: 0.25rem;
-    margin-bottom: 0.5rem;
-    padding: 0.5rem 0.75rem;
-    white-space: pre-wrap;
-    background-color: var(--color-background-tertiary);
-    border-radius: 0.25rem;
+	margin-top: 0.25rem;
+	margin-bottom: 0.5rem;
+	padding: 0.5rem 0.75rem;
+	white-space: pre-wrap;
+	background-color: var(--color-background-tertiary);
+	border-radius: 0.25rem;
 }
+
 /* Flexible Foundations via Trent Walton https://codepen.io/TrentWalton/pen/xbXdWP */
- @media screen and (min-width: 300px) {
-     body {
-         line-height: 1.5;
-    }
-     .container {
-         font-size: 112.5%;
-    }
+@media screen and (min-width: 300px) {
+	body {
+		line-height: 1.5;
+	}
+
+	.container {
+		font-size: 112.5%;
+	}
 }
- @media screen and (min-width: 600px) {
-     body {
-         line-height: 1.5;
-    }
-     .container {
-         font-size: 125%;
-    }
+
+@media screen and (min-width: 600px) {
+	body {
+		line-height: 1.5;
+	}
+
+	.container {
+		font-size: 125%;
+	}
 }
- @media screen and (min-width: 800px) {
-     .container {
-         font-size: 137.5%;
-    }
+
+@media screen and (min-width: 800px) {
+	.container {
+		font-size: 137.5%;
+	}
 }
- @media screen and (min-width: 1000px) {
-     .container {
-         font-size: 150%;
-    }
+
+@media screen and (min-width: 1000px) {
+	.container {
+		font-size: 150%;
+	}
 }
- @media screen and (min-width: 1300px) {
-     .container {
-         font-size: 165%;
-    }
+
+@media screen and (min-width: 1300px) {
+	.container {
+		font-size: 165%;
+	}
 }
