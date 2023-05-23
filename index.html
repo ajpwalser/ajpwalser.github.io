@@ -10,7 +10,7 @@ description:
     <article role="article">
       <ul>
       <li><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished"><span class="tnum">{{ post.date | date: "%m/%Y" }}</span></time>
-      <br><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      <br><a class="internal-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       </li>
       </ul>
     </article>
