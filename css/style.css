@@ -121,6 +121,7 @@ a:hover {
 a:after {
     	position: relative;
     	top: -0.5em;
+	font-size: small;
     	content: "↗";
     	color: #aaa;
     	display: inline-block;
