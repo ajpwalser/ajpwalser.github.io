@@ -80,7 +80,7 @@ h3 {
 	letter-spacing: -0.03em;
 	font-weight: 740;
 	line-height: 1.2;
-    margin: 2rem 0 1rem;
+    	margin: 2rem 0 1rem;
 }
 
 h1 {
@@ -116,6 +116,15 @@ a {
 
 a:hover {
 	color: var(--color-link);
+}
+
+a:after {
+    	position: relative;
+    	top: -0.5em;
+    	content: "↗";
+    	color: #aaa;
+    	display: inline-block;
+    	text-decoration: none;
 }
 
 header a,
