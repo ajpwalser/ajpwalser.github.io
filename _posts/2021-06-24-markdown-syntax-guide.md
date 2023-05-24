@@ -69,7 +69,7 @@ Inline-style link: [link](https://...)
 
 ## HTML
 
-<img class="full-width" src="...">
+<img class="full-width" src="http://via.placeholder.com/1200x400.png">
 <figcaption>1200 x 400</figcaption>
 
 
