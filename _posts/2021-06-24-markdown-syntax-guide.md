@@ -69,10 +69,9 @@ Inline-style link: [link](https://...)
 
 ## HTML
 
-```
 <img class="full-width" src="...">
 <figcaption>1200 x 400</figcaption>
-```
+
 
 ## Blockquotes
 
