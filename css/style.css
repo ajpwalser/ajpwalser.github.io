@@ -1,5 +1,6 @@
 :root {
 	--font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+	--font-code: ui-monospace, SFMono-Regular, SF Mono, Consolas, Liberation Mono, Menlo, monospace;
 	--color-background: #fff;
 	--color-background-secondary: #203851;
 	--color-background-tertiary: #f0f0f0;
@@ -37,7 +38,7 @@ body {
 	max-width: 31.5em;
 }
 
-time, .accent {
+time, .accent, figcaption {
 	color: var(--color-text-accent);
 	font-size: 75%;
 }
@@ -144,6 +145,25 @@ footer a:hover {
 	text-decoration: none;
 }
 
+ img {
+     max-width: 100%;
+     height: auto;
+}
+
+ .full-width {
+     left: 50%;
+     margin-left: -50vw;
+     margin-right: -50vw;
+     max-width: 100vw;
+     position: relative;
+     right: 50%;
+     width: 100vw;
+}
+
+ figcaption {
+     text-align: center;
+}
+
 /* Videos */
 .videoWrapper {
 	position: relative;
@@ -159,6 +179,10 @@ footer a:hover {
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+code {
+  font-family: var(--font-code);
 }
 
 pre {
