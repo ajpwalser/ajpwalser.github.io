@@ -177,20 +177,6 @@ a:hover {
 	color: var(--color-link-hover);
 }
 
-a:after {
-    	position: relative;
-    	top: -0.5em;
-	font-size: 75%;
-    	content: "↗";
-    	color: var(--color-text-accent);
-    	display: inline-block;
-    	text-decoration: none;
-}
-
-a.internal-link:after {
-    content: "";
-}
-
 header a,
 footer a {
 	color: var(--color-text-body);
