@@ -5,15 +5,49 @@ description:
 ---
 
 <h1>Posts</h1>
-<div class="post-list">
-  {% for post in site.posts %}
-    <article role="article">
-      <ul>
-      <li><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished"><span class="tnum">{{ post.date | date: "%m/%Y" }}</span></time>
-      <br><a class="internal-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-      </li>
-      </ul>
-    </article>
-  {% endfor %}
-</div>
+ <!-- Table of Contents (first) -->
+    <section>
+      <nav>
+        <ul class="posts">
+          {% for post in site.posts %}
+          {% capture id %}{{ post.id | remove:'/' | downcase }}{% endcapture %}
+          <li>
+            <a href="#{{id}}">{{ post.title | markdownify | remove: '<p>' | remove: '</p>' }}</a>
+            <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: site.date_format }}</time>
+          </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </section>
+
+    <!-- All posts -->
+    {% for post in site.posts %}
+    {% capture id %}{{ post.id | remove:'/' | downcase }}{% endcapture %}
+    <section tabindex="0" role="document" aria-label="{{ post.title }}" id="{{id}}">
+      {{ post.content }}
+    </section>
+    {% endfor %}
+
+    <!-- All pages -->
+    {% for page in site.pages %}
+    {% capture id %}{{ page.title | slugify }}{% endcapture %}
+    <section tabindex="0" role="document" aria-label="{{ page.title }}" id="{{id}}" class="page">
+      {{ page.content }}
+    </section>
+    {% endfor %}
+
+    <!-- Table of Contents (last) -->
+    <section id="home">
+      <nav>
+        <ul class="posts">
+          {% for post in site.posts %}
+          {% capture id %}{{ post.id | remove:'/' | downcase }}{% endcapture %}
+          <li>
+            <a href="#{{id}}">{{ post.title | markdownify | remove: '<p>' | remove: '</p>' }}</a>
+            <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: site.date_format }}</time>
+          </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </section>
 {% include new-window-fix.html %}
