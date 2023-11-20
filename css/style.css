@@ -80,7 +80,7 @@ ul.posts li a:not(:hover) {
 }
 
 ul.posts li a:not(:hover) + time {
-  color: var(--color-text-accent);
+  color: var(--color-text-body);
 }
 
 /* Pages list */
