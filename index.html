@@ -13,8 +13,8 @@ description:
           {% for post in site.posts %}
           {% capture id %}{{ post.id | remove:'/' | downcase }}{% endcapture %}
           <li>
-            <a href="#{{id}}">{{ post.title | markdownify | remove: '<p>' | remove: '</p>' }}</a>
-            <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: site.date_format }}</time>
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | markdownify | remove: '<p>' | remove: '</p>' }}</a>
+            <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished"><span class="tnum">{{ post.date | date: "%m/%Y" }}</span></time
           </li>
           {% endfor %}
         </ul>
