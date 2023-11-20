@@ -21,22 +21,6 @@ description:
       </nav>
     </section>
 
-    <!-- All posts -->
-    {% for post in site.posts %}
-    {% capture id %}{{ post.id | remove:'/' | downcase }}{% endcapture %}
-    <section tabindex="0" role="document" aria-label="{{ post.title }}" id="{{id}}">
-      {{ post.content }}
-    </section>
-    {% endfor %}
-
-    <!-- All pages -->
-    {% for page in site.pages %}
-    {% capture id %}{{ page.title | slugify }}{% endcapture %}
-    <section tabindex="0" role="document" aria-label="{{ page.title }}" id="{{id}}" class="page">
-      {{ page.content }}
-    </section>
-    {% endfor %}
-
     <!-- Table of Contents (last) -->
     <section id="home">
       <nav>
