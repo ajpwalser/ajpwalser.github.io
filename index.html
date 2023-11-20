@@ -20,20 +20,5 @@ description:
         </ul>
       </nav>
     </section>
-
-    <!-- Table of Contents (last) -->
-    <section id="home">
-      <nav>
-        <ul class="posts">
-          {% for post in site.posts %}
-          {% capture id %}{{ post.id | remove:'/' | downcase }}{% endcapture %}
-          <li>
-            <a href="#{{id}}">{{ post.title | markdownify | remove: '<p>' | remove: '</p>' }}</a>
-            <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: site.date_format }}</time>
-          </li>
-          {% endfor %}
-        </ul>
-      </nav>
-    </section>
 </main>
 {% include new-window-fix.html %}
