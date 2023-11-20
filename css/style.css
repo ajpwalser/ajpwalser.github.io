@@ -38,6 +38,64 @@ body {
 	max-width: 31.5em;
 }
 
+/* Posts list */
+
+ul.posts li {
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto max-content;
+  grid-template-areas: "title time";
+  align-items: end;
+  gap: 0.25em;
+  margin: 0 0 0.25em;
+}
+
+ul.posts li a {
+  grid-area: title;
+  position: relative;
+  overflow: hidden;
+}
+
+ul.posts li a:after {
+  position: absolute;
+  bottom: 0.25em;
+  padding-left: 1ch;
+  content: " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+  ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+  ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ";
+  text-align: right;
+  color: var(--light-color);
+  font-size: 0.55em;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
+ul.posts li time {
+  grid-area: time;
+}
+
+ul.posts li a:not(:hover) {
+  color: currentColor;
+}
+
+ul.posts li a:not(:hover) + time {
+  color: var(--light-color);
+}
+
+/* Pages list */
+
+ul.pages li {
+  margin: 0;
+  display: inline;
+  list-style: none;
+  /* font-variant: all-small-caps; */
+}
+
+ul.pages li + li {
+  margin-inline-start: 1.5ch;
+}
+
+
 time, .accent, figcaption {
 	color: var(--color-text-accent);
 	font-size: 75%;
