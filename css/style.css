@@ -64,7 +64,7 @@ ul.posts li a:after {
   ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
   ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ";
   text-align: right;
-  color: var(--light-color);
+  color: var(--color-text-accent);
   font-size: 0.55em;
   letter-spacing: 0.03em;
   white-space: nowrap;
@@ -76,10 +76,11 @@ ul.posts li time {
 
 ul.posts li a:not(:hover) {
   color: currentColor;
+  text-decoration: none;
 }
 
 ul.posts li a:not(:hover) + time {
-  color: var(--light-color);
+  color: var(--color-text-accent);
 }
 
 /* Pages list */
@@ -88,7 +89,6 @@ ul.pages li {
   margin: 0;
   display: inline;
   list-style: none;
-  /* font-variant: all-small-caps; */
 }
 
 ul.pages li + li {
