@@ -41,7 +41,6 @@ body {
 /* Posts list */
 
 ul.posts li {
-  font-size: 75%;
   list-style: none;
   display: grid;
   grid-template-columns: auto max-content;
