@@ -98,7 +98,6 @@ ul.pages li + li {
 
 time, .accent, figcaption {
 	color: var(--color-text-accent);
-	font-size: 75%;
 }
 
 .tnum {
