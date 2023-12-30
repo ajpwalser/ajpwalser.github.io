@@ -96,7 +96,7 @@ ul.pages li + li {
 }
 
 
-time, .accent, figcaption {
+time, figcaption {
 	color: var(--color-text-accent);
 }
 
